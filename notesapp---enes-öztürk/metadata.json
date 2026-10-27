@@ -1,0 +1,6 @@
+{
+  "name": "NotesApp - Enes Öztürk",
+  "description": "Renkli ve filtrelenebilir pratik not alma uygulaması - Enes Öztürk",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
