@@ -1,0 +1,6 @@
+{
+  "name": "Türkiye Hava Durumu · Enes Öztürk",
+  "description": "81 il için 7 günlük gerçek zamanlı meteoroloji ve hava tahmin raporu. Enes Öztürk imzalı el emeği tasarım.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
