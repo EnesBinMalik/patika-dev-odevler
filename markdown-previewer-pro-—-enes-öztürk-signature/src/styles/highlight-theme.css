@@ -1,0 +1,147 @@
+/* Highlight.js High-Fidelity Color Theme */
+.hljs {
+  color: #e2e8f0;
+  background: transparent;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #64748b;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #f43f5e;
+  font-weight: 500;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #f59e0b;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #10b981;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #a78bfa;
+  font-weight: 600;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #38bdf8;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #ec4899;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #fb923c;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #06b6d4;
+}
+
+.hljs-meta {
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: rgba(244, 63, 94, 0.2);
+}
+
+.hljs-addition {
+  background: rgba(16, 185, 129, 0.2);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* Light theme overrides */
+[data-theme="light"] .hljs {
+  color: #1e293b;
+}
+
+[data-theme="light"] .hljs-comment,
+[data-theme="light"] .hljs-quote {
+  color: #64748b;
+}
+
+[data-theme="light"] .hljs-keyword {
+  color: #e11d48;
+}
+
+[data-theme="light"] .hljs-string {
+  color: #059669;
+}
+
+[data-theme="light"] .hljs-number {
+  color: #d97706;
+}
+
+[data-theme="light"] .hljs-title,
+[data-theme="light"] .hljs-section {
+  color: #0284c7;
+}
+
+[data-theme="light"] .hljs-built_in {
+  color: #0891b2;
+}
+
+/* Sepia theme overrides */
+[data-theme="sepia"] .hljs {
+  color: #433422;
+}
+
+[data-theme="sepia"] .hljs-comment {
+  color: #8c7355;
+}
+
+[data-theme="sepia"] .hljs-keyword {
+  color: #b91c1c;
+}
+
+[data-theme="sepia"] .hljs-string {
+  color: #15803d;
+}
+
+[data-theme="sepia"] .hljs-number {
+  color: #c2410c;
+}
+
+[data-theme="sepia"] .hljs-title {
+  color: #1d4ed8;
+}

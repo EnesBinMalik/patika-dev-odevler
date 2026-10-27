@@ -1,0 +1,6 @@
+{
+  "name": "Markdown Previewer Pro — Enes Öztürk Signature",
+  "description": "Ekranın solundan girilen veriyi sağ tarafında anında ön izleyen, zengin araçlar ve kılavuz içeren profesyonel Markdown ön izleyici.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
