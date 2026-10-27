@@ -1,0 +1,7 @@
+{
+  "name": "Spend Bill Gates' Money",
+  "description": "Spend Bill Gates' $100,000,000,000 fortune on luxury and whimsical items with live balance tracking, buy/sell controls, and receipt. Geliştirici: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
