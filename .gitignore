@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cevre degiskenleri / gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Derleme ve kapsam
+dist/
+build/
+coverage/
+
+# Editor / isletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
