@@ -18,7 +18,7 @@ patika-dev-odevler/
 
 | # | Eğitim | Ödev | Klasör | Durum |
 |---|--------|------|--------|-------|
-| 1 | Node.js | Ödev 1 | [`nodejs/odev-1`](nodejs/odev-1) | 🚧 Devam ediyor |
+| 1 | Node.js | Ödev 1 | [`nodejs/odev-1`](nodejs/odev-1) | ✅ Tamamlandı |
 
 > Durumlar: ✅ Tamamlandı · 🚧 Devam ediyor · ⏳ Planlandı
 
