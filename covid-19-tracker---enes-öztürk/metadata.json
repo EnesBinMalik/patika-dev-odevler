@@ -1,0 +1,6 @@
+{
+  "name": "COVID-19 Tracker - Enes Öztürk",
+  "description": "Enfekte, iyileşen, vefat ve aktif hasta verilerini dünya ve ülke bazında canlı sunan takip paneli ve grafik analizi. Geliştirici: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
