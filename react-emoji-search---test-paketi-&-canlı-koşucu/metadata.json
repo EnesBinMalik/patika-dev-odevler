@@ -1,0 +1,6 @@
+{
+  "name": "React Emoji Search - Test Paketi & Canlı Koşucu",
+  "description": "Enes Öztürk imzasıyla React Emoji Search uygulaması ve kapsamlı React Testing Library birim testleri (Header, Liste Render, Filtreleme ve Kopyalama testleri).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
