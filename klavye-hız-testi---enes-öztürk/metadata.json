@@ -1,0 +1,6 @@
+{
+  "name": "Klavye Hız Testi - Enes Öztürk",
+  "description": "60 saniyelik profesyonel klavye hız testi ve yazma antrenmanı. Gerçek zamanlı WPM, doğruluk oranı ve vuruş analizi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
