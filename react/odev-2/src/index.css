@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "todomvc-app-css/index.css";
+
+/* Global overrides to allow responsive top navbar and layout */
+body {
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  background-color: #f8fafc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #0f172a;
+}
+
+/* Classic TodoMVC view styling container */
+.classic-container {
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 58px);
+}
+
+.classic-container .todoapp {
+  margin-top: 100px;
+}
+
+/* Ensure TodoMVC inputs and buttons keep their authentic styles in classic view */
+.todoapp input[type="text"],
+.todoapp input[type="checkbox"],
+.todoapp button {
+  box-sizing: border-box;
+}
+
+/* Clean scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}
