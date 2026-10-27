@@ -1,0 +1,6 @@
+{
+  "name": "Paragraf Oluşturucu - Enes Öztürk",
+  "description": "Özelleştirilebilir metin ve HTML çıktıları sunan modern ve hızlı paragraf oluşturucu uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
