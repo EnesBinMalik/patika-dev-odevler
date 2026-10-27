@@ -1,0 +1,6 @@
+{
+  "name": "Enes Öztürk Button Component",
+  "description": "React Button bileşeni ve NPM paketi: primary, default, dashed, text ve link tiplerini destekleyen modern UI kütüphanesi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

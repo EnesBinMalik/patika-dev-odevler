@@ -1,0 +1,54 @@
+{
+  "name": "enes-ozturk-button",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ant Design inspired customizable React Button component supporting primary, default, dashed, text, and link types. Developed by Enes Öztürk.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "button",
+    "component",
+    "ui",
+    "ant-design",
+    "primary",
+    "default",
+    "dashed",
+    "text",
+    "link",
+    "enes-ozturk",
+    "turkish-developer",
+    "design-system"
+  ],
+  "author": "Enes Öztürk <enesbino38@gmail.com>",
+  "homepage": "https://github.com/enesozturk/enes-ozturk-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enesozturk/enes-ozturk-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enesozturk/enes-ozturk-button/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}
