@@ -1,0 +1,6 @@
+{
+  "name": "Enes Öztürk Meteoroloji | Türkiye 7 Günlük Hava Durumu",
+  "description": "Enes Öztürk imzasıyla Türkiye'nin 81 ili için Context API tabanlı, anlık ve 7 günlük gerçek zamanlı profesyonel hava durumu raporu.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
