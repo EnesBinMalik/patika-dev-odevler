@@ -22,21 +22,25 @@ Patika.dev eğitimleri kapsamında hazırladığım ödevler ve kişisel projele
 ## 🚀 Projeler
 
 | Proje | Açıklama | Teknolojiler | Durum |
-|---|---|-------|:-:|
+|---|---|---|:-:|
 | 🌦️ [Meteoroloji](projeler/meteoroloji) | Türkiye'nin 81 ili için anlık, saatlik ve 7 günlük hava durumu | React · TypeScript · Context API · Open-Meteo | ✅ |
 | ♟️ [Türk Daması](projeler/turk-damasi) | Aynı cihazda iki kişilik, ceviz/şimşir temalı Türk Daması | React · TypeScript · Redux Toolkit · Web Audio | ✅ |
+| 🏛️ [Ajans Portföy & Yönetim Platformu](projeler/ajans-portfolyo) | Dinamik portföy CRUD, mesaj gelen kutusu, ekip/hizmet bölümleri ve dağıtım rehberi | React · TypeScript · Tailwind CSS · localStorage | ✅ |
+| ✦ [Freelancer Portföy](projeler/freelancer-portfolyo) | Kişisel freelance vitrin: proje grid'i, detay modalı, CV indirme ve gelen kutusu | React · TypeScript · Tailwind CSS · localStorage | ✅ |
 
 ## 🗂️ Dizin yapısı
 
 ```
 patika-dev-odevler/
 ├── nodejs/
-│   └── odev-1/              # Node.js Ödev 1 — JSONPlaceholder + Axios
+│   └── odev-1/                # Node.js Ödev 1 — JSONPlaceholder + Axios
 ├── react/
-│   └── odev-2/              # React Ödev 2 — Todo uygulaması
+│   └── odev-2/                # React Ödev 2 — Todo uygulaması
 └── projeler/
-    ├── meteoroloji/         # Meteoroloji — Türkiye 7 günlük hava durumu
-    └── turk-damasi/         # Türk Daması — iki kişilik tahta oyunu
+    ├── ajans-portfolyo/       # Ajans — portföy & web yönetim platformu
+    ├── freelancer-portfolyo/  # Freelancer — kişisel portföy
+    ├── meteoroloji/           # Meteoroloji — Türkiye 7 günlük hava durumu
+    └── turk-damasi/           # Türk Daması — iki kişilik tahta oyunu
 ```
 
 ## ▶️ Çalıştırma
@@ -44,7 +48,7 @@ patika-dev-odevler/
 Her klasör kendi bağımsız projesidir. İlgili klasöre girip README dosyasındaki adımları izleyin:
 
 ```bash
-cd nodejs/odev-1        # veya: react/odev-2 · projeler/meteoroloji · projeler/turk-damasi
+cd nodejs/odev-1        # veya: react/odev-2 · projeler/*
 npm install
 
 node src/app.js         # Node.js ödevi
@@ -61,12 +65,14 @@ npm run dev             # React projeleri (http://localhost:3000)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-00A3E0?style=flat-square)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
 
 ## 📌 Notlar
 
 - `node_modules`, `.env` ve derleme çıktıları `.gitignore` ile hariç tutulur.
 - Her proje kendi `package.json` dosyasıyla bağımsız çalışır.
 - Ödevler Patika.dev müfredatına göre numaralandırılmıştır.
+- Portföy projeleri tamamen istemci tarafında çalışır; veriler `localStorage`'da saklanır.
 
 ---
 
