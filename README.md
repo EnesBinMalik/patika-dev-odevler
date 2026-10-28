@@ -23,7 +23,8 @@ Patika.dev eğitimleri kapsamında hazırladığım ödevler ve kişisel projele
 
 | Proje | Açıklama | Teknolojiler | Durum |
 |---|---|-------|:-:|
-| [Meteoroloji](projeler/meteoroloji) | Türkiye'nin 81 ili için anlık, saatlik ve 7 günlük hava durumu | React · TypeScript · Context API · Open-Meteo | ✅ |
+| 🌦️ [Meteoroloji](projeler/meteoroloji) | Türkiye'nin 81 ili için anlık, saatlik ve 7 günlük hava durumu | React · TypeScript · Context API · Open-Meteo | ✅ |
+| ♟️ [Türk Daması](projeler/turk-damasi) | Aynı cihazda iki kişilik, ceviz/şimşir temalı Türk Daması | React · TypeScript · Redux Toolkit · Web Audio | ✅ |
 
 ## 🗂️ Dizin yapısı
 
@@ -34,7 +35,8 @@ patika-dev-odevler/
 ├── react/
 │   └── odev-2/              # React Ödev 2 — Todo uygulaması
 └── projeler/
-    └── meteoroloji/         # Meteoroloji — Türkiye 7 günlük hava durumu
+    ├── meteoroloji/         # Meteoroloji — Türkiye 7 günlük hava durumu
+    └── turk-damasi/         # Türk Daması — iki kişilik tahta oyunu
 ```
 
 ## ▶️ Çalıştırma
@@ -42,7 +44,7 @@ patika-dev-odevler/
 Her klasör kendi bağımsız projesidir. İlgili klasöre girip README dosyasındaki adımları izleyin:
 
 ```bash
-cd nodejs/odev-1        # veya: react/odev-2 · projeler/meteoroloji
+cd nodejs/odev-1        # veya: react/odev-2 · projeler/meteoroloji · projeler/turk-damasi
 npm install
 
 node src/app.js         # Node.js ödevi
@@ -55,6 +57,7 @@ npm run dev             # React projeleri (http://localhost:3000)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-00A3E0?style=flat-square)
