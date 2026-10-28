@@ -27,6 +27,7 @@ Patika.dev eğitimleri kapsamında hazırladığım ödevler ve kişisel projele
 | ♟️ [Türk Daması](projeler/turk-damasi) | Aynı cihazda iki kişilik, ceviz/şimşir temalı Türk Daması | React · TypeScript · Redux Toolkit · Web Audio | ✅ |
 | 🏛️ [Ajans Portföy & Yönetim Platformu](projeler/ajans-portfolyo) | Dinamik portföy CRUD, mesaj gelen kutusu, ekip/hizmet bölümleri ve dağıtım rehberi | React · TypeScript · Tailwind CSS · localStorage | ✅ |
 | ✦ [Freelancer Portföy](projeler/freelancer-portfolyo) | Kişisel freelance vitrin: proje grid'i, detay modalı, CV indirme ve gelen kutusu | React · TypeScript · Tailwind CSS · localStorage | ✅ |
+| 💪 [Misfit Fitness](projeler/misfit-fitness) | Rol bazlı spor yönetimi: antrenman CRUD, üye kaydı, eğitmen paneli, mesajlar ve galeri | React · TypeScript · Context API · localStorage | ✅ |
 
 ## 🗂️ Dizin yapısı
 
@@ -40,6 +41,7 @@ patika-dev-odevler/
     ├── ajans-portfolyo/       # Ajans — portföy & web yönetim platformu
     ├── freelancer-portfolyo/  # Freelancer — kişisel portföy
     ├── meteoroloji/           # Meteoroloji — Türkiye 7 günlük hava durumu
+    ├── misfit-fitness/        # Misfit — rol bazlı fitness yönetimi
     └── turk-damasi/           # Türk Daması — iki kişilik tahta oyunu
 ```
 
@@ -72,7 +74,7 @@ npm run dev             # React projeleri (http://localhost:3000)
 - `node_modules`, `.env` ve derleme çıktıları `.gitignore` ile hariç tutulur.
 - Her proje kendi `package.json` dosyasıyla bağımsız çalışır.
 - Ödevler Patika.dev müfredatına göre numaralandırılmıştır.
-- Portföy projeleri tamamen istemci tarafında çalışır; veriler `localStorage`'da saklanır.
+- Portföy ve fitness projeleri tamamen istemci tarafında çalışır; veriler `localStorage`'da saklanır.
 
 ---
 
