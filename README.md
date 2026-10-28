@@ -1,10 +1,10 @@
 <div align="center">
 
-# 📚 Patika.dev Ödevleri
+# 📚 Patika.dev Ödevleri & Projeler
 
 **Enes Öztürk**
 
-Patika.dev eğitimleri kapsamında hazırladığım ödev ve projeler
+Patika.dev eğitimleri kapsamında hazırladığım ödevler ve kişisel projeler
 
 [![GitHub](https://img.shields.io/badge/GitHub-EnesBinMalik-181717?style=flat-square&logo=github)](https://github.com/EnesBinMalik)
 
@@ -19,26 +19,34 @@ Patika.dev eğitimleri kapsamında hazırladığım ödev ve projeler
 | 1 | Node.js | [JSONPlaceholder API ile veri çekme](nodejs/odev-1) | Node.js · Axios · Async/Await | ✅ |
 | 2 | React | [Todo Uygulaması](react/odev-2) | React 19 · TypeScript · Vite · Tailwind CSS | ✅ |
 
+## 🚀 Projeler
+
+| Proje | Açıklama | Teknolojiler | Durum |
+|---|---|-------|:-:|
+| [Meteoroloji](projeler/meteoroloji) | Türkiye'nin 81 ili için anlık, saatlik ve 7 günlük hava durumu | React · TypeScript · Context API · Open-Meteo | ✅ |
+
 ## 🗂️ Dizin yapısı
 
 ```
 patika-dev-odevler/
 ├── nodejs/
-│   └── odev-1/          # Node.js Ödev 1 — JSONPlaceholder + Axios
-└── react/
-    └── odev-2/          # React Ödev 2 — Todo uygulaması
+│   └── odev-1/              # Node.js Ödev 1 — JSONPlaceholder + Axios
+├── react/
+│   └── odev-2/              # React Ödev 2 — Todo uygulaması
+└── projeler/
+    └── meteoroloji/         # Meteoroloji — Türkiye 7 günlük hava durumu
 ```
 
-## 🚀 Çalıştırma
+## ▶️ Çalıştırma
 
-Her ödev kendi klasöründe bağımsızdır. İlgili klasöre girip README dosyasındaki adımları izleyin:
+Her klasör kendi bağımsız projesidir. İlgili klasöre girip README dosyasındaki adımları izleyin:
 
 ```bash
-cd nodejs/odev-1        # veya: cd react/odev-2
+cd nodejs/odev-1        # veya: react/odev-2 · projeler/meteoroloji
 npm install
 
 node src/app.js         # Node.js ödevi
-npm run dev             # React ödevi (http://localhost:3000)
+npm run dev             # React projeleri (http://localhost:3000)
 ```
 
 ## 🛠️ Kullanılan teknolojiler
@@ -49,11 +57,12 @@ npm run dev             # React ödevi (http://localhost:3000)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Open-Meteo](https://img.shields.io/badge/Open--Meteo-00A3E0?style=flat-square)
 
 ## 📌 Notlar
 
 - `node_modules`, `.env` ve derleme çıktıları `.gitignore` ile hariç tutulur.
-- Her ödev kendi `package.json` dosyasıyla bağımsız çalışır.
+- Her proje kendi `package.json` dosyasıyla bağımsız çalışır.
 - Ödevler Patika.dev müfredatına göre numaralandırılmıştır.
 
 ---
