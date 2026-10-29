@@ -1,0 +1,6 @@
+{
+  "name": "Clean Blog - Ödev 11 (MVC, Update & Delete)",
+  "description": "Clean Blog Projesi 5. Bölüm: MVC mimarisi, post.ejs üzerinde Güncelleme (UPDATE) ve Silme (DELETE) işlemleri, Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
