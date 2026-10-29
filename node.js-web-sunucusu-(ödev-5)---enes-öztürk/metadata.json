@@ -1,0 +1,6 @@
+{
+  "name": "Node.js Web Sunucusu (Ödev 5) - Enes Öztürk",
+  "description": "Node.js http.createServer ile port 5000 üzerinde çalışan özel web sunucusu ödevi simülatörü ve kod rehberi. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
