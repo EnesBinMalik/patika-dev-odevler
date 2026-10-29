@@ -1,0 +1,6 @@
+{
+  "name": "Node.js FS Modülü - Ödev 4 | Enes Öztürk",
+  "description": "Node.js FS (File System) Modülü ile CRUD işlemleri simülatörü ve ödev çözümü - Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
