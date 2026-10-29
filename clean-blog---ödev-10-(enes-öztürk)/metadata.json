@@ -1,0 +1,6 @@
+{
+  "name": "Clean Blog - Ödev 10 (Enes Öztürk)",
+  "description": "Clean Blog Projesi 4. Bölüm Ödev 10: Tekil post sayfası (/posts/:id), index.ejs, app.js ve post.ejs entegrasyonu - Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
