@@ -1,0 +1,6 @@
+{
+  "name": "Node.JS Komut Satırı - Dairenin Alanı | Enes Öztürk",
+  "description": "Node.JS komut satırı parametreleri (process.argv) ile daire alanı hesaplama simülatörü, interaktif terminal, kaynak kod ve geometrik görselleştirici. Enes Öztürk imzalı el emeği çalışma.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
