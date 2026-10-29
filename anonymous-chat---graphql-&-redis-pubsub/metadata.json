@@ -1,0 +1,6 @@
+{
+  "name": "Anonymous Chat - GraphQL & Redis PubSub",
+  "description": "Real-time anonymous chat application powered by GraphQL Mutations, Subscriptions, and Redis PubSub. Developed by Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
