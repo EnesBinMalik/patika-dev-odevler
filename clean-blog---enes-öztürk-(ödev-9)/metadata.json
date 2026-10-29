@@ -1,0 +1,6 @@
+{
+  "name": "Clean Blog - Enes Öztürk (Ödev 9)",
+  "description": "Node.js & Mongoose ile Clean Blog Projesi 3. Bölüm - cleanblog-test-db veritabanı bağlantısı, Post modeli ve req.body yönetimi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
