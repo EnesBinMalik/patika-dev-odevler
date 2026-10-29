@@ -1,0 +1,6 @@
+{
+  "name": "Fikstür Mobilya & İç Mimarlık - Enes Öztürk",
+  "description": "SmartEdu mimarisinde geliştirilmiş modern mobilya katalog, rezervasyon ve admin yönetim platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
