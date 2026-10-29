@@ -1,0 +1,127 @@
+[
+  {
+    "id": "q-react-2026",
+    "title": "En çok hangi modern frontend framework veya kütüphanesini tercih ediyorsunuz?",
+    "description": "Büyük ölçekli web uygulamaları geliştirirken geliştirici deneyimi, performans ve ekosistem açısından favoriniz hangisi?",
+    "category": "Yazılım",
+    "creator": "Enes Öztürk",
+    "created_at": "2026-10-28T14:30:00.000Z",
+    "options": [
+      {
+        "id": "opt-react",
+        "text": "React 19 & Next.js",
+        "votes_count": 58
+      },
+      {
+        "id": "opt-vue",
+        "text": "Vue 3 & Nuxt",
+        "votes_count": 24
+      },
+      {
+        "id": "opt-svelte",
+        "text": "Svelte 5 (Runes)",
+        "votes_count": 19
+      },
+      {
+        "id": "opt-angular",
+        "text": "Angular (Signals)",
+        "votes_count": 11
+      },
+      {
+        "id": "opt-solid",
+        "text": "SolidJS",
+        "votes_count": 7
+      }
+    ]
+  },
+  {
+    "id": "q-ai-tools",
+    "title": "Günlük yazılım ve kodlama sürecinizde en çok verim aldığınız yapay zeka aracı hangisi?",
+    "description": "Kod tamamlama, refactoring, mimari tasarım ve hata ayıklama süreçlerinde birincil yardımcınız.",
+    "category": "Yapay Zeka",
+    "creator": "Enes Öztürk",
+    "created_at": "2026-10-27T09:15:00.000Z",
+    "options": [
+      {
+        "id": "opt-cursor",
+        "text": "Cursor / Windsurf AI IDE",
+        "votes_count": 45
+      },
+      {
+        "id": "opt-gemini",
+        "text": "Google Gemini & AI Studio",
+        "votes_count": 41
+      },
+      {
+        "id": "opt-claude",
+        "text": "Claude Code & Artifacts",
+        "votes_count": 36
+      },
+      {
+        "id": "opt-copilot",
+        "text": "GitHub Copilot",
+        "votes_count": 22
+      }
+    ]
+  },
+  {
+    "id": "q-graphql-vs-rest",
+    "title": "Gerçek zamanlı ve veri yoğun uygulamalarda API protokolü tercihiniz?",
+    "description": "Performans, veri çekme esnekliği ve anlık güncelleme gereksinimleri göz önüne alındığında.",
+    "category": "Backend",
+    "creator": "Enes Öztürk",
+    "created_at": "2026-10-26T18:00:00.000Z",
+    "options": [
+      {
+        "id": "opt-graphql",
+        "text": "GraphQL (Subscriptions + Queries)",
+        "votes_count": 52
+      },
+      {
+        "id": "opt-rest",
+        "text": "REST API + WebSockets",
+        "votes_count": 30
+      },
+      {
+        "id": "opt-trpc",
+        "text": "tRPC + Server-Sent Events",
+        "votes_count": 26
+      },
+      {
+        "id": "opt-grpc",
+        "text": "gRPC-Web",
+        "votes_count": 9
+      }
+    ]
+  },
+  {
+    "id": "q-remote-work",
+    "title": "Yazılımcılar için ideal çalışma modeli sizce hangisi?",
+    "description": "İş-yaşam dengesi, takım içi üretkenlik ve şirket kültürü açısından değerlendirildiğinde.",
+    "category": "Kariyer",
+    "creator": "Enes Öztürk",
+    "created_at": "2026-10-25T11:45:00.000Z",
+    "options": [
+      {
+        "id": "opt-full-remote",
+        "text": "Tamamen Uzaktan (Full Remote)",
+        "votes_count": 84
+      },
+      {
+        "id": "opt-hybrid-flex",
+        "text": "Esnek Hibrit (Haftada 1-2 gün)",
+        "votes_count": 41
+      },
+      {
+        "id": "opt-async-global",
+        "text": "Asenkron / Zaman Dilimi Bağımsız",
+        "votes_count": 29
+      },
+      {
+        "id": "opt-office",
+        "text": "Tamamen Ofis",
+        "votes_count": 4
+      }
+    ]
+  }
+]

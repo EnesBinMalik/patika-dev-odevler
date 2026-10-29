@@ -1,0 +1,6 @@
+{
+  "name": "Realtime Voting App",
+  "description": "GraphQL ile gerçek zamanlı çalışan modern oylama ve anket uygulaması. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
