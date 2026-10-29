@@ -1,0 +1,6 @@
+{
+  "name": "Post Sıralama ve Post Ekleme - Enes Öztürk",
+  "description": "JavaScript asenkron mantığı ile blog postlarını konsolda sıralama, yeni post ekleme ve güncel listeyi görüntüleme uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
