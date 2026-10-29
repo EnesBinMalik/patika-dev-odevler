@@ -1,0 +1,12 @@
+{
+  "name": "odev3-daire-modulu",
+  "version": "1.0.0",
+  "description": "Ödev 3: Daire Modüler Dosyası - Enes Öztürk",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Enes Öztürk",
+  "license": "MIT"
+}

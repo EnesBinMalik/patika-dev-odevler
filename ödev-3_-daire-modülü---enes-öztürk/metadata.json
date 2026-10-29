@@ -1,0 +1,6 @@
+{
+  "name": "Ödev 3: Daire Modülü - Enes Öztürk",
+  "description": "Node.js circleArea ve circleCircumference fonksiyonları, CommonJS module.exports, require ve object destructuring ile daire hesaplama modülü.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
