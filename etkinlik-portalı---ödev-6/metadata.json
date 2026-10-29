@@ -1,0 +1,6 @@
+{
+  "name": "Etkinlik Portalı - Ödev 6",
+  "description": "Enes Öztürk imzalı gerçek zamanlı etkinlik ekleme ve listeleme uygulaması. Form doğrulaması, asenkron yükleme animasyonu ve dinamik filtreleme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

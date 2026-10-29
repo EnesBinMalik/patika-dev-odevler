@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom smooth scroll and transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Disabled styling helper */
+input:disabled, textarea:disabled, select:disabled, button:disabled {
+  cursor: not-allowed;
+}
