@@ -1,0 +1,6 @@
+{
+  "name": "Rick ve Morty Karakter Portalı - Enes Öztürk",
+  "description": "GraphQL backend tabanlı Rick and Morty karakter arama, sayfalama ve filtreleme uygulaması. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
