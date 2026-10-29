@@ -1,0 +1,6 @@
+{
+  "name": "Koa.js Web Sunucusu - Ödev 6",
+  "description": "Koa.js ile hazırlanmış web sunucusu (index, hakkımda, iletişim sayfaları) ve interaktif test ortamı. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
