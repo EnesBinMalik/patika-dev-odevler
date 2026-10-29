@@ -1,0 +1,25 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Clean Blog Projesi Başlangıç - Ödev 7",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "cleanblog",
+    "express",
+    "odev7",
+    "patika",
+    "kodluyoruz"
+  ],
+  "author": "ENES Öztürk <enesbino38@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

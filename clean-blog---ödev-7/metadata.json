@@ -1,0 +1,6 @@
+{
+  "name": "Clean Blog - Ödev 7",
+  "description": "Clean Blog projesi başlangıç adımları (Ödev 7): Express sunucusu, git yapılandırması ve ENES Öztürk imzalı başlangıç reposu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
