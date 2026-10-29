@@ -1,0 +1,6 @@
+{
+  "name": "Countries GraphQL API - Enes Öztürk",
+  "description": "A comprehensive GraphQL API and interactive developer playground for continents, countries, and languages with relational queries, built by Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
