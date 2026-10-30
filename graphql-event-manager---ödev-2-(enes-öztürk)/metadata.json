@@ -1,0 +1,6 @@
+{
+  "name": "GraphQL Event Manager - Ödev 2 (Enes Öztürk)",
+  "description": "GraphQL Mutation ödevi: User, Event, Location ve Participant için ekleme, güncelleme, tekli silme ve toplu silme mutationları. Hazırlayan: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
