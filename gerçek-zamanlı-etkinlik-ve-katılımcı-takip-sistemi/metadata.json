@@ -1,0 +1,6 @@
+{
+  "name": "Gerçek Zamanlı Etkinlik ve Katılımcı Takip Sistemi",
+  "description": "Ödev 5 - Gerçek zamanlı etkinlik listeleme ve anlık katılımcı takibi sistemi. Geliştirici: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
