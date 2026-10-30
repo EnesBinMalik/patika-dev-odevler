@@ -1,0 +1,6 @@
+{
+  "name": "GraphQL Sunucusu - Ödev 1 (Enes Öztürk)",
+  "description": "Kullanıcılar, etkinlikler, konumlar ve katılımcılar için ilişkisel GraphQL sunucusu, interaktif GraphQL Playground, şema gezgini ve veri seti yöneticisi. Hazırlayan: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
