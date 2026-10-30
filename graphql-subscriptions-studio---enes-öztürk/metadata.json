@@ -1,0 +1,6 @@
+{
+  "name": "GraphQL Subscriptions Studio - Enes Öztürk",
+  "description": "Ödev 3: GraphQL Subscription yapısı ile userCreated, eventCreated ve participantAdded gerçek zamanlı veri akışı ve interaktif test laboratuvarı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
