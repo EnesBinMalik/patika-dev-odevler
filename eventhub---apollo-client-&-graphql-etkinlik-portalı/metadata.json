@@ -1,0 +1,6 @@
+{
+  "name": "EventHub - Apollo Client & GraphQL Etkinlik Portalı",
+  "description": "Apollo Client ve GraphQL ile geliştirilmiş modern etkinlik platformu. Enes Öztürk imzasıyla.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
