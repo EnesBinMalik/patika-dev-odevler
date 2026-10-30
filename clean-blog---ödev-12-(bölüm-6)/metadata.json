@@ -1,0 +1,6 @@
+{
+  "name": "Clean Blog - Ödev 12 (Bölüm 6)",
+  "description": "Node.js & MongoDB Atlas destekli Clean Blog projesi - Bölüm 6 Heroku ve MongoDB Atlas dağıtımı. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
