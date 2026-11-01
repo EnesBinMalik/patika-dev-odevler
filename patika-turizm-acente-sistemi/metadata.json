@@ -1,0 +1,6 @@
+{
+  "name": "Patika Turizm Acente Sistemi",
+  "description": "Patika Turizm Acentesi için Otel, Dönem, Oda, Fiyatlandırma, Arama ve Rezervasyon Yönetim Platformu. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
