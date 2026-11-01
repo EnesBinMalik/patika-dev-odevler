@@ -1,0 +1,8 @@
+{
+  "name": "Macera Oyunu - Enes Öztürk",
+  "description": "Java 102 Macera Oyunu: Güvenli Ev, Mağara, Orman, Nehir ve Maden bölgeleri, %50 ilk vuruş şansı ve dinamik ganimet sistemi. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
