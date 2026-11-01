@@ -1,0 +1,6 @@
+{
+  "name": "Solana Sayaç Programı - Enes Öztürk",
+  "description": "Solana Native Rust Counter programı ödev çözümü: u32 parametreli Increment ve Decrement, u32 underflow koruması ve interaktif sözleşme simülatörü.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
