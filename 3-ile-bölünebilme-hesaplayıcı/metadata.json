@@ -1,0 +1,6 @@
+{
+  "name": "3 ile Bölünebilme Hesaplayıcı",
+  "description": "3 ile bölünebilirlik kontrolü ve ilk katı hesaplayan ödev uygulaması. Enes Öztürk imzasıyla hazırlanmıştır.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
