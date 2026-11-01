@@ -1,0 +1,6 @@
+{
+  "name": "PatikaStore - Ürün Yönetim Sistemi",
+  "description": "Patika.dev elektronik mağazası ürün ve marka yönetim sistemi (Enes Öztürk imzalı).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
