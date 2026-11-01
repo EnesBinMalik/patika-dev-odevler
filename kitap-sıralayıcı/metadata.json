@@ -1,0 +1,6 @@
+{
+  "name": "Kitap Sıralayıcı",
+  "description": "Java Comparable interface ve Comparator ile TreeSet üzerinde kitap ismi ve sayfa sayısına göre sıralama yapan interaktif görselleştirici ve kod simülatörü.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
