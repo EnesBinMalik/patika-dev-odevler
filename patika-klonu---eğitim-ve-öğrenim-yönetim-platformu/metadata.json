@@ -1,0 +1,6 @@
+{
+  "name": "Patika Klonu - Eğitim ve Öğrenim Yönetim Platformu",
+  "description": "Patika.dev klonu: Öğrenci, Eğitmen ve Operatör panelleri ile patikalar, ders içerikleri, YouTube eğitimleri, yorumlar ve quiz yönetim sistemi. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
