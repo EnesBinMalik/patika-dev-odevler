@@ -1,0 +1,6 @@
+{
+  "name": "Sigorta Yönetim Sistemi",
+  "description": "Bireysel ve Kurumsal müşteri profilli, Java OOP mimarisine tam uyumlu Sigorta Yönetim Sistemi. Enes Öztürk imzalı el emeği simülatör ve kaynak kod paketi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
