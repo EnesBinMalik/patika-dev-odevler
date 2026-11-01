@@ -1,0 +1,6 @@
+{
+  "name": "Java Stream Kitap Listesi - Enes Öztürk",
+  "description": "Java 102 Stream API ve Lambda ifadeleri ile Book sınıfı, Map dönüştürme ve sayfa filtreleme ödevi - Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
