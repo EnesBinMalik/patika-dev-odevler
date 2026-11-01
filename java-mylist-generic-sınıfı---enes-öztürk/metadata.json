@@ -1,0 +1,6 @@
+{
+  "name": "Java MyList Generic Sınıfı - Enes Öztürk",
+  "description": "Java generic ve dinamik dizi mimarisiyle sıfırdan geliştirilen MyList<T> koleksiyon sınıfı, interaktif bellek görselleştiricisi ve kod laboratuvarı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
