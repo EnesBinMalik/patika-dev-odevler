@@ -1,0 +1,6 @@
+{
+  "name": "Web3 Düşünce Egzersizi: Afet Yardımı & DePIN Analizi - Enes Öztürk",
+  "description": "Enes Öztürk tarafından hazırlanan, afet lojistiği ve şeffaf insani yardımda Web3, DePIN ve Sıfır Bilgi İspatları (ZKP) kullanım durumu akademik ve teknik analizi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
