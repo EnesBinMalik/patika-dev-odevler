@@ -1,0 +1,7 @@
+{
+  "name": "PHP Dizi Filtreleyici ve Rastgele Seçici",
+  "description": "array_filter, array_rand ve array_map ile boş değerleri temizleyen ve rastgele alt dizi oluşturan PHP fonksiyonu ve etkileşimli simülatörü. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
