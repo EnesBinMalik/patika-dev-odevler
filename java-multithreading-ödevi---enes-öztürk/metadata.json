@@ -1,0 +1,6 @@
+{
+  "name": "Java Multithreading Ödevi - Enes Öztürk",
+  "description": "1'den 10000'e kadar sayıları 4 Thread ile tek ve çift listelerine ayıran interaktif Java simülatörü ve kaynak kodu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
