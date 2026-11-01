@@ -1,0 +1,6 @@
+{
+  "name": "Geometrik Şekiller OOP Ödevi - Enes Öztürk",
+  "description": "Nesne Yönelimli Programlama (OOP) ile Sekil, Dikdortgen, Kare ve Ucgen sınıflarının alan ve çevre hesaplama sistemi. Enes Öztürk imzalı interaktif ödev uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
