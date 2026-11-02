@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Patika klonu eğitim ve öğrenim yönetim platformu arayüz mockup'ı">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08131f"/>
+      <stop offset="100%" stop-color="#0e2436"/>
+    </linearGradient>
+    <style>
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;fill:#e8f2f8}
+      .mut{font-family:'Segoe UI',Arial,sans-serif;fill:#8aa6b8}
+      .tab{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#a9c4d4}
+      .tabOn{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;fill:#22d3ee;font-weight:600}
+      .mono{font-family:Consolas,'Courier New',monospace}
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg5)"/>
+
+  <rect x="0" y="0" width="1280" height="42" fill="#050c14"/>
+  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
+  <rect x="92" y="9" width="330" height="24" rx="12" fill="#0e2436"/>
+  <text x="108" y="26" class="mut" font-size="13">localhost:3000 — Patika Klonu · LMS</text>
+
+  <!-- app navbar -->
+  <rect x="0" y="42" width="1280" height="52" fill="#0b1c2b"/>
+  <rect x="34" y="56" width="22" height="22" rx="6" fill="#22d3ee"/>
+  <text x="66" y="74" class="lbl" font-size="18" font-weight="700">patika<tspan fill="#22d3ee">clone</tspan></text>
+  <text x="300" y="74" class="tabOn">Keşfet</text>
+  <text x="380" y="74" class="tab">Öğrenci Paneli</text>
+  <text x="510" y="74" class="tab">Eğitmen Paneli</text>
+  <text x="650" y="74" class="tab">Operatör Paneli</text>
+  <text x="790" y="74" class="tab">Hakkında</text>
+  <rect x="1040" y="56" width="206" height="26" rx="13" fill="#123247"/>
+  <text x="1056" y="74" class="mut" font-size="12">Aktif rol: operator · Enes Öztürk</text>
+
+  <!-- course cards -->
+  <g>
+    <rect x="34" y="118" width="300" height="228" rx="14" fill="#0b1c2b" stroke="#173a52"/>
+    <rect x="34" y="118" width="300" height="96" rx="14" fill="#153a52"/>
+    <text x="54" y="176" class="lbl" font-size="17" font-weight="600">React 101</text>
+    <text x="54" y="200" class="mut" font-size="13">Patika: Frontend</text>
+    <text x="54" y="244" class="mut" font-size="13">Eğitmen: Ayşe K. · 8 içerik</text>
+    <rect x="54" y="262" width="260" height="8" rx="4" fill="#173a52"/><rect x="54" y="262" width="182" height="8" rx="4" fill="#22d3ee"/>
+    <text x="54" y="292" class="mut" font-size="12">%70 tamamlandı · 4/5 ★ (12 oy)</text>
+    <rect x="54" y="306" width="120" height="28" rx="8" fill="#22d3ee"/><text x="76" y="325" fill="#04121b" font-size="13" class="lbl">Derse gir</text>
+
+    <rect x="354" y="118" width="300" height="228" rx="14" fill="#0b1c2b" stroke="#173a52"/>
+    <rect x="354" y="118" width="300" height="96" rx="14" fill="#1d2f4d"/>
+    <text x="374" y="176" class="lbl" font-size="17" font-weight="600">Node.js &amp; GraphQL</text>
+    <text x="374" y="200" class="mut" font-size="13">Patika: Backend</text>
+    <text x="374" y="244" class="mut" font-size="13">Eğitmen: Mehmet D. · 6 içerik</text>
+    <rect x="374" y="262" width="260" height="8" rx="4" fill="#173a52"/><rect x="374" y="262" width="86" height="8" rx="4" fill="#22d3ee"/>
+    <text x="374" y="292" class="mut" font-size="12">%33 tamamlandı · quiz puanı 80</text>
+    <rect x="374" y="306" width="130" height="28" rx="8" fill="#123247"/><text x="394" y="325" class="lbl" font-size="13">Kayıtlı değil</text>
+
+    <rect x="674" y="118" width="300" height="228" rx="14" fill="#0b1c2b" stroke="#173a52"/>
+    <rect x="674" y="118" width="300" height="96" rx="14" fill="#251d3f"/>
+    <text x="694" y="176" class="lbl" font-size="17" font-weight="600">Rust Temelleri</text>
+    <text x="694" y="200" class="mut" font-size="13">Patika: Systems</text>
+    <text x="694" y="244" class="mut" font-size="13">Eğitmen: Enes Ö. · 5 içerik</text>
+    <rect x="694" y="262" width="260" height="8" rx="4" fill="#173a52"/><rect x="694" y="262" width="260" height="8" rx="4" fill="#a78bfa"/>
+    <text x="694" y="292" class="mut" font-size="12">%100 tamamlandı · 5/5 ★</text>
+    <rect x="694" y="306" width="150" height="28" rx="8" fill="#123247"/><text x="714" y="325" class="lbl" font-size="13">Sertifikayı gör</text>
+  </g>
+
+  <!-- quiz modal -->
+  <rect x="994" y="118" width="252" height="228" rx="14" fill="#0f2536" stroke="#22d3ee"/>
+  <text x="1014" y="146" class="lbl" font-size="15" font-weight="600">QuizRunnerModal</text>
+  <text x="1014" y="174" class="mut" font-size="12">Soru 3 / 5 · 20 puan</text>
+  <text x="1014" y="200" class="lbl" font-size="13">"useState hangi kütüphaneye ait?"</text>
+  <g font-size="12">
+    <rect x="1014" y="214" width="212" height="26" rx="8" fill="#123247"/><text x="1028" y="231" class="mut">A) Angular</text>
+    <rect x="1014" y="246" width="212" height="26" rx="8" fill="#0b3b2e" stroke="#22c55e"/><text x="1028" y="263" fill="#86efac">B) React ✓</text>
+    <rect x="1014" y="278" width="212" height="26" rx="8" fill="#123247"/><text x="1028" y="295" class="mut">C) Vue</text>
+    <rect x="1014" y="310" width="104" height="26" rx="8" fill="#22d3ee"/><text x="1030" y="327" fill="#04121b" class="lbl">Gönder</text>
+  </g>
+
+  <!-- data / rbac strip -->
+  <rect x="34" y="360" width="1212" height="184" rx="14" fill="#0b1c2b" stroke="#173a52"/>
+  <text x="56" y="390" class="lbl" font-size="16" font-weight="600">Veri ve yetki katmanı</text>
+  <g font-size="13" class="mono">
+    <text x="56" y="420" fill="#7ee0a3">localStorage → patika_users_v2 · patika_courses_v2 · patika_enrollments_v2 … (8 anahtar)</text>
+    <text x="56" y="446" fill="#e8f2f8">Roller: operator · instructor · student  —  addInstructor() yalnız operator'e izin verir (AppContext.tsx:263)</text>
+    <text x="56" y="472" fill="#e8f2f8">İlerleme: enrollInCourse() · markContentCompleted() · submitQuizResult() · getCourseProgress()</text>
+    <text x="56" y="498" fill="#fbbf24">Uyarı: parola/hash/JWT yok — giriş yalnız e-posta ile yapılır, rol istemci tarafında tutulur</text>
+  </g>
+  <g font-size="13" class="mut">
+    <rect x="56" y="512" width="196" height="24" rx="12" fill="#123247"/><text x="70" y="528">User · Patika · Course</text>
+    <rect x="262" y="512" width="196" height="24" rx="12" fill="#123247"/><text x="276" y="528">Content · QuizQuestion</text>
+    <rect x="468" y="512" width="196" height="24" rx="12" fill="#123247"/><text x="482" y="528">Enrollment · Comment</text>
+    <text x="690" y="528">Tohum veri: src/data/initialData.ts (34 nesne) · Router yok, görünüm useState ile değişir</text>
+  </g>
+
+  <text x="34" y="600" class="mut" font-size="13">Patika.dev · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+</svg>

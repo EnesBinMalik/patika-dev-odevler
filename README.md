@@ -29,6 +29,21 @@ Patika.dev eğitimleri kapsamında hazırladığım ödevler ve kişisel projele
 | ✦ [Freelancer Portföy](projeler/freelancer-portfolyo) | Kişisel freelance vitrin: proje grid'i, detay modalı, CV indirme ve gelen kutusu | React · TypeScript · Tailwind CSS · localStorage | ✅ |
 | 💪 [Misfit Fitness](projeler/misfit-fitness) | Rol bazlı spor yönetimi: antrenman CRUD, üye kaydı, eğitmen paneli, mesajlar ve galeri | React · TypeScript · Context API · localStorage | ✅ |
 
+## 🧩 Bağımsız klasörlerdeki ödevler
+
+Kök dizinde kendi klasörüyle duran, dokümantasyonu güncellenmiş ödevler:
+
+| Ödev | Ne yapılıyor | Yığın | Kapak |
+|---|---|---|---|
+| [Hafıza Oyunu](hafıza-oyunu---enes-öztürk) | 4x4 / 5x5 / 6x4 tahtalarda kart eşleştirme, joker kartı, `+50 / -10` puan, en iyi skor kaydı | React 19 · Redux Toolkit · Tailwind v4 | ![](hafıza-oyunu---enes-öztürk/docs/cover.svg) |
+| [Patika Klonu LMS](patika-klonu---eğitim-ve-öğrenim-yönetim-platformu) | Operatör/eğitmen/öğrenci panelleri, ders-içerik-quiz CRUD, ilerleme ve yorumlama | React 19 · Context API · localStorage | ![](patika-klonu---eğitim-ve-öğrenim-yönetim-platformu/docs/cover.svg) |
+| [Countries GraphQL API](countries-graphql-api---enes-öztürk) | Express üzerinde `graphql-js` sunucusu, ilişkili şema ve tarayıcı sorgu stüdyosu | Express · graphql-js · Vite · React | ![](countries-graphql-api---enes-öztürk/docs/cover.svg) |
+| [Java Multithreading](java-multithreading-ödevi---enes-öztürk) | Thread/Runnable/ExecutorService kodlarının gösterimi ve 4 thread simülasyonu | React 19 · Vite (Java kaynağı viewer) | ![](java-multithreading-ödevi---enes-öztürk/docs/cover.svg) |
+| [Rust Bankacılık & Hata Yönetimi](rust-bankacılık-sistemi-&-hata-yönetimi) | `Result<(), String>` + `match` ile hesap işlemlerinin incelenmesi ve simülasyonu | React 19 · Vite (Rust kaynağı viewer) | ![](rust-bankacılık-sistemi-&-hata-yönetimi/docs/cover.svg) |
+
+> Java ve Rust klasörlerindeki kaynak kod tarayıcıda gösterilir; derleme yapılmaz. Her klasörün README'si
+> bu ayrımı ve gerçek çalıştırma adımlarını açıklıyor.
+
 ## 🗂️ Dizin yapısı
 
 ```

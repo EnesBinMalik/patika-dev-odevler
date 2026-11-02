@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Ülkeler GraphQL API sorgulama arayüzü mockup'ı">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="100%" stop-color="#0d2233"/>
+    </linearGradient>
+    <style>
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;fill:#e6f1f7}
+      .mut{font-family:'Segoe UI',Arial,sans-serif;fill:#8fb3c6}
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .tab{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#a9c9d9}
+      .tabOn{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#e535ab;font-weight:600}
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg3)"/>
+
+  <rect x="0" y="0" width="1280" height="42" fill="#04090f"/>
+  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
+  <rect x="92" y="9" width="330" height="24" rx="12" fill="#0d2233"/>
+  <text x="108" y="26" class="mut" font-size="13">localhost:3000/graphql — Countries API</text>
+
+  <rect x="0" y="42" width="1280" height="56" fill="#0a1a26"/>
+  <rect x="34" y="58" width="24" height="24" rx="12" fill="#e535ab"/>
+  <text x="70" y="76" class="lbl" font-size="19" font-weight="700">countries-graphql-api <tspan class="mut" font-weight="400">· Express + graphql-js</tspan></text>
+  <text x="640" y="76" class="tabOn">GraphQL Studio</text>
+  <text x="772" y="76" class="tab">Veri Gezgini</text>
+  <text x="892" y="76" class="tab">Şema</text>
+  <text x="950" y="76" class="tab">API Rehberi</text>
+
+  <!-- query editor -->
+  <rect x="34" y="122" width="560" height="366" rx="12" fill="#04090f" stroke="#14304a"/>
+  <text x="56" y="150" class="mut" font-size="13">Sorgu editörü</text>
+  <g font-size="14" class="mono">
+    <text x="56" y="182" fill="#e6f1f7">query {</text>
+    <text x="80" y="206" fill="#7ee0a3">countries(filter: { continent: { in: ["EU"] } }) {</text>
+    <text x="104" y="230" fill="#e6f1f7">name</text>
+    <text x="104" y="254" fill="#e6f1f7">capital</text>
+    <text x="104" y="278" fill="#7ee0a3">languages { code name }   # resolver: dil nesneleri</text>
+    <text x="104" y="302" fill="#e6f1f7">continent { name }          # nested resolver</text>
+    <text x="80" y="326" fill="#e6f1f7">}</text>
+    <text x="56" y="350" fill="#e6f1f7">}</text>
+  </g>
+  <rect x="56" y="378" width="150" height="34" rx="8" fill="#e535ab"/>
+  <text x="86" y="400" class="lbl" font-size="14" font-weight="600">Çalıştır</text>
+  <rect x="220" y="378" width="120" height="34" rx="8" fill="#14304a"/>
+  <text x="248" y="400" class="mut" font-size="14">Prettier</text>
+  <text x="56" y="440" class="mut" font-size="13">POST /graphql · GET /graphql (playground) · örnek sorgular src/graphql/samples.ts</text>
+  <text x="56" y="466" class="mut" font-size="13">Veri: src/graphql/data.ts içinde gömülü 51 ülke · 7 kıta · 38 dil</text>
+
+  <!-- response -->
+  <rect x="606" y="122" width="640" height="366" rx="12" fill="#04090f" stroke="#14304a"/>
+  <text x="628" y="150" class="mut" font-size="13">Yanıt · data</text>
+  <g font-size="14" class="mono">
+    <text x="628" y="182" fill="#e6f1f7">{</text>
+    <text x="652" y="206" fill="#7ee0a3">"countries"</text><text x="740" y="206" fill="#e6f1f7">: [</text>
+    <text x="676" y="230" fill="#e6f1f7">{</text>
+    <text x="700" y="254" fill="#61dafb">"name"</text><text x="762" y="254" fill="#e6f1f7">: "Türkiye",</text>
+    <text x="700" y="278" fill="#61dafb">"capital"</text><text x="776" y="278" fill="#fca5a5">"Ankara",</text>
+    <text x="700" y="302" fill="#61dafb">"languages"</text><text x="796" y="302" fill="#e6f1f7">: [ { "code": "tr", "name": "Türkçe" } ]</text>
+    <text x="676" y="326" fill="#e6f1f7">}, {</text>
+    <text x="700" y="350" fill="#61dafb">"name"</text><text x="762" y="350" fill="#e6f1f7">: "Almanya",</text>
+    <text x="700" y="374" fill="#61dafb">"capital"</text><text x="776" y="374" fill="#e6f1f7">: "Berlin"</text>
+    <text x="676" y="398" fill="#e6f1f7">} ]</text>
+    <text x="652" y="422" fill="#e6f1f7">]</text>
+    <text x="628" y="446" fill="#e6f1f7">}</text>
+  </g>
+
+  <!-- schema strip -->
+  <rect x="34" y="500" width="1212" height="96" rx="12" fill="#0a1a26" stroke="#14304a"/>
+  <text x="56" y="528" class="lbl" font-size="15" font-weight="600">Şema (programmatic GraphQLObjectType)</text>
+  <g font-size="13" class="mono">
+    <rect x="56" y="542" width="150" height="26" rx="13" fill="#122b3f"/><text x="72" y="559" fill="#7ee0a3">Country</text>
+    <rect x="216" y="542" width="150" height="26" rx="13" fill="#122b3f"/><text x="232" y="559" fill="#7ee0a3">Continent</text>
+    <rect x="376" y="542" width="150" height="26" rx="13" fill="#122b3f"/><text x="392" y="559" fill="#7ee0a3">Language</text>
+    <rect x="540" y="542" width="330" height="26" rx="13" fill="#1c2b17"/><text x="556" y="559" fill="#a3e635">Query: countries country continents continent languages language</text>
+    <rect x="884" y="542" width="330" height="26" rx="13" fill="#3a1d24"/><text x="900" y="559" fill="#f87171">Mutation yok — salt okunur API</text>
+  </g>
+  <text x="56" y="586" class="mut" font-size="13">Filtre operatörleri: StringQueryOperatorInput (eq · ne · in · nin · regex) · Country filter: code/continent/currency · Continent &amp; Language filter: yalnız code</text>
+
+  <text x="34" y="620" class="mut" font-size="13">Patika.dev · Node.js &amp; GraphQL patikası · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+</svg>

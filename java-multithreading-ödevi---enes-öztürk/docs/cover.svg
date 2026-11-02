@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Java multithreading simülatörü arayüz mockup'ı">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#132033"/>
+    </linearGradient>
+    <style>
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;fill:#e2e8f0}
+      .mut{font-family:'Segoe UI',Arial,sans-serif;fill:#94a3b8}
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .tab{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#cbd5e1}
+      .tabOn{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#38bdf8;font-weight:600}
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg2)"/>
+
+  <rect x="0" y="0" width="1280" height="42" fill="#070d18"/>
+  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
+  <rect x="92" y="9" width="330" height="24" rx="12" fill="#132033"/>
+  <text x="108" y="26" class="mut" font-size="13">localhost:3000 — Java Multithreading Ödevi</text>
+
+  <rect x="0" y="42" width="1280" height="56" fill="#0f1a2b"/>
+  <rect x="34" y="58" width="24" height="24" rx="6" fill="#38bdf8"/>
+  <text x="70" y="76" class="lbl" font-size="19" font-weight="700">Thread <tspan class="mut" font-weight="400">/ Runnable / ExecutorService</tspan></text>
+  <text x="600" y="76" class="tabOn">Simülasyon</text>
+  <text x="712" y="76" class="tab">Kod</text>
+  <text x="772" y="76" class="tab">Terminal</text>
+  <text x="856" y="76" class="tab">Mimari</text>
+  <text x="930" y="76" class="tab">Rapor</text>
+
+  <!-- thread lanes -->
+  <rect x="34" y="122" width="700" height="252" rx="12" fill="#0a1322" stroke="#1e2f4a"/>
+  <text x="56" y="150" class="lbl" font-size="16" font-weight="600">4 iş parçacığı — paralel sayı üretimi</text>
+  <g font-size="14" class="mono">
+    <text x="56" y="186" fill="#38bdf8">Thread-0</text><rect x="160" y="176" width="480" height="12" rx="6" fill="#1e2f4a"/><rect x="160" y="176" width="430" height="12" rx="6" fill="#38bdf8"/><text x="656" y="187" fill="#4ade80">RUNNABLE</text>
+    <text x="56" y="222" fill="#a78bfa">Thread-1</text><rect x="160" y="212" width="480" height="12" rx="6" fill="#1e2f4a"/><rect x="160" y="212" width="300" height="12" rx="6" fill="#a78bfa"/><text x="656" y="223" fill="#4ade80">RUNNABLE</text>
+    <text x="56" y="258" fill="#f472b6">Thread-2</text><rect x="160" y="248" width="480" height="12" rx="6" fill="#1e2f4a"/><rect x="160" y="248" width="220" height="12" rx="6" fill="#f472b6"/><text x="656" y="259" fill="#fbbf24">WAITING</text>
+    <text x="56" y="294" fill="#34d399">Thread-3</text><rect x="160" y="284" width="480" height="12" rx="6" fill="#1e2f4a"/><rect x="160" y="284" width="120" height="12" rx="6" fill="#34d399"/><text x="656" y="295" fill="#4ade80">RUNNABLE</text>
+  </g>
+  <text x="56" y="332" class="mut" font-size="13">synchronized (ciftKilit) / synchronized (tekKilit)  ·  t1.join() … t4.join()</text>
+  <text x="56" y="356" class="lbl" font-size="14">Eş zamanlı erişimde 3 kayıp kayıt riski → <tspan fill="#f87171">race condition</tspan> <tspan class="mut">(simülasyon: Math.random() &lt; 0.035)</tspan></text>
+
+  <!-- terminal -->
+  <rect x="746" y="122" width="500" height="252" rx="12" fill="#020617" stroke="#1e2f4a"/>
+  <rect x="746" y="122" width="500" height="30" rx="12" fill="#0f1a2b"/>
+  <text x="766" y="142" class="mut" font-size="13">Terminal (UI'da canlandırılan çıktı)</text>
+  <g font-size="13" class="mono">
+    <text x="766" y="176" fill="#94a3b8">&gt; javac -d out Main.java</text>
+    <text x="766" y="198" fill="#94a3b8">&gt; java -cp out com.enesozturk.multithreading.Main</text>
+    <text x="766" y="222" fill="#e2e8f0">Thread-0 → 25 sayı üretti</text>
+    <text x="766" y="244" fill="#e2e8f0">Thread-1 → 25 sayı üretti</text>
+    <text x="766" y="266" fill="#e2e8f0">Toplam beklenen: 100 · gerçek: 97</text>
+    <text x="766" y="288" fill="#f87171">Kayıp kayıt: 3 (kilit yok)</text>
+    <text x="766" y="310" fill="#4ade80">Process finished with exit code 0</text>
+    <text x="766" y="332" fill="#38bdf8">Çalışma süresi: 18 ms</text>
+  </g>
+
+  <!-- executor + report strip -->
+  <rect x="34" y="386" width="1212" height="202" rx="12" fill="#0a1322" stroke="#1e2f4a"/>
+  <text x="56" y="416" class="lbl" font-size="16" font-weight="600">ExecutorService versiyonu</text>
+  <text x="56" y="444" class="mono" font-size="14" fill="#a78bfa">ExecutorService pool = Executors.newFixedThreadPool(4);</text>
+  <text x="56" y="468" class="mono" font-size="14" fill="#e2e8f0">pool.submit(gorev1); … pool.shutdown();</text>
+  <text x="56" y="492" class="mono" font-size="14" fill="#e2e8f0">pool.awaitTermination(40, TimeUnit.SECONDS);</text>
+  <text x="56" y="516" class="mono" font-size="14" fill="#e2e8f0">List&lt;Integer&gt; guvenli = Collections.synchronizedList(new ArrayList&lt;&gt;());</text>
+  <g font-size="14" class="lbl">
+    <text x="700" y="444" fill="#fbbf24">!</text><text x="722" y="444" class="mut">Rapor sekmesindeki "%100 Doğrulandı" çıktısı UI animasyonudur</text>
+    <text x="700" y="472" fill="#fbbf24">!</text><text x="722" y="472" class="mut">Tarayıcıda Java derlenmez; kaynak .java olarak indirilir</text>
+    <text x="700" y="500" fill="#fbbf24">!</text><text x="722" y="500" class="mut">Gerçek test/CI yok — JUnit eklenmesi önerilir</text>
+  </g>
+
+  <text x="34" y="620" class="mut" font-size="13">Patika.dev · Java patikası · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+</svg>
