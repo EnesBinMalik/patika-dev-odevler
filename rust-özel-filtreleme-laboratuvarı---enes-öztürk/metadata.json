@@ -1,0 +1,6 @@
+{
+  "name": "Rust Özel Filtreleme Laboratuvarı - Enes Öztürk",
+  "description": "Rust'ta kapanış (closure) kullanmadan struct ve impl metodları ile özel filtreleme fonksiyonu ve interaktif simülatör. Hazırlayan: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
