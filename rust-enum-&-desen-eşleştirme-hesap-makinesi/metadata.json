@@ -1,0 +1,6 @@
+{
+  "name": "Rust Enum & Desen Eşleştirme Hesap Makinesi",
+  "description": "Enes Öztürk imzalı, Rust enumları ve desen eşleştirme (pattern matching) ile çalışan interaktif hesap makinesi simülatörü ve öğrenim platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
