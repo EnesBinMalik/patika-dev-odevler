@@ -44,6 +44,21 @@ Kök dizinde kendi klasörüyle duran, dokümantasyonu güncellenmiş ödevler:
 > Java ve Rust klasörlerindeki kaynak kod tarayıcıda gösterilir; derleme yapılmaz. Her klasörün README'si
 > bu ayrımı ve gerçek çalıştırma adımlarını açıklıyor.
 
+## 📰 Clean Blog serisi, bölünebilirlik ve GraphQL sohbet
+
+| Ödev | Ne yapılıyor | Yığın | Kapak |
+|---|---|---|---|
+| [3 ile Bölünebilirlik Hesaplayıcı](3-ile-bölünebilme-hesaplayıcı) | `((sayi % 3) + 3) % 3` ile kalan, rakamlar toplamı kuralı, bölünebilecek ilk/önceki sayı | React 19 · Vite · Tailwind v4 · canvas-confetti | ![](3-ile-bölünebilme-hesaplayıcı/docs/cover.svg) |
+| [Anonim Sohbet — GraphQL & Redis Pub/Sub](anonymous-chat---graphql-&-redis-pubsub) | `POST /graphql` üzerinde Query/Mutation/Subscription, Redis yayını ve durum uçları | Express · graphql-js · graphql-ws · ioredis | ![](anonymous-chat---graphql-&-redis-pubsub/docs/cover.svg) |
+| [Clean Blog — Ödev 7](clean-blog---ödev-7) | Gerçek teslimat iç klasördeki Express `app.js`; arayüz `GET /api/blog` sonucunu gösteriyor | Express · nodemon · React 19 | ![](clean-blog---ödev-7/docs/cover.svg) |
+| [Clean Blog — Ödev 9](clean-blog---enes-öztürk-(ödev-9)) | İlk Mongoose modeli ve REST uçları; UPDATE yok, bağlantı koparsa bellek içine düşer | Express · Mongoose · MongoDB | ![](clean-blog---enes-öztürk-(ödev-9)/docs/cover.svg) |
+| [Clean Blog — Ödev 10](clean-blog---ödev-10-(enes-öztürk)) | Hash tabanlı yönlendirme ve `localStorage` kalıcılığı, kod gösterim sayfaları | React 19 · Hash Router · localStorage | ![](clean-blog---ödev-10-(enes-öztürk)/docs/cover.svg) |
+| [Clean Blog — Ödev 11 (MVC, update & delete)](clean-blog---ödev-11-(mvc,-update-&-delete)) | Güncelleme + silme akışı, bildirim onayı ve MVC/EJS kaynaklarının incelemesi | React 19 · localStorage · Tailwind v4 | ![](clean-blog---ödev-11-(mvc,-update-&-delete)/docs/cover.svg) |
+| [Clean Blog — Ödev 12 (Bölüm 6)](clean-blog---ödev-12-(bölüm-6)) | Yorumlar, arama, kategoriler ve dağıtım rehberi; **README'nin ilk bölümü bir güvenlik bulgusu** | React 19 · localStorage · Tailwind v4 | ![](clean-blog---ödev-12-(bölüm-6)/docs/cover.svg) |
+
+> ⚠️ Ödev 12 klasöründe kaynak kod içinde açık bir MongoDB Atlas bağlantı dizesi duruyor. Bu depo halka
+> açık olduğu için README'si parola döndürme adımlarıyla başlıyor; ayrıntı ilgili klasörde.
+
 ## 🗂️ Dizin yapısı
 
 ```

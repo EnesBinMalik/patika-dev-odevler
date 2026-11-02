@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Clean Blog ödev 10 tekil post sayfası yönlendirme arayüz mockup'ı">
+  <defs>
+    <linearGradient id="bg10" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a1408"/><stop offset="100%" stop-color="#2f2413"/></linearGradient>
+    <style>.l{font-family:'Segoe UI',Arial,sans-serif;fill:#fbf3e4}.m{font-family:'Segoe UI',Arial,sans-serif;fill:#c3ab86}.mono{font-family:Consolas,'Courier New',monospace}</style>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg10)"/>
+  <rect x="0" y="0" width="1280" height="42" fill="#120d05"/>
+  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
+  <rect x="92" y="9" width="360" height="24" rx="12" fill="#2f2413"/><text x="108" y="26" class="m" font-size="13">localhost:3000/#/posts/66f1a2…  — Ödev 10</text>
+
+  <text x="40" y="96" class="l" font-size="26" font-weight="700">Clean Blog <tspan class="m" font-size="16" font-weight="400">· tekil post sayfası ve hash yönlendirme</tspan></text>
+
+  <!-- route table -->
+  <rect x="40" y="130" width="400" height="230" rx="14" fill="#241b0e" stroke="#4a3a20"/>
+  <text x="64" y="162" class="l" font-size="16" font-weight="600">Hash router (App.tsx:54-82)</text>
+  <g font-size="14" class="mono">
+    <text x="64" y="194" fill="#fbbf24">#/</text><text x="230" y="194" class="m">liste görünümü</text>
+    <text x="64" y="222" fill="#fbbf24">#/posts/:id</text><text x="230" y="222" class="m">PostDetail</text>
+    <text x="64" y="250" fill="#fbbf24">#/add_post</text><text x="230" y="250" class="m">AddPost</text>
+    <text x="64" y="278" fill="#fbbf24">#/about</text><text x="230" y="278" class="m">AboutView</text>
+    <text x="64" y="306" fill="#fbbf24">#/homework</text><text x="230" y="306" class="m">HomeworkViewer</text>
+    <text x="64" y="336" fill="#c3ab86">// react-router yok · window.location.hash dinlenir</text>
+  </g>
+
+  <!-- post detail -->
+  <rect x="456" y="130" width="470" height="230" rx="14" fill="#241b0e" stroke="#4a3a20"/>
+  <text x="480" y="162" class="l" font-size="16" font-weight="600">PostDetail görünümü</text>
+  <rect x="480" y="176" width="422" height="60" rx="8" fill="#31250f"/>
+  <text x="498" y="204" class="l" font-size="17" font-weight="700">Node.js'de Routing</text>
+  <text x="498" y="226" class="m" font-size="13">Alt başlık: Express tarafında tekil sayfa nasıl kurulur?</text>
+  <text x="480" y="262" class="m" font-size="13">Enes Öztürk · 29 Ekim 2026</text>
+  <text x="480" y="292" class="l" font-size="13">Gövde: res.render('post', { post }) ve /posts/:id eşleşmesi…</text>
+  <rect x="480" y="308" width="150" height="30" rx="8" fill="#78350f"/><text x="500" y="328" class="l" font-size="13">Listeye dön</text>
+  <rect x="642" y="308" width="150" height="30" rx="8" fill="#4a3a20"/><text x="662" y="328" class="l" font-size="13">Sil</text>
+
+  <!-- EJS viewer -->
+  <rect x="942" y="130" width="300" height="230" rx="14" fill="#241b0e" stroke="#4a3a20"/>
+  <text x="966" y="162" class="l" font-size="15" font-weight="600">Ödev kodu görüntüleyici</text>
+  <text x="966" y="186" class="m" font-size="12">src/data/homeworkCode.ts</text>
+  <g font-size="12" class="mono">
+    <text x="966" y="214" fill="#fbbf24">app.get('/posts/:id', …)</text>
+    <text x="966" y="236" fill="#fbf3e4">res.render('post', { post })</text>
+    <text x="966" y="266" fill="#c3ab86">&lt;%= post.title %&gt;</text>
+    <text x="966" y="288" fill="#c3ab86">&lt;%- post.detail %&gt;</text>
+  </g>
+  <rect x="966" y="302" width="252" height="40" rx="8" fill="#2a1616" stroke="#7f1d1d"/>
+  <text x="978" y="320" font-size="11" fill="#fca5a5" class="mono">.ejs dosyaları metin olarak duruyor;</text>
+  <text x="978" y="336" font-size="11" fill="#fca5a5" class="mono">bu klasörde sunucu/EJS motoru yok</text>
+
+  <!-- data strip -->
+  <rect x="40" y="376" width="1202" height="180" rx="14" fill="#241b0e" stroke="#4a3a20"/>
+  <text x="64" y="408" class="l" font-size="16" font-weight="600">Veri ve kalıcılık</text>
+  <g font-size="14" class="mono">
+    <text x="64" y="440" fill="#fbbf24">BlogPost</text><text x="180" y="440" fill="#fbf3e4">{ _id, title?, subtitle?, detail, dateCreated, author }</text><text x="720" y="440" class="m">src/types/blog.ts:1-8</text>
+    <text x="64" y="470" fill="#fbbf24">tohum</text><text x="180" y="470" fill="#fbf3e4">4 sabit yazı · src/data/initialPosts.ts:3-36 · dateCreated "29 Ekim 2026" (metin)</text>
+    <text x="64" y="500" fill="#fbbf24">kalıcılık</text><text x="180" y="500" fill="#fbf3e4">localStorage "clean_blog_posts_v1" (App.tsx:14) — ekleme :114 · silme :139 · sıfırlama :146</text>
+    <text x="64" y="530" fill="#f87171">uyarı</text><text x="180" y="530" fill="#fbf3e4">generateMongoId() (:17-23) sahte 24 haneli kimlik üretir · aynı anahtar ödev-12 ile çakışır · ödev-9'daki sunucu bu klasörde yok</text>
+  </g>
+
+  <text x="40" y="600" class="m" font-size="13">Patika.dev · Node.js patikası Ödev 10 · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+</svg>

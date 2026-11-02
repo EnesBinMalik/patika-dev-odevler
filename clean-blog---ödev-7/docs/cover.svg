@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Clean Blog ödev 7 Express ilk uç nokta arayüz mockup'ı">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0c1a1f"/><stop offset="100%" stop-color="#12303a"/></linearGradient>
+    <style>.l{font-family:'Segoe UI',Arial,sans-serif;fill:#e6f5f8}.m{font-family:'Segoe UI',Arial,sans-serif;fill:#8fb6c2}.mono{font-family:Consolas,'Courier New',monospace}</style>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg7)"/>
+  <rect x="0" y="0" width="1280" height="42" fill="#071318"/>
+  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
+  <rect x="92" y="9" width="300" height="24" rx="12" fill="#12303a"/><text x="108" y="26" class="m" font-size="13">localhost:3000 — Clean Blog · Ödev 7</text>
+
+  <text x="40" y="96" class="l" font-size="26" font-weight="700">Clean Blog <tspan class="m" font-size="16" font-weight="400">· Express'e ilk adım</tspan></text>
+  <g font-size="14" class="l"><text x="40" y="130" fill="#2dd4bf">Giriş</text><text x="110" y="130" class="m">Yazılar</text><text x="190" y="130" class="m">Hakkında</text><text x="285" y="130" class="m">İletişim</text><text x="370" y="130" class="m">API Test</text><text x="450" y="130" class="m">Dosyalar</text></g>
+
+  <!-- hero -->
+  <rect x="40" y="150" width="700" height="200" rx="14" fill="#0d222b" stroke="#1c4351"/>
+  <text x="64" y="186" class="l" font-size="20" font-weight="700">Bu yazı bir Express cevabından geliyor</text>
+  <text x="64" y="214" class="m" font-size="14">React arayüzü mount olduğunda GET /api/blog çağrısı yapılır (App.tsx:68).</text>
+  <rect x="64" y="236" width="652" height="92" rx="10" fill="#04121a" stroke="#1c4351"/>
+  <g font-size="14" class="mono">
+    <text x="84" y="264" fill="#8fb6c2">// server.ts:19 — res.send ile dönen sabit nesne</text>
+    <text x="84" y="290" fill="#e6f5f8">{ "id": 1, "title": "Blog title", "description": "Blog description" }</text>
+    <text x="84" y="314" fill="#fbbf24">// veritabanı yok · model yok · liste yok</text>
+  </g>
+
+  <!-- CleanBlog subproject -->
+  <rect x="756" y="150" width="486" height="200" rx="14" fill="#0d222b" stroke="#1c4351"/>
+  <text x="780" y="182" class="l" font-size="16" font-weight="600">CleanBlog/ (ödevin asıl çıktısı)</text>
+  <g font-size="13" class="mono">
+    <text x="780" y="210" fill="#8fb6c2">app.js · package.json · README.md</text>
+    <text x="780" y="236" fill="#2dd4bf">const app = express();</text>
+    <text x="780" y="260" fill="#e6f5f8">app.get('/', (req, res) =&gt; res.send({ id, title, description }));</text>
+    <text x="780" y="284" fill="#e6f5f8">app.listen(3000, …)</text>
+    <text x="780" y="312" fill="#fbbf24">npm start → nodemon app.js</text>
+  </g>
+
+  <!-- endpoints -->
+  <rect x="40" y="366" width="600" height="200" rx="14" fill="#0d222b" stroke="#1c4351"/>
+  <text x="64" y="398" class="l" font-size="16" font-weight="600">Sunucudaki uçlar</text>
+  <g font-size="13" class="mono">
+    <text x="64" y="426" fill="#2dd4bf">GET  /api/blog</text><text x="300" y="426" class="m">sabit nesne (server.ts:19)</text>
+    <text x="64" y="452" fill="#2dd4bf">GET  /api/raw-blog</text><text x="300" y="452" class="m">ham JSON (:25)</text>
+    <text x="64" y="478" fill="#2dd4bf">GET  /api/homework-status</text><text x="300" y="478" class="m">kontrol listesi (:31)</text>
+    <text x="64" y="504" fill="#2dd4bf">GET  /api/project-files</text><text x="300" y="504" class="m">git log + dosya üretimi (:103)</text>
+    <text x="64" y="536" class="m">Ayrı komut yok: npm run dev → tsx server.ts (Vite middlewareMode)</text>
+  </g>
+
+  <!-- warnings -->
+  <rect x="656" y="366" width="586" height="200" rx="14" fill="#1b1210" stroke="#7c2d12"/>
+  <text x="680" y="398" fill="#fdba74" class="l" font-size="16" font-weight="600">Dürüstlük notları</text>
+  <g font-size="13" class="m">
+    <text x="680" y="428" fill="#f87171">✗</text><text x="702" y="428">".prettierrc eklendi" / ".gitignore oluşturuldu" kayıtları</text>
+    <text x="702" y="448">sunucu tarafından üretilen metin — klasörde bu dosyalar yok</text>
+    <text x="680" y="478" fill="#f87171">✗</text><text x="702" y="478">/api/project-files içindeki execSync('git log') üst depoyu okur</text>
+    <text x="680" y="508" fill="#f87171">✗</text><text x="702" y="508">nodemon CleanBlog/package.json'da, kök devDeps'te değil</text>
+    <text x="680" y="538" fill="#fbbf24">!</text><text x="702" y="538">README AI Studio şablonu, npm run clean Windows'ta çalışmaz</text>
+  </g>
+
+  <text x="40" y="606" class="m" font-size="13">Patika.dev · Node.js patikası Ödev 7 · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+</svg>

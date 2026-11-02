@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Clean Blog ödev 12 deployment yorumlar ve arama arayüz mockup'ı">
+  <defs>
+    <linearGradient id="bg12" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0d16"/><stop offset="100%" stop-color="#33142a"/></linearGradient>
+    <style>.l{font-family:'Segoe UI',Arial,sans-serif;fill:#fbeaf3}.m{font-family:'Segoe UI',Arial,sans-serif;fill:#c79bb4}.mono{font-family:Consolas,'Courier New',monospace}</style>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg12)"/>
+  <rect x="0" y="0" width="1280" height="42" fill="#120710"/>
+  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
+  <rect x="92" y="9" width="360" height="24" rx="12" fill="#33142a"/><text x="108" y="26" class="m" font-size="13">localhost:3000 — Clean Blog · Ödev 12 (Bölüm 6)</text>
+
+  <text x="40" y="96" class="l" font-size="26" font-weight="700">Clean Blog <tspan class="m" font-size="16" font-weight="400">· dağıtım rehberi, yorumlar ve arama</tspan></text>
+
+  <!-- security banner -->
+  <rect x="40" y="118" width="1202" height="52" rx="10" fill="#2a0f12" stroke="#b91c1c"/>
+  <text x="60" y="140" fill="#fca5a5" class="l" font-size="14" font-weight="700">GÜVENLİK: DeploymentHub.tsx:63, :204, :418, :421, :521, :528 içinde kullanıcı adı ve parola içeren</text>
+  <text x="60" y="160" fill="#fca5a5" class="l" font-size="14">MongoDB Atlas bağlantı dizesi halka açık repoya commit'lenmiş — parolayı hemen döndür, dizeyi env'e taşı.</text>
+
+  <!-- deployment hub -->
+  <rect x="40" y="186" width="600" height="220" rx="14" fill="#241021" stroke="#4a1f3d"/>
+  <text x="64" y="218" class="l" font-size="16" font-weight="600">DeploymentHub.tsx (631 satır)</text>
+  <g font-size="13" class="mono">
+    <text x="64" y="248" fill="#c79bb4">1  heroku create clean-blog-enes</text>
+    <text x="64" y="272" fill="#c79bb4">2  heroku config:set MONGODB_URI="&lt;ATLAS_URI&gt;"</text>
+    <text x="64" y="296" fill="#c79bb4">3  Procfile → web: npm start</text>
+    <text x="64" y="320" fill="#c79bb4">4  git push heroku main</text>
+    <text x="64" y="348" fill="#fbbf24">atlas: cluster0.k3v9z.mongodb.net · cleanblog-db</text>
+    <text x="64" y="376" fill="#f87171">"CANLI BAĞLANTI DOĞRULANDI · 22 ms · SSL/TLS 1.3" (:343) sabit metin</text>
+  </g>
+
+  <!-- features -->
+  <rect x="656" y="186" width="586" height="220" rx="14" fill="#241021" stroke="#4a1f3d"/>
+  <text x="680" y="218" class="l" font-size="16" font-weight="600">Bu ödevde eklenenler</text>
+  <g font-size="14" class="mono">
+    <text x="680" y="250" fill="#f0abfc">CREATE + UPDATE</text><text x="880" y="250" class="m">handleSavePost · App.tsx:129 (tek fonksiyon)</text>
+    <text x="680" y="278" fill="#f0abfc">DELETE</text><text x="880" y="278" class="m">DeleteConfirmModal · silme onayı</text>
+    <text x="680" y="306" fill="#4ade80">YORUMLAR</text><text x="880" y="306" class="m">PostComment · handleAddComment :179 · key clean_blog_comments_v1</text>
+    <text x="680" y="334" fill="#4ade80">ARAMA</text><text x="880" y="334" class="m">tam metin süzme :191-198 · kategori filtreleri :200</text>
+    <text x="680" y="362" fill="#60a5fa">İLETİŞİM</text><text x="880" y="362" class="m">ContactView formu (gönderim yok, state'te tutulur)</text>
+    <text x="680" y="390" fill="#fbbf24">EKSİK</text><text x="880" y="390" class="m">sayfalama ve görsel yükleme — AssignmentNotice.tsx:22 kendisi söylüyor</text>
+  </g>
+
+  <!-- data strip -->
+  <rect x="40" y="420" width="1202" height="132" rx="14" fill="#241021" stroke="#4a1f3d"/>
+  <text x="64" y="452" class="l" font-size="16" font-weight="600">Veri ve gerçeğin ayrımı</text>
+  <g font-size="13" class="mono">
+    <text x="64" y="482" fill="#f0abfc">BlogPost</text><text x="200" y="482" fill="#fbeaf3">{ id, title, subtitle, detail, author, authorEmail?, dateCreated, readTime, category } · types/blog.ts:1-11</text>
+    <text x="64" y="510" fill="#f0abfc">PostComment</text><text x="200" y="510" fill="#fbeaf3">{ id, postId, author, content, createdAt } · types/blog.ts:13-19 · tohum yorumlar App.tsx:70-84 (kendi kendini öven sahte hesaplar)</text>
+    <text x="64" y="538" fill="#f87171">depolama</text><text x="200" y="538" fill="#fbeaf3">localStorage "clean_blog_posts_v1" — sunucu/Atlas yok; toast'lar "MongoDB Atlas üzerinde güncellendi" diyor (App.tsx:142)</text>
+  </g>
+
+  <text x="40" y="600" class="m" font-size="13">Patika.dev · Node.js patikası Ödev 12 / Bölüm 6 · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+</svg>
