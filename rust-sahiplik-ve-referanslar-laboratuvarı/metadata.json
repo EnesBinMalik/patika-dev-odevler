@@ -1,0 +1,6 @@
+{
+  "name": "Rust Sahiplik ve Referanslar Laboratuvarı",
+  "description": "Enes Öztürk imzalı interaktif Rust sahiplik (ownership), ödünç alma (borrowing) ve string dilimi referansları ile dize birleştirme eğitim ortamı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
