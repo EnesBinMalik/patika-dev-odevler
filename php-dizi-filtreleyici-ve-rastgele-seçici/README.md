@@ -1,3 +1,11 @@
+> [!NOTE]
+> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
+> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
+> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
+> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+
+---
+
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
