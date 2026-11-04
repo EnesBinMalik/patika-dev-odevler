@@ -1,9 +1,15 @@
-# 🍽️ Solana Restaurant Review Smart Contract & Web3 dApp
+# Solana Restoran İnceleme Programı ve Web3 Arayüzü
 
-> **Mezuniyet Bitirme Projesi (Solana Developer Graduation Project)**  
-> **Geliştirici / Hazırlayan:** Enes Öztürk 🔥  
-> **E-posta:** enesbino38@gmail.com  
-> **Lisans:** MIT (Açık Kaynak / Open-Source Web3 Projesi)
+![Solana restoran inceleme projesi için kapak çizimi](docs/cover.svg)
+
+> Patika.dev Solana eğitimi için hazırlanmış örnek proje · Enes Öztürk · MIT
+
+Bu depoda hem `program/` altında gerçek bir Solana program crate'i hem de inceleme akışını,
+konum filtresini ve Borsh verisini gösteren React arayüzü bulunur.
+
+> **Önemli:** Web arayüzündeki cüzdan bağlantısı, bakiye ve inceleme listesi yerel demo durumudur;
+> arayüz şu anda zincire işlem göndermiyor. Aşağıdaki istemci kodu entegrasyon örneğidir. Gerçek
+> ağa dağıtım ve işlem gönderimi için ayrıca yapılandırılmış Solana CLI/cüzdan gerekir.
 
 ---
 

@@ -1,28 +1,48 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Rust Özel Filtreleme Laboratuvarı
 
----
+![Rust özel filtreleme laboratuvarının kapak çizimi](docs/cover.svg)
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Rust'ta closure kullanmadan `FilterCondition` yapısı, `is_match` metodu ve `custom_filter` fonksiyonu
+ile koleksiyon filtrelemeyi öğreten etkileşimli bir React/TypeScript uygulaması.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- Başlangıç, sayı ve metin örnekleri için hazır kod senaryoları.
+- Kod editörü, sonuç terminali ve öğe öğe ilerleyen filtre görselleştiricisi.
+- Ödev kontrol listesi ve konu anlatımı.
+- Rust Playground erişilemediğinde kısıtlı istemci tarafı simülatörüne geri dönüş.
 
-View your app in AI Studio: https://ai.studio/apps/bfc79e81-97a9-44ca-a3cd-b38ab5d7f6ad
+> **Kod gizliliği:** Çalıştırma sırasında kod `play.rust-lang.org` servisine gönderilebilir.
+> Servise erişilemezse uygulama gerçek `rustc` kullanmaz; örnek yapıları analiz ederek temsili çıktı
+> üretir. Gizli veya özel kod göndermeyin.
 
-## Run Locally
+## Başlangıç
 
-**Prerequisites:**  Node.js
+Gereksinimler: Node.js ve npm.
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Uygulama `http://localhost:3000` adresinde açılır.
+
+| Komut | Açıklama |
+| --- | --- |
+| `npm run build` | Üretim derlemesini `dist/` klasörüne alır. |
+| `npm run lint` | TypeScript tip kontrolünü (`tsc --noEmit`) çalıştırır. |
+
+## Teknoloji ve yapı
+
+React 19 · TypeScript · Vite · Tailwind CSS v4 · `lucide-react`
+
+```text
+src/
+├── components/       # Editör, görselleştirici, kontrol listesi, rehber ve terminal
+├── data/rustSamples.ts
+├── services/         # Rust Playground istemcisi ve yerel eğitim simülatörü
+└── types/            # Filtre adımları ve çalışma sonucu tipleri
+```
+
+Bu klasör bir Cargo projesi değildir; uygulamanın tarayıcı arayüzü eğitim amaçlıdır. Depo haritası
+ve diğer ödevler için [ana README'ye](../README.md) bakın.

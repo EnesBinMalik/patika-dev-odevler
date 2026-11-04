@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Solana Token Transfer Laboratuvarı</title>
+  <desc id="desc">Kaynak ve hedef cüzdan arasında sabit miktarlı token transferini anlatan illüstrasyon.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1222"/><stop offset="1" stop-color="#102c37"/></linearGradient><linearGradient id="cyan"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="1120" cy="420" r="220" fill="#22d3ee" opacity=".06"/>
+  <text x="72" y="88" fill="#67e8f9" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">SOLANA / TOKEN TRANSFER</text>
+  <text x="72" y="170" fill="#f8fafc" font-family="Arial,sans-serif" font-size="50" font-weight="700">Güvenli Transfer</text>
+  <text x="74" y="222" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="22">Sabit tutar · İmza · Bakiye kontrolü</text>
+  <rect x="72" y="270" width="470" height="2" fill="#334155"/>
+  <text x="72" y="326" fill="#94a3b8" font-family="Arial,sans-serif" font-size="18">Hesap değişimini adım adım simüle et.</text>
+  <rect x="620" y="70" width="250" height="300" rx="22" fill="#101a2b" stroke="#334155" stroke-width="2"/>
+  <rect x="920" y="70" width="250" height="300" rx="22" fill="#101a2b" stroke="#334155" stroke-width="2"/>
+  <circle cx="745" cy="135" r="34" fill="#123344" stroke="#22d3ee"/><text x="731" y="144" fill="#67e8f9" font-family="Arial,sans-serif" font-size="24" font-weight="700">A</text>
+  <circle cx="1045" cy="135" r="34" fill="#1e1b4b" stroke="#818cf8"/><text x="1031" y="144" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="24" font-weight="700">B</text>
+  <text x="675" y="208" fill="#94a3b8" font-family="Arial,sans-serif" font-size="14">KAYNAK HESAP</text>
+  <text x="974" y="208" fill="#94a3b8" font-family="Arial,sans-serif" font-size="14">HEDEF HESAP</text>
+  <text x="675" y="260" fill="#f8fafc" font-family="monospace" font-size="24">1,000 TOK</text>
+  <text x="974" y="260" fill="#f8fafc" font-family="monospace" font-size="24">250 TOK</text>
+  <text x="675" y="313" fill="#67e8f9" font-family="monospace" font-size="16">− 50 TOK</text>
+  <text x="974" y="313" fill="#a5b4fc" font-family="monospace" font-size="16">+ 50 TOK</text>
+  <path d="M864 218h64m-18-14 18 14-18 14" fill="none" stroke="url(#cyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="690" y="404" width="410" height="54" rx="14" fill="#0f2430" stroke="#155e75"/>
+  <circle cx="719" cy="431" r="8" fill="#34d399"/>
+  <text x="741" y="437" fill="#a5f3fc" font-family="monospace" font-size="16">Örnek akış · 50 token aktarımı</text>
+</svg>

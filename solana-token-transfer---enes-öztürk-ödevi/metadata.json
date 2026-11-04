@@ -1,6 +1,6 @@
 {
   "name": "Solana Token Transfer - Enes Öztürk Ödevi",
-  "description": "Solana & Rust token transfer ödevi: kaynak hesap bakiyesi yerine belirli miktar ve kullanıcı girdisi transferi, cargo test simülatörü ve Enes Öztürk imzalı işlem platformu.",
+  "description": "Solana token transfer ödevini kod örnekleri ve tarayıcı içi eğitim simülatörüyle anlatan arayüz; zincire işlem göndermez.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

@@ -1,6 +1,6 @@
 {
   "name": "Paslı Mağaza - Envanter Yönetim Sistemi",
-  "description": "Rust tabanlı perakende envanter, satış, satın alma, kâr analizi ve raporlama sistemi. Enes Öztürk imzalı.",
+  "description": "Ürün, stok, satış, satın alma ve rapor akışlarını tarayıcıda canlandıran mağaza yönetimi eğitim demosu.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

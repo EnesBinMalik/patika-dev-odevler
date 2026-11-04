@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Paslı Mağaza — Envanter ve Satış Yönetimi</title>
+  <desc id="desc">Envanter, stok seviyesi ve satış raporlarını gösteren temsili mağaza paneli.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#2a1c17"/></linearGradient><linearGradient id="orange"><stop stop-color="#f97316"/><stop offset="1" stop-color="#fbbf24"/></linearGradient></defs>
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="170" cy="450" r="220" fill="#f97316" opacity=".06"/>
+  <text x="72" y="88" fill="#fb923c" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">RETAIL / INVENTORY</text>
+  <text x="72" y="170" fill="#fff7ed" font-family="Arial,sans-serif" font-size="52" font-weight="700">Paslı Mağaza</text>
+  <text x="74" y="220" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="23">Envanter · Satış · Satın Alma</text>
+  <rect x="72" y="268" width="475" height="2" fill="#475569"/>
+  <text x="72" y="318" fill="#94a3b8" font-family="Arial,sans-serif" font-size="18">Günlük mağaza akışını tek panelde keşfet.</text>
+  <text x="72" y="378" fill="#fdba74" font-family="monospace" font-size="17">STOK → KASA → RAPOR</text>
+  <rect x="620" y="54" width="590" height="412" rx="22" fill="#0b1220" stroke="#374151" stroke-width="2"/>
+  <rect x="620" y="54" width="590" height="54" rx="22" fill="#1f2937"/>
+  <circle cx="652" cy="81" r="6" fill="#f87171"/><circle cx="674" cy="81" r="6" fill="#fbbf24"/><circle cx="696" cy="81" r="6" fill="#34d399"/>
+  <text x="730" y="87" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="15">Mağaza Kontrol Paneli</text>
+  <rect x="650" y="130" width="162" height="86" rx="14" fill="#172033" stroke="#374151"/>
+  <text x="670" y="158" fill="#94a3b8" font-family="Arial,sans-serif" font-size="13">ÜRÜN ÇEŞİDİ</text>
+  <text x="670" y="194" fill="#f8fafc" font-family="Arial,sans-serif" font-size="28" font-weight="700">128</text>
+  <rect x="829" y="130" width="162" height="86" rx="14" fill="#172033" stroke="#374151"/>
+  <text x="849" y="158" fill="#94a3b8" font-family="Arial,sans-serif" font-size="13">GÜNÜN SATIŞI</text>
+  <text x="849" y="194" fill="#86efac" font-family="Arial,sans-serif" font-size="26" font-weight="700">₺ 8.420</text>
+  <rect x="1008" y="130" width="172" height="86" rx="14" fill="#172033" stroke="#374151"/>
+  <text x="1028" y="158" fill="#94a3b8" font-family="Arial,sans-serif" font-size="13">DÜŞÜK STOK</text>
+  <text x="1028" y="194" fill="#fdba74" font-family="Arial,sans-serif" font-size="28" font-weight="700">06</text>
+  <rect x="650" y="240" width="530" height="194" rx="14" fill="#111827" stroke="#374151"/>
+  <text x="675" y="274" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="17" font-weight="700">Stok seviyesi</text>
+  <g font-family="Arial,sans-serif" font-size="14" fill="#cbd5e1"><text x="675" y="316">Kahve</text><text x="675" y="356">Çay</text><text x="675" y="396">Defter</text></g>
+  <rect x="770" y="300" width="340" height="15" rx="8" fill="#374151"/><rect x="770" y="300" width="260" height="15" rx="8" fill="url(#orange)"/>
+  <rect x="770" y="340" width="340" height="15" rx="8" fill="#374151"/><rect x="770" y="340" width="115" height="15" rx="8" fill="#fb923c"/>
+  <rect x="770" y="380" width="340" height="15" rx="8" fill="#374151"/><rect x="770" y="380" width="60" height="15" rx="8" fill="#f87171"/>
+</svg>
