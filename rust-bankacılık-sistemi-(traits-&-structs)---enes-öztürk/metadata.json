@@ -1,6 +1,6 @@
 {
   "name": "Rust Bankacılık Sistemi (Traits & Structs) - Enes Öztürk",
-  "description": "Rust Traits (Hesap) ve Struct (BankAccount) kullanarak para yatırma, çekme ve bakiye sorgulama simülatörü ve kod laboratuvarı. Enes Öztürk imzalı.",
+  "description": "Rust trait, struct, metot ve Result kavramlarını tarayıcıdaki banka hesabı simülatörüyle öğreten eğitim uygulaması.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

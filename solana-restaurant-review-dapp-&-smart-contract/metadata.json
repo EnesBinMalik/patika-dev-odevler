@@ -1,6 +1,6 @@
 {
-  "name": "Solana Restaurant Review dApp & Smart Contract",
-  "description": "Solana Restaurant Review akıllı sözleşmesi ve Web3 dApp projesi. Konum (location) parametresi entegrasyonu, PDA türetimi, Borsh serileştirme ve interaktif ön yüz. Geliştirici: Enes Öztürk.",
+  "name": "Solana Restoran İnceleme Programı",
+  "description": "Konum alanlı Solana inceleme programı ve yerel demo arayüzü. Program kodu Rust/Borsh kullanır; web arayüzü zincire bağlı değildir.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

@@ -1,28 +1,47 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Rust Bankacılık Sistemi — Traits ve Structs
 
----
+![Rust bankacılık simülatörünün kapak çizimi](docs/cover.svg)
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Rust'ta trait, struct, metot uygulama ve `Result` tabanlı işlem akışını canlandıran etkileşimli
+bankacılık eğitim uygulaması. Örnek hesaplarda para yatırma/çekme, yeni hesap oluşturma, işlem
+geçmişi ve bellek/kod görünümleri sunar.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- `BankAccount` örnekleri ve bakiye değişimlerini deneyebileceğiniz simülatör.
+- Geçersiz tutar ve yetersiz bakiye senaryolarının `Ok`/`Err` akışları.
+- Rust kodu görüntüleyici, trait/bellek anlatımı ve ödev kontrol listesi.
+- Örnek işlem kayıtları ve başlangıç durumuna sıfırlama.
 
-View your app in AI Studio: https://ai.studio/apps/ad8babe3-360f-489b-b2c8-87a658241ac3
+## Başlangıç
 
-## Run Locally
+Gereksinimler: Node.js ve npm.
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+Uygulama `http://localhost:3000` adresinde açılır.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Açıklama |
+| --- | --- |
+| `npm run build` | Üretim derlemesini `dist/` klasörüne alır. |
+| `npm run lint` | TypeScript tip kontrolünü (`tsc --noEmit`) çalıştırır. |
+
+## Teknoloji ve yapı
+
+React 19 · TypeScript · Vite · Tailwind CSS v4 · `lucide-react`
+
+```text
+src/
+├── components/       # Banka simülatörü, kod alanı, bellek görselleştiricisi ve checklist
+├── data/rustCode.ts  # Arayüzde gösterilen Rust örnek kodu
+└── types.ts          # Hesap, işlem ve çalışma günlüğü tipleri
+```
+
+## Demo kapsamı
+
+Bu klasörde gerçek bir Cargo/Rust uygulaması yoktur. Bakiye işlemleri ve terminalde görülen Cargo
+çıktıları TypeScript arayüzünde simüle edilir; gerçek banka hesabı veya finansal işlem oluşturmaz.
+Ödev arşivinin tamamı için [ana README'ye](../README.md) bakın.

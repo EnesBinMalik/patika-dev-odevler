@@ -1,28 +1,50 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Paslı Mağaza — Envanter ve Satış Yönetimi
 
----
+![Paslı Mağaza yönetim paneli için kapak çizimi](docs/cover.svg)
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Küçük bir mağazanın ürün, stok, satış ve satın alma akışlarını tarayıcıda deneyimleten etkileşimli
+bir React uygulaması. Raporlama, rol bazlı senaryolar ve Rust örnek kodlarıyla envanter yönetimi
+kavramlarını öğretir.
 
-# Run and deploy your AI Studio app
+## Özellikler
 
-This contains everything you need to run your app locally.
+- Ürün ve stok listesini görüntüleme, ekleme, güncelleme ve silme.
+- Satış, satın alma, stok uyarıları ve finansal özet/raporlar.
+- Yönetici, mağaza müdürü ve kasiyer rolleriyle izin senaryoları.
+- JSON dışa/içe aktarma ve tarayıcı `localStorage` alanında kalıcı demo verisi.
+- Rust kaynak kodu görüntüleyici ve komut satırı temalı eğitim paneli.
 
-View your app in AI Studio: https://ai.studio/apps/82a5c249-bb27-4f07-95bd-674715256344
+## Başlangıç
 
-## Run Locally
+Gereksinimler: Node.js ve npm.
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+Uygulama `http://localhost:3000` adresinde açılır.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Açıklama |
+| --- | --- |
+| `npm run build` | Üretim derlemesini `dist/` klasörüne alır. |
+| `npm run lint` | TypeScript tip kontrolünü (`tsc --noEmit`) çalıştırır. |
+
+## Teknoloji ve yapı
+
+React 19 · TypeScript · Vite · Tailwind CSS v4 · `lucide-react`
+
+```text
+src/
+├── context/StoreContext.tsx   # Envanter, satış, satın alma ve demo rol durumu
+├── data/                      # Başlangıç verileri ve ekranda gösterilen Rust örnekleri
+├── components/                # Envanter, satış, satın alma, rapor ve eğitim ekranları
+└── types/store.ts             # Ürün, işlem, kullanıcı ve hata tipleri
+```
+
+## Demo kapsamı
+
+Bu klasörde gerçek bir Rust crate'i (`Cargo.toml`) veya sunucu tarafı kimlik doğrulama yoktur.
+Finansal işlemler ve rol kontrolleri istemci tarafında eğitim amacıyla canlandırılır; gerçek stok,
+ödeme ya da erişim kontrolü için kullanılmamalıdır. Veriler yalnızca bu tarayıcı profilindeki
+`localStorage` alanında tutulur. Arşivin tamamı için [ana README'ye](../README.md) bakın.
