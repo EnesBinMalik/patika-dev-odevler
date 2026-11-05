@@ -1,0 +1,6 @@
+{
+  "name": "Model Kullanımı: Entity, ViewModel ve DTO",
+  "description": "Entity, ViewModel ve DTO kavramlarının mimari ayrımı, canlı veri akış simülatörü, güvenlik analizi ve ödev çözüm rehberi - Enes Öztürk",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
