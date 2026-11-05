@@ -1,0 +1,8 @@
+{
+  "name": "Elma Yaprak Hastalıkları Tespiti - Enes Öztürk",
+  "description": "Kaggle Plant Pathology 2020 FGVC7 verisi ile derin öğrenme ve bilgisayarlı görü tabanlı elma ağacı yaprak hastalıkları teşhis ve benchmark platformu. Enes Öztürk imzalıdır.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
