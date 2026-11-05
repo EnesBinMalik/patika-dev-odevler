@@ -1,0 +1,6 @@
+{
+  "name": "BookStore WebApi Unit Test Suite - Enes Öztürk",
+  "description": ".NET Core BookStore WebApi için Book, Genre ve Author servislerinin xUnit ve FluentAssertions ile hazırlanmış kapsamlı birim testleri ve test koşucusu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
