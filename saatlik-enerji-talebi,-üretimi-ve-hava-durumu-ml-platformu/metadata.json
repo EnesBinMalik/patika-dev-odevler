@@ -1,0 +1,6 @@
+{
+  "name": "Saatlik Enerji Talebi, Üretimi ve Hava Durumu ML Platformu",
+  "description": "İspanya 4 yıllık elektrik tüketimi, üretimi, fiyatları ve 5 büyük şehrin hava durumu verisiyle saatlik talep ve fiyat tahmini, outlier analizi, zaman serisi modelleme ve belediyeler için dinamik tarife karar destek simülatörü. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
