@@ -1,0 +1,60 @@
+import { BookEntity, Genre } from '../types/models';
+
+export const GENRES: Genre[] = [
+  { id: 1, name: 'Kişisel Gelişim' },
+  { id: 2, name: 'Bilim Kurgu' },
+  { id: 3, name: 'Roman' },
+  { id: 4, name: 'Tarih' },
+  { id: 5, name: 'Felsefe' },
+];
+
+export const INITIAL_BOOKS: BookEntity[] = [
+  {
+    id: 1,
+    title: 'Lean Startup',
+    genreId: 1,
+    pageCount: 336,
+    publishDate: '2011-09-13T00:00:00Z',
+    createdDate: '2023-01-15T10:45:00Z',
+    modifiedDate: null,
+    isDeleted: false,
+    rowVersion: '0x000000000001A4B2',
+    internalBarcode: 'BC-9981-LEAN',
+  },
+  {
+    id: 2,
+    title: 'Dune: Çöl Gezegeni',
+    genreId: 2,
+    pageCount: 712,
+    publishDate: '1965-08-01T00:00:00Z',
+    createdDate: '2023-02-20T14:12:00Z',
+    modifiedDate: '2024-06-10T09:20:00Z',
+    isDeleted: false,
+    rowVersion: '0x000000000002F8C1',
+    internalBarcode: 'BC-4412-DUNE',
+  },
+  {
+    id: 3,
+    title: 'Suç ve Ceza',
+    genreId: 3,
+    pageCount: 687,
+    publishDate: '1866-01-01T00:00:00Z',
+    createdDate: '2023-03-05T18:00:00Z',
+    modifiedDate: null,
+    isDeleted: false,
+    rowVersion: '0x000000000003D9E4',
+    internalBarcode: 'BC-7703-CRIM',
+  },
+  {
+    id: 4,
+    title: 'Sapiens: Hayvanlardan Tanrılara',
+    genreId: 4,
+    pageCount: 512,
+    publishDate: '2014-02-04T00:00:00Z',
+    createdDate: '2023-04-12T11:30:00Z',
+    modifiedDate: null,
+    isDeleted: false,
+    rowVersion: '0x000000000004C1A9',
+    internalBarcode: 'BC-5521-SAPI',
+  },
+];

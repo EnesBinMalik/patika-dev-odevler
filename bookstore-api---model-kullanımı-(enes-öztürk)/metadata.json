@@ -1,0 +1,6 @@
+{
+  "name": "BookStore API - Model Kullanımı (Enes Öztürk)",
+  "description": "UpdateBook ve GetById metotları için Entity içermeyen Input ve Output Model (DTO) mimarisi ve interaktif test platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
