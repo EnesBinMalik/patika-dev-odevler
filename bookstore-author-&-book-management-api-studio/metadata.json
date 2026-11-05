@@ -1,0 +1,6 @@
+{
+  "name": "BookStore Author & Book Management API Studio",
+  "description": "Enes Öztürk imzalı Author Controller, Servisler, DTO, AutoMapper ve FluentValidation Kitap-Yazar-Tür Yönetim Sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
