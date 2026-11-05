@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "BookStore WebApi unit test senaryolarını incelemek için etkileşimli eğitim arayüzü.",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "clean": "rm -rf dist server.js",
+    "clean": "node -e \"for (const p of ['dist', 'server.js']) require('node:fs').rmSync(p, { recursive: true, force: true })\"",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
