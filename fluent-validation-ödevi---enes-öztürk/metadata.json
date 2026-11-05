@@ -1,0 +1,6 @@
+{
+  "name": "Fluent Validation Ödevi - Enes Öztürk",
+  "description": ".NET Core Web API için Fluent Validation ile Update, Delete ve GetById validasyon sınıfları ve controller entegrasyonu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
