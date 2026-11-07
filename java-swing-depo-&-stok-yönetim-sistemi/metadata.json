@@ -1,0 +1,6 @@
+{
+  "name": "Java Swing Depo & Stok Yönetim Sistemi",
+  "description": "Nesne yönelimli programlama (OOP) prensipleri ve Java Swing bileşenleriyle geliştirilmiş, katmanlı mimariye sahip kapsamlı depo, stok ve tedarik zinciri yönetim otomasyonu. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
