@@ -1,0 +1,6 @@
+{
+  "name": "World Happiness Report - Enes Öztürk Analizi",
+  "description": "155 ülkenin 6 temel faktör üzerinden mutluluk seviyelerini, 2015-2017 değişimlerini ve en çok yükselen/gerileyen ülkeleri inceleyen kapsamlı veri analitiği platformu. Hazırlayan: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
