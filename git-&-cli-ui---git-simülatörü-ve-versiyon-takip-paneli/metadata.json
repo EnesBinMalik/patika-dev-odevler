@@ -1,0 +1,6 @@
+{
+  "name": "Git & CLI UI - Git Simülatörü ve Versiyon Takip Paneli",
+  "description": "Versiyon kontrol sistemlerinin çalışma mantığını ön yüzde görselleştiren, Git komut simülasyon aracı. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
