@@ -1,0 +1,310 @@
+{
+  "bankaKodu": "0188",
+  "bankaAdi": "Öztürk Bank A.Ş.",
+  "genelMudur": "Enes Öztürk",
+  "kasaRezervTL": 250000000,
+  "toplamKrediHacmi": 85000000,
+  "guncelFaizler": {
+    "mevduatFaiziYillik": 46.5,
+    "ihtiyacKredisiAylik": 3.79,
+    "tasitKredisiAylik": 3.49,
+    "konutKredisiAylik": 2.89,
+    "gecikmeFaiziAylik": 4.5
+  },
+  "sonGuncelleme": "2026-11-07T07:30:00.000Z",
+  "musteriler": [
+    {
+      "id": "USR-001",
+      "tcNo": "12345678901",
+      "ad": "Ahmet",
+      "soyad": "Yılmaz",
+      "dogumTarihi": "1992-08-20",
+      "sifre": "Ahmet.9876!",
+      "telefon": "0532 555 10 20",
+      "email": "ahmet.yilmaz@ozturkbank.com",
+      "rol": "MUSTERI",
+      "kayitTarihi": "2025-01-15T10:00:00.000Z",
+      "hesaplar": [
+        {
+          "hesapNo": "44901822",
+          "iban": "TR45 0188 0000 0000 4490 1822",
+          "bakiye": 34850.50,
+          "hesapTuru": "Vadesiz TL",
+          "paraBirimi": "TRY",
+          "olusturmaTarihi": "2025-01-15T10:00:00.000Z",
+          "ekHesapLimiti": 15000
+        },
+        {
+          "hesapNo": "88102934",
+          "iban": "TR78 0188 0000 0000 8810 2934",
+          "bakiye": 125000.00,
+          "hesapTuru": "Vadeli TL",
+          "paraBirimi": "TRY",
+          "olusturmaTarihi": "2026-10-01T09:00:00.000Z",
+          "vadeGunu": 32,
+          "faizOrani": 46.5,
+          "vadeBaslangic": "2026-10-15T00:00:00.000Z",
+          "vadeBitis": "2026-11-16T00:00:00.000Z"
+        },
+        {
+          "hesapNo": "77301928",
+          "iban": "TR12 0188 0000 0000 7730 1928",
+          "bakiye": 2450.00,
+          "hesapTuru": "Vadesiz USD",
+          "paraBirimi": "USD",
+          "olusturmaTarihi": "2025-06-20T14:30:00.000Z",
+          "ekHesapLimiti": 0
+        }
+      ],
+      "krediKartlari": [
+        {
+          "kartId": "CRD-1001",
+          "kartNumarasi": "5428 9912 4432 1089",
+          "kartSahibi": "AHMET YILMAZ",
+          "sonKullanma": "08/29",
+          "cvv": "418",
+          "limit": 60000,
+          "guncelBorc": 6450.00,
+          "ekstreBorcu": 4850.00,
+          "asgariOdemeOrani": 0.20,
+          "kesimGunu": 15,
+          "durum": "Aktif",
+          "kartTipi": "Mastercard"
+        }
+      ],
+      "krediler": [
+        {
+          "krediId": "KRD-881204",
+          "krediTuru": "İhtiyaç Kredisi",
+          "anaPara": 30000,
+          "faizOrani": 3.79,
+          "vadeAy": 12,
+          "aylikTaksit": 3320.50,
+          "toplamGeriOdeme": 39846.00,
+          "kalanBorc": 26564.00,
+          "kalanTaksit": 8,
+          "toplamTaksit": 12,
+          "baslangicTarihi": "2026-03-10T12:00:00.000Z",
+          "durum": "Aktif"
+        }
+      ]
+    },
+    {
+      "id": "USR-002",
+      "tcNo": "98765432109",
+      "ad": "Ayşe",
+      "soyad": "Kaya",
+      "dogumTarihi": "1995-11-03",
+      "sifre": "AyseKaya345!",
+      "telefon": "0544 321 44 55",
+      "email": "ayse.kaya@ozturkbank.com",
+      "rol": "MUSTERI",
+      "kayitTarihi": "2025-03-22T11:15:00.000Z",
+      "hesaplar": [
+        {
+          "hesapNo": "66201944",
+          "iban": "TR34 0188 0000 0000 6620 1944",
+          "bakiye": 48200.00,
+          "hesapTuru": "Vadesiz TL",
+          "paraBirimi": "TRY",
+          "olusturmaTarihi": "2025-03-22T11:15:00.000Z",
+          "ekHesapLimiti": 10000
+        },
+        {
+          "hesapNo": "99104822",
+          "iban": "TR99 0188 0000 0000 9910 4822",
+          "bakiye": 3150.00,
+          "hesapTuru": "Vadesiz EUR",
+          "paraBirimi": "EUR",
+          "olusturmaTarihi": "2025-05-10T16:00:00.000Z",
+          "ekHesapLimiti": 0
+        }
+      ],
+      "krediKartlari": [
+        {
+          "kartId": "CRD-2002",
+          "kartNumarasi": "4506 3318 7721 5590",
+          "kartSahibi": "AYŞE KAYA",
+          "sonKullanma": "11/28",
+          "cvv": "729",
+          "limit": 45000,
+          "guncelBorc": 3200.00,
+          "ekstreBorcu": 2400.00,
+          "asgariOdemeOrani": 0.20,
+          "kesimGunu": 20,
+          "durum": "Aktif",
+          "kartTipi": "Visa"
+        }
+      ],
+      "krediler": []
+    },
+    {
+      "id": "USR-003",
+      "tcNo": "55544433322",
+      "ad": "Mehmet",
+      "soyad": "Demir",
+      "dogumTarihi": "1988-02-15",
+      "sifre": "MehmetDemir99!",
+      "telefon": "0555 888 77 66",
+      "email": "mehmet.demir@ozturkbank.com",
+      "rol": "MUSTERI",
+      "kayitTarihi": "2024-11-05T09:30:00.000Z",
+      "hesaplar": [
+        {
+          "hesapNo": "33405912",
+          "iban": "TR62 0188 0000 0000 3340 5912",
+          "bakiye": 18500.00,
+          "hesapTuru": "Vadesiz TL",
+          "paraBirimi": "TRY",
+          "olusturmaTarihi": "2024-11-05T09:30:00.000Z",
+          "ekHesapLimiti": 8000
+        }
+      ],
+      "krediKartlari": [
+        {
+          "kartId": "CRD-3003",
+          "kartNumarasi": "5428 1198 4423 9931",
+          "kartSahibi": "MEHMET DEMİR",
+          "sonKullanma": "05/30",
+          "cvv": "812",
+          "limit": 80000,
+          "guncelBorc": 8900.00,
+          "ekstreBorcu": 6200.00,
+          "asgariOdemeOrani": 0.20,
+          "kesimGunu": 10,
+          "durum": "Aktif",
+          "kartTipi": "Mastercard"
+        }
+      ],
+      "krediler": [
+        {
+          "krediId": "KRD-440192",
+          "krediTuru": "Taşıt Kredisi",
+          "anaPara": 200000,
+          "faizOrani": 3.49,
+          "vadeAy": 24,
+          "aylikTaksit": 13240.00,
+          "toplamGeriOdeme": 317760.00,
+          "kalanBorc": 198600.00,
+          "kalanTaksit": 15,
+          "toplamTaksit": 24,
+          "baslangicTarihi": "2025-08-01T10:00:00.000Z",
+          "durum": "Aktif"
+        }
+      ]
+    },
+    {
+      "id": "USR-000",
+      "tcNo": "11111111110",
+      "ad": "Enes",
+      "soyad": "Öztürk",
+      "dogumTarihi": "1998-05-14",
+      "sifre": "EnesOzturk2026!",
+      "telefon": "0530 000 01 88",
+      "email": "enes.ozturk@ozturkbank.com",
+      "rol": "YONETICI",
+      "kayitTarihi": "2024-01-01T00:00:00.000Z",
+      "hesaplar": [
+        {
+          "hesapNo": "10000001",
+          "iban": "TR01 0188 0000 0000 1000 0001",
+          "bakiye": 750000.00,
+          "hesapTuru": "Vadesiz TL",
+          "paraBirimi": "TRY",
+          "olusturmaTarihi": "2024-01-01T00:00:00.000Z",
+          "ekHesapLimiti": 100000
+        },
+        {
+          "hesapNo": "10000002",
+          "iban": "TR02 0188 0000 0000 1000 0002",
+          "bakiye": 50000.00,
+          "hesapTuru": "Vadesiz USD",
+          "paraBirimi": "USD",
+          "olusturmaTarihi": "2024-01-01T00:00:00.000Z",
+          "ekHesapLimiti": 0
+        }
+      ],
+      "krediKartlari": [
+        {
+          "kartId": "CRD-0001",
+          "kartNumarasi": "5428 8888 7777 0001",
+          "kartSahibi": "ENES ÖZTÜRK",
+          "sonKullanma": "12/32",
+          "cvv": "999",
+          "limit": 500000,
+          "guncelBorc": 0,
+          "ekstreBorcu": 0,
+          "asgariOdemeOrani": 0.20,
+          "kesimGunu": 1,
+          "durum": "Aktif",
+          "kartTipi": "Mastercard"
+        }
+      ],
+      "krediler": []
+    }
+  ],
+  "tumIslemler": [
+    {
+      "id": "TX-10001",
+      "referansNo": "OZB-2026-98124501",
+      "tarih": "2026-11-06T14:32:00.000Z",
+      "tur": "HAVALE",
+      "gonderenTc": "12345678901",
+      "gonderenAd": "Ahmet Yılmaz",
+      "gonderenIban": "TR45 0188 0000 0000 4490 1822",
+      "aliciTc": "98765432109",
+      "aliciAd": "Ayşe Kaya",
+      "aliciIban": "TR34 0188 0000 0000 6620 1944",
+      "tutar": 1500.00,
+      "paraBirimi": "TRY",
+      "aciklama": "Ortak ofis masrafı ödemesi",
+      "durum": "Başarılı",
+      "kalanBakiye": 34850.50
+    },
+    {
+      "id": "TX-10002",
+      "referansNo": "OZB-2026-87102934",
+      "tarih": "2026-11-05T18:20:00.000Z",
+      "tur": "KART_HARCAMASI",
+      "gonderenTc": "12345678901",
+      "gonderenAd": "Ahmet Yılmaz",
+      "gonderenIban": "5428 9912 4432 1089",
+      "aliciAd": "Teknosa Mağazası - Elektronik",
+      "tutar": 1600.00,
+      "paraBirimi": "TRY",
+      "aciklama": "5428 **** **** 1089 - Teknosa Alışverişi",
+      "durum": "Başarılı"
+    },
+    {
+      "id": "TX-10003",
+      "referansNo": "OZB-2026-55443321",
+      "tarih": "2026-11-04T10:15:00.000Z",
+      "tur": "KREDI_ODEMESI",
+      "gonderenTc": "12345678901",
+      "gonderenAd": "Ahmet Yılmaz",
+      "gonderenIban": "TR45 0188 0000 0000 4490 1822",
+      "aliciAd": "Öztürk Bank Krediler ve Hazine Bölümü",
+      "aliciIban": "KREDI-HESAP-KRD-881204",
+      "tutar": 3320.50,
+      "paraBirimi": "TRY",
+      "aciklama": "İhtiyaç Kredisi #KRD-881204 Taksit Ödemesi (4/12)",
+      "durum": "Başarılı",
+      "kalanBakiye": 36450.50
+    },
+    {
+      "id": "TX-10004",
+      "referansNo": "OZB-2026-33221100",
+      "tarih": "2026-11-02T16:45:00.000Z",
+      "tur": "KREDI_KARTI_ODEMESI",
+      "gonderenTc": "98765432109",
+      "gonderenAd": "Ayşe Kaya",
+      "gonderenIban": "TR34 0188 0000 0000 6620 1944",
+      "aliciAd": "Öztürk Bank Kredi Kartları Operasyon Merkezi",
+      "tutar": 1500.00,
+      "paraBirimi": "TRY",
+      "aciklama": "4506 **** **** 5590 Nolu Kredi Kartı Ekstre Ödemesi",
+      "durum": "Başarılı",
+      "kalanBakiye": 48200.00
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Öztürk Bank - Online Bankacılık Sistemi",
+  "description": "Java OOP mimarisine sahip, JSON tabanlı, kullanıcılar arası transfer, kredi ve kart ekstresi ödemesi özellikli Online Banka Sistemi. Geliştirici: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
