@@ -1,0 +1,6 @@
+{
+  "name": "1.6M UK Trafik Kazaları Analiz & Tahmin Platformu",
+  "description": "UK 2000-2016 yıllarına ait 1.6 milyondan fazla trafik kazası verisinin trafik akışı, risk faktörleri, zaman serisi tahminleri ve kırsal-kentsel ayrım analizi. Hazırlayan: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
