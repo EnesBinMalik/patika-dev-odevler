@@ -1,0 +1,6 @@
+{
+  "name": "CORD-19 Research Mining Portal",
+  "description": "COVID-19 Açık Araştırma Veri Seti (CORD-19) metin ve veri madenciliği keşif platformu. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
