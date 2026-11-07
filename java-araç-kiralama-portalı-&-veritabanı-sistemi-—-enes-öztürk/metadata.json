@@ -1,0 +1,6 @@
+{
+  "name": "Java Araç Kiralama Portalı & Veritabanı Sistemi — Enes Öztürk",
+  "description": "Firmalar ve müşteriler için şehir bazlı filtreleme, tarih çakışma kontrollü rezervasyon, ek hizmet tanımlama, 24 saat kuralı ve ilişkisel veritabanı içeren Java mimarili araç kiralama portalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
