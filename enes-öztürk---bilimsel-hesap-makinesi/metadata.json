@@ -1,0 +1,6 @@
+{
+  "name": "Enes Öztürk - Bilimsel Hesap Makinesi",
+  "description": "Java hazır sınıfları kullanılmadan nesne yönelimli mimariyle sıfırdan geliştirilmiş bilimsel hesap makinesi ve türev-integral analiz sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
