@@ -1,0 +1,6 @@
+{
+  "name": "Java Console Chat - Enes Öztürk",
+  "description": "Java Soket ve İplik (Socket & Thread) mimarili, yerel ağ (LAN) destekli ve sohbet odalı konsol chat uygulaması ve simülatörü.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
