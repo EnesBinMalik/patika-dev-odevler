@@ -4,12 +4,12 @@
 
 **Enes Öztürk**
 
-Patika.dev müfredatında üretilmiş **63 ödev ve proje klasörü**, tek çatı altında dizilmiş arşiv.
+Patika.dev müfredatı ve kurumsal mimari çalışmalarından derlenmiş **78 proje klasörü**, tek çatı altında dizilmiş arşiv.
 
-[![Ödev klasörü](https://img.shields.io/badge/%C3%B6dev%20klas%C3%B6r%C3%BC-63-22d3ee?style=flat-square)](#hat-haritası)
+[![Ödev klasörü](https://img.shields.io/badge/proje%20klas%C3%B6r%C3%BC-78-22d3ee?style=flat-square)](#hat-haritası)
 [![Teknoloji hattı](https://img.shields.io/badge/teknoloji%20hattı-9-8b5cf6?style=flat-square)](#hat-haritası)
 [![Gerçek sunucu](https://img.shields.io/badge/npm%20start%20ile%20kalkan%20sunucu-9-4ade80?style=flat-square)](#9-gerçek-sunucusu-olan-klasör)
-[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-75-fbbf24?style=flat-square)](#imzalı-kapaklar)
+[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-78-fbbf24?style=flat-square)](#imzalı-kapaklar)
 [![GitHub](https://img.shields.io/badge/GitHub-EnesBinMalik-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EnesBinMalik)
 
 </div>
@@ -31,9 +31,9 @@ kendi `README.md`'si her zaman daha ayrıntılıdır.
 | 5 | [Rust](#5-rust) | 5 | Sahiplik, enum & desen eşleştirme, `Result`, filtreleme |
 | 6 | [Web3 & Solana](#6-web3--solana) | 4 | Sayaç, token transferi, restaurant akıllı sözleşmesi |
 | 7 | [Algoritma & arayüz egzersizleri](#7-algoritma--arayüz-egzersizleri) | 12 | Bölünebilme, döngü çizimi, OOP, metin araçları, bileşen & test |
-| 8 | [Yönetim panelleri & CRUD](#8-yönetim-panelleri--crud-sistemleri) | 7 | LMS, mağaza, envanter, sigorta, turizm, iç mimari vitrini |
+| 8 | [Yönetim panelleri & CRUD](#8-yönetim-panelleri--crud-sistemleri) | 10 | LMS, mağaza, envanter, sigorta, turizm, kariyer portalı, HRMS, ATM |
 | 9 | [Oyun, API vitrini & kişisel projeler](#9-oyun-api-vitrini--kişisel-projeler) | 12 | Hafıza/macera oyunu, hava durumu, portfolyo, fitness, daması |
-| | **Toplam** | **63** | |
+| | **Toplam** | **78** | |
 
 ## 🚀 Hızlı başlangıç
 
@@ -159,6 +159,9 @@ Tam liste ve portlar: [9 gerçek sunucusu olan klasör](#9-gerçek-sunucusu-olan
 | [sigorta-yönetim-sistemi](<sigorta-yönetim-sistemi>) | Poliçe & müşteri | bileşen durumu (`useState`) — sayfa yenilenince sıfırlanır |
 | [patika-turizm-acente-sistemi](<patika-turizm-acente-sistemi>) | Turizm acente | `localStorage` |
 | [fikstür-mobilya-&-i̇ç-mimarlık---enes-öztürk](<fikstür-mobilya-&-i̇ç-mimarlık---enes-öztürk>) | Mobilya & iç mimari vitrini | katalog verisi `localStorage`'da |
+| [kariyerportalı---i̇ş-bulma-&-i̇lan-sistemi](<kariyerportalı---i̇ş-bulma-&-i̇lan-sistemi>) | Aday & şirket portalı — ilan, başvuru | katmanlı mimari · `src/core/repositories` (Repository, Factory, Builder, Strategy) |
+| [i̇nsan-kaynakları-yönetim-sistemi-(hrms)---enes-öztürk](<i̇nsan-kaynakları-yönetim-sistemi-(hrms)---enes-öztürk>) | HRMS — personel, izin, maaş, denetim | `src/core/database.ts` + dosya I/O (`stream.ts`) |
+| [öztürk-bank-atm-&-çekirdek-bankacılık-sistemi](<öztürk-bank-atm-&-çekirdek-bankacılık-sistemi>) | ATM terminali + yönetim portalı | `src/core/repositories` · `Optional`, `Stream`, Strategy, Factory |
 
 ### 9. Oyun, API vitrini & kişisel projeler
 
@@ -198,7 +201,7 @@ her zaman repoda durmuyor. Kesin durum:
 
 ### İmzalı kapaklar
 
-Arşivdeki **75 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. Mevcut 12 kapak olduğu gibi korundu; kapaksız kalan 63 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
+Arşivdeki **78 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. İlk sürümde var olan 12 kapak olduğu gibi korundu; kapaksız kalan 66 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
 
 | Hat | Vurgu |
 | --- | --- |

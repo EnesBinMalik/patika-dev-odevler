@@ -1,0 +1,6 @@
+{
+  "name": "Öztürk Bank ATM & Çekirdek Bankacılık Sistemi",
+  "description": "Enes Öztürk imzalı; OOP, S.O.L.I.D, Spring Boot katmanlı mimarisi, EER/UML diyagramları, çift arayüz (Fiziksel ATM & Yönetim Portali), rol bazlı yetkilendirme ve dosya I/O destekli kurumsal bankacılık sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

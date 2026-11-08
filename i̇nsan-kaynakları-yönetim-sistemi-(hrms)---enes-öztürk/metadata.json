@@ -1,0 +1,6 @@
+{
+  "name": "İnsan Kaynakları Yönetim Sistemi (HRMS) - Enes Öztürk",
+  "description": "Spring Boot Katmanlı Mimari ve S.O.L.I.D prensiplerine uygun, Admin/User rollü, veritabanı ve I/O dosya kayıtlı, UML/EER diyagramlı İnsan Kaynakları Portalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

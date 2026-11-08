@@ -1,0 +1,6 @@
+{
+  "name": "KariyerPortalı - İş Bulma & İlan Sistemi",
+  "description": "Enes Öztürk imzalı Katmanlı Mimari, OOP, S.O.L.I.D, Spring Data ilişkileri, UML ve EER diyagramları içeren kurumsal İş Bulma Platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
