@@ -52,3 +52,7 @@ movie-store-webapi---enes-öztürk/
 ## Lisans
 
 Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.
+
+## Rozet
+
+Bu depodaki her proje kendi imza kapağını (`docs/cover.svg`) ve künyeli README dosyasını taşır.
