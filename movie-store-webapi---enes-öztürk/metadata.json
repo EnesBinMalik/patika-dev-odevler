@@ -1,0 +1,6 @@
+{
+  "name": "Movie Store WebAPI - Enes Öztürk",
+  "description": "Enes Öztürk imzalı Movie Store RESTful WebAPI, Clean Architecture, DTO/AutoMapper, Fluent Validation, Auth, Sipariş & Satın Alma Yönetimi ve Entegre API Test Konsolu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

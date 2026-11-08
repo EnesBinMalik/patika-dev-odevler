@@ -4,12 +4,12 @@
 
 **Enes Öztürk**
 
-Patika.dev müfredatı ve kurumsal mimari çalışmalarından derlenmiş **78 proje klasörü**, tek çatı altında dizilmiş arşiv.
+Patika.dev müfredatı ve kurumsal mimari çalışmalarından derlenmiş **81 proje klasörü**, tek çatı altında dizilmiş arşiv.
 
-[![Ödev klasörü](https://img.shields.io/badge/proje%20klas%C3%B6r%C3%BC-78-22d3ee?style=flat-square)](#hat-haritası)
+[![Ödev klasörü](https://img.shields.io/badge/proje%20klas%C3%B6r%C3%BC-81-22d3ee?style=flat-square)](#hat-haritası)
 [![Teknoloji hattı](https://img.shields.io/badge/teknoloji%20hattı-9-8b5cf6?style=flat-square)](#hat-haritası)
 [![Gerçek sunucu](https://img.shields.io/badge/npm%20start%20ile%20kalkan%20sunucu-9-4ade80?style=flat-square)](#9-gerçek-sunucusu-olan-klasör)
-[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-78-fbbf24?style=flat-square)](#imzalı-kapaklar)
+[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-81-fbbf24?style=flat-square)](#imzalı-kapaklar)
 [![GitHub](https://img.shields.io/badge/GitHub-EnesBinMalik-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EnesBinMalik)
 
 </div>
@@ -27,13 +27,13 @@ kendi `README.md`'si her zaman daha ayrıntılıdır.
 | 1 | [Node.js temelleri & CLI](#1-nodejs-temelleri--cli) | 6 | `http`, `fs`, modül, Koa ve komut satırı ödevleri |
 | 2 | [GraphQL & gerçek zamanlı](#2-graphql--gerçek-zamanlı) | 8 | Şema, resolver, subscription, Apollo, Redis yayını |
 | 3 | [Clean Blog — Express & MongoDB](#3-clean-blog--express--mongodb-serisi) | 5 | Express ilk sunucudan Mongoose ve MVC'ye uzanan seri |
-| 4 | [Java](#4-java) | 4 | Multithreading, generic `MyList`, Stream API, `Comparable` |
+| 4 | [Java](#4-java) | 5 | Multithreading, generic `MyList`, Stream API, `Comparable`, Quick Sort |
 | 5 | [Rust](#5-rust) | 5 | Sahiplik, enum & desen eşleştirme, `Result`, filtreleme |
 | 6 | [Web3 & Solana](#6-web3--solana) | 4 | Sayaç, token transferi, restaurant akıllı sözleşmesi |
 | 7 | [Algoritma & arayüz egzersizleri](#7-algoritma--arayüz-egzersizleri) | 12 | Bölünebilme, döngü çizimi, OOP, metin araçları, bileşen & test |
-| 8 | [Yönetim panelleri & CRUD](#8-yönetim-panelleri--crud-sistemleri) | 10 | LMS, mağaza, envanter, sigorta, turizm, kariyer portalı, HRMS, ATM |
+| 8 | [Yönetim panelleri & CRUD](#8-yönetim-panelleri--crud-sistemleri) | 12 | LMS, mağaza, envanter, sigorta, turizm, kariyer portalı, HRMS, ATM, WebAPI |
 | 9 | [Oyun, API vitrini & kişisel projeler](#9-oyun-api-vitrini--kişisel-projeler) | 12 | Hafıza/macera oyunu, hava durumu, portfolyo, fitness, daması |
-| | **Toplam** | **78** | |
+| | **Toplam** | **81** | |
 
 ## 🚀 Hızlı başlangıç
 
@@ -108,6 +108,7 @@ Tam liste ve portlar: [9 gerçek sunucusu olan klasör](#9-gerçek-sunucusu-olan
 | [java-mylist-generic-sınıfı---enes-öztürk](<java-mylist-generic-sınıfı---enes-öztürk>) | Generic `MyList<T>` | kod React arayüzünde |
 | [java-stream-kitap-listesi---enes-öztürk](<java-stream-kitap-listesi---enes-öztürk>) | Stream API ile kitap listesi | kod React arayüzünde |
 | [kitap-sıralayıcı](<kitap-sıralayıcı>) | `Comparable` & `TreeSet` | anlatı Java, sıralama TS `.sort()` ile kuruluyor |
+| [quick-sort-java---enes-öztürk](<quick-sort-java---enes-öztürk>) | Quick Sort — böl & yönet görselleştiricisi | Java · karşılaştırma/takas sayaçları |
 
 > Bu depoda `.java` uzantılı derlenebilir dosya **yok**; Java ödevleri konsepti anlatan React
 > uygulamaları olarak teslim edilmiş. `javac` ile çalıştırma iddiası yoktur.
@@ -162,6 +163,8 @@ Tam liste ve portlar: [9 gerçek sunucusu olan klasör](#9-gerçek-sunucusu-olan
 | [kariyerportalı---i̇ş-bulma-&-i̇lan-sistemi](<kariyerportalı---i̇ş-bulma-&-i̇lan-sistemi>) | Aday & şirket portalı — ilan, başvuru | katmanlı mimari · `src/core/repositories` (Repository, Factory, Builder, Strategy) |
 | [i̇nsan-kaynakları-yönetim-sistemi-(hrms)---enes-öztürk](<i̇nsan-kaynakları-yönetim-sistemi-(hrms)---enes-öztürk>) | HRMS — personel, izin, maaş, denetim | `src/core/database.ts` + dosya I/O (`stream.ts`) |
 | [öztürk-bank-atm-&-çekirdek-bankacılık-sistemi](<öztürk-bank-atm-&-çekirdek-bankacılık-sistemi>) | ATM terminali + yönetim portalı | `src/core/repositories` · `Optional`, `Stream`, Strategy, Factory |
+| [movie-store-webapi---enes-öztürk](<movie-store-webapi---enes-öztürk>) | Film mağazası — REST API + arayüz | `server/` katmanları · DTO + AutoMapper · FluentValidation · JWT |
+| [öztürk-bank-atm-&-kurumsal-bankacılık-sistemi](<öztürk-bank-atm-&-kurumsal-bankacılık-sistemi>) | ATM + kurumsal bankacılık panelleri | `src/core` katmanları · tasarım desenleri · EER/UML |
 
 ### 9. Oyun, API vitrini & kişisel projeler
 
@@ -201,7 +204,7 @@ her zaman repoda durmuyor. Kesin durum:
 
 ### İmzalı kapaklar
 
-Arşivdeki **78 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. İlk sürümde var olan 12 kapak olduğu gibi korundu; kapaksız kalan 66 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
+Arşivdeki **81 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. İlk sürümde var olan 12 kapak olduğu gibi korundu; kapaksız kalan 69 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
 
 | Hat | Vurgu |
 | --- | --- |
@@ -217,7 +220,7 @@ Arşivdeki **78 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg
 Kapakları yeniden üretmek için:
 
 ```bash
-python tools_cover.py             # yalnız eksik kapakları üretir (--force: mevcutlara dokunur)
+python tools_cover.py             # yalnız eksik 81 kapağı üretir (--force: mevcutlara dokunur)
 python tools_readme.py            # eksik/şablon README'leri yeniden yazar
 ```
 

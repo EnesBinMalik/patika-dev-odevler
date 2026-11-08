@@ -1,0 +1,6 @@
+{
+  "name": "Öztürk Bank ATM & Kurumsal Bankacılık Sistemi",
+  "description": "Enes Öztürk imzalı; Katmanlı Mimari, OOP, SOLID, Tasarım Desenleri, Admin & Müşteri Rolleri, 3 Hatalı Giriş Koruması, Para Yatırma/Çekme/Havale, Veritabanı EER ve UML Diyagramları içeren ATM ve Bankacılık Sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
