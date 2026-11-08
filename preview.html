@@ -1,0 +1,644 @@
+<html><head><meta charset="utf-8"><style>body{background:#0a0f18;margin:0;font-family:Segoe UI,Arial;color:#cfe} .w{display:flex;flex-wrap:wrap;gap:16px;padding:20px} .c{width:600px} .t{font:600 13px Segoe UI;color:#8fa0bd;margin:6px 2px}</style></head><body><div class="w"><div class="c"><div class="t">3-ile-bölünebilme-hesaplayıcı</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="3 ile Bölünebilme — Enes Öztürk imza kapağı">
+<title>3 ile Bölünebilme · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.28"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#38BDF8" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#38BDF8" fill-opacity="0.85">ALGORİTMA · UI</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Algoritma &amp; arayüz</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#38BDF8"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">3 ile Bölünebilme</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Kalan, ilk kat ve Türkçe bağlaç</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#38BDF8" fill-opacity="0.9">React · TypeScript · Vite</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">3-ile-bölünebilme-hesaplayıcı</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · 3-ile-bölünebilme-hesaplay</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#38BDF8">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">sayı 4   →   kalan 1   →   ilk kat 6</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">((4 % 3) + 3) % 3 = 1</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">6'dır  ·  12'dir  ·  100'dür</text>
+<text x="78" y="488" class="m" font-size="13" fill="#38BDF8">✓ ünlü uyumlu bağlaç motoru</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#38BDF8" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">3 ile Bölünebilme</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Algoritma &amp; arayüz</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">React · TypeScript · Vite</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">3-ile-bölünebilme-hesaplayıcı</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#38BDF8" fill-opacity="0.07" stroke="#38BDF8" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#38BDF8" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#38BDF8" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#38BDF8" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">clean-blog---ödev-7</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Clean Blog — Ödev 7 — Enes Öztürk imza kapağı">
+<title>Clean Blog — Ödev 7 · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4ADE80"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#4ADE80" stop-opacity="0.28"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#4ADE80" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#4ADE80" fill-opacity="0.85">EXPRESS · MONGODB</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Clean Blog — Express &amp; MongoDB</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#4ADE80"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Clean Blog — Ödev 7</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Express sunucusu &amp; ilk yapılandırma</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#4ADE80" fill-opacity="0.9">Node.js · Express · EJS</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">clean-blog---ödev-7</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · clean-blog---ödev-7</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#4ADE80">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">const express = require('express');</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">app.set('view engine', 'ejs');</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">app.use(express.static('public'));</text>
+<text x="78" y="488" class="m" font-size="13" fill="#8FA0BD">app.listen(3000)  // ✓ ilk sunucu</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#4ADE80" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Clean Blog — Ödev 7</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Clean Blog — Express &amp; MongoDB</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Node.js · Express · EJS</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">clean-blog---ödev-7</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#4ADE80" fill-opacity="0.07" stroke="#4ADE80" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#4ADE80" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#4ADE80" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">hafıza-oyunu---enes-öztürk</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Hafıza Oyunu — Enes Öztürk imza kapağı">
+<title>Hafıza Oyunu · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#22D3EE" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#22D3EE" fill-opacity="0.85">OYUN · VİTRİN</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Oyun, API vitrini &amp; kişisel projeler</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#22D3EE"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Hafıza Oyunu</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Redux · 3 ızgara modu · joker kart</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#22D3EE" fill-opacity="0.9">React · Redux · Vite</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">hafıza-oyunu---enes-öztürk</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · hafıza-oyunu---enes-öztürk</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#22D3EE">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">4x4  ·  6x4  ·  5x5 (+joker)</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">eşleşme +50   ·   hata −10</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">en iyi skor  localStorage</text>
+<text x="78" y="488" class="m" font-size="13" fill="#22D3EE">✓ Fisher–Yates karıştırma</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#22D3EE" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Hafıza Oyunu</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Oyun, API vitrini &amp; kişisel projeler</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">React · Redux · Vite</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">hafıza-oyunu---enes-öztürk</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#22D3EE" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#22D3EE" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">macera-oyunu---enes-öztürk</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Macera Oyunu — Enes Öztürk imza kapağı">
+<title>Macera Oyunu · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBBF24"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FBBF24" stop-opacity="0.28"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#FBBF24" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#FBBF24" fill-opacity="0.85">JAVA · OOP</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Java</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#FBBF24"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Macera Oyunu</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Java 102 · bölgeler, savaş, ganimet</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#FBBF24" fill-opacity="0.9">Java · OOP · Console</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">macera-oyunu---enes-öztürk</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · macera-oyunu---enes-öztürk</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#FBBF24">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">Güvenli Ev  ·  Mağara  ·  Orman  ·  Nehir  ·  Maden</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">ilk vuruş şansı %50  ·  dinamik ganimet</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">can 100  ·  para 10  ·  hasar 5</text>
+<text x="78" y="488" class="m" font-size="13" fill="#FBBF24">✓ bölge &amp; düşman yönetimi</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#FBBF24" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Macera Oyunu</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Java</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Java · OOP · Console</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">macera-oyunu---enes-öztürk</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#FBBF24" fill-opacity="0.07" stroke="#FBBF24" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#FBBF24" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#FBBF24" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#FBBF24" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">solana-restaurant-review-dapp-&amp;-smart-contract</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Solana Restaurant Review — Enes Öztürk imza kapağı">
+<title>Solana Restaurant Review · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F97316"/><stop offset="100%" stop-color="#F97316" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F97316" stop-opacity="0.28"/><stop offset="100%" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#F97316" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#F97316" fill-opacity="0.85">RUST · SOLANA</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Rust &amp; Solana</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#F97316"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Solana Restaurant Review</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">dApp &amp; akıllı sözleşme</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#F97316" fill-opacity="0.9">Solana · Anchor · React</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">solana-restaurant-review-dapp-&amp;-smart-contract</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · solana-restaurant-review-d</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#F97316">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">#[account] pub struct Review { puan: u8, konum: String }</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">PDA: seeds = [restaurant, yorumcu]</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">Borsh serileştirme  ·  cüzdan bağlantısı</text>
+<text x="78" y="488" class="m" font-size="13" fill="#F97316">✓ konum parametreli yorum sözleşmesi</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#F97316" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Solana Restaurant Review</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Rust &amp; Solana</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Solana · Anchor · React</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">solana-restaurant-review-dapp-&amp;-smart-contract</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#F97316" fill-opacity="0.07" stroke="#F97316" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#F97316" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#F97316" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#F97316" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">öztürk-bank---online-bankacılık-sistemi</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Öztürk Bank — Enes Öztürk imza kapağı">
+<title>Öztürk Bank · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F472B6"/><stop offset="100%" stop-color="#F472B6" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F472B6" stop-opacity="0.28"/><stop offset="100%" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#F472B6" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#F472B6" fill-opacity="0.85">CRUD · YÖNETİM</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Yönetim panelleri &amp; CRUD</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#F472B6"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Öztürk Bank</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Transfer · kredi · kart ekstresi</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#F472B6" fill-opacity="0.9">Java OOP · JSON</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">öztürk-bank---online-bankacılık-sistemi</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · öztürk-bank---online-banka</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#F472B6">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">hesap  ·  transfer  ·  kredi  ·  ekstre</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">kullanıcılar arası havale</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">JSON tabanlı kalıcılık</text>
+<text x="78" y="488" class="m" font-size="13" fill="#F472B6">✓ bankacılık çekirdek akışları</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#F472B6" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Öztürk Bank</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Yönetim panelleri &amp; CRUD</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Java OOP · JSON</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">öztürk-bank---online-bankacılık-sistemi</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#F472B6" fill-opacity="0.07" stroke="#F472B6" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#F472B6" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#F472B6" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#F472B6" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">graphql-sunucusu---ödev-1-(enes-öztürk)</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="GraphQL Sunucusu — Enes Öztürk imza kapağı">
+<title>GraphQL Sunucusu · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A78BFA"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.28"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#A78BFA" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#A78BFA" fill-opacity="0.85">GRAPHQL · REALTIME</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">GraphQL &amp; gerçek zamanlı</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#A78BFA"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">GraphQL Sunucusu</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">İlişkisel şema · Playground · şema gezgini</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#A78BFA" fill-opacity="0.9">GraphQL · Express · Vite</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">graphql-sunucusu---ödev-1-(enes-öztürk)</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · graphql-sunucusu---ödev-1-</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#A78BFA">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">type User { id: ID!  name: String  events: [Event] }</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">type Event { id: ID!  title: String  location: Location }</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">type Query { users: [User]  events: [Event] }</text>
+<text x="78" y="488" class="m" font-size="13" fill="#A78BFA">→ /graphql  ·  interaktif playground</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#A78BFA" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">GraphQL Sunucusu</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">GraphQL &amp; gerçek zamanlı</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">GraphQL · Express · Vite</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">graphql-sunucusu---ödev-1-(enes-öztürk)</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#A78BFA" fill-opacity="0.07" stroke="#A78BFA" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#A78BFA" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#A78BFA" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#A78BFA" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">projeler/turk-damasi</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Türk Daması — Enes Öztürk imza kapağı">
+<title>Türk Daması · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#22D3EE" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#22D3EE" fill-opacity="0.85">OYUN · VİTRİN</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Oyun, API vitrini &amp; kişisel projeler</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#22D3EE"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Türk Daması</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Ceviz &amp; şimşir dokulu iki kişilik oyun</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#22D3EE" fill-opacity="0.9">React · Oyun</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">projeler/turk-damasi</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · turk-damasi</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#22D3EE">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">aynı cihazda iki kişilik</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">hamle geçmişi  ·  sıra göstergesi</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">ahşap doku  ·  taş animasyonu</text>
+<text x="78" y="488" class="m" font-size="13" fill="#22D3EE">✓ özel tasarım arayüz</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#22D3EE" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Türk Daması</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Oyun, API vitrini &amp; kişisel projeler</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">React · Oyun</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">projeler/turk-damasi</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#22D3EE" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#22D3EE" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">node.js-web-sunucusu-(ödev-5)---enes-öztürk</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Node.js Web Sunucusu — Enes Öztürk imza kapağı">
+<title>Node.js Web Sunucusu · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#22D3EE" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#22D3EE" fill-opacity="0.85">NODE.JS · CLI</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Node.js temelleri &amp; CLI</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#22D3EE"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Node.js Web Sunucusu</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">http.createServer ile ilk sunucu</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#22D3EE" fill-opacity="0.9">Node.js · http</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">node.js-web-sunucusu-(ödev-5)---enes-öztürk</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · node.js-web-sunucusu-(ödev</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#22D3EE">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">http.createServer((req, res) =&gt; {</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">  res.writeHead(200, {'Content-Type':'text/html'})</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">  res.end('&lt;h1&gt;Hoş geldiniz&lt;/h1&gt;')</text>
+<text x="78" y="488" class="m" font-size="13" fill="#8FA0BD">}).listen(5000)   // → localhost:5000</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#22D3EE" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Node.js Web Sunucusu</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Node.js temelleri &amp; CLI</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Node.js · http</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">node.js-web-sunucusu-(ödev-5)---enes-öztürk</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#22D3EE" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#22D3EE" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div><div class="c"><div class="t">DEPO KAPAGI</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="600" height="300" role="img" aria-label="Patika.dev Ödevleri & Proje Arşivi — Enes Öztürk">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05090F"/><stop offset="50%" stop-color="#0A1220"/><stop offset="100%" stop-color="#111C30"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="55%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.1"/></linearGradient>
+<radialGradient id="g1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.26"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.24"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/><rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="200" cy="90" rx="440" ry="260" fill="url(#g1)"/><ellipse cx="1150" cy="600" rx="440" ry="280" fill="url(#g2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="48">PATİKA.DEV</text><text x="160" y="48" fill="#1E3050">/</text><text x="176" y="48">AÇIK KAYNAK ÖDEV ARŞİVİ</text><text x="1224" y="48" text-anchor="end" fill="#22D3EE" fill-opacity="0.85">ENES ÖZTÜRK</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="176" class="ttl" font-size="64" fill="#E9F0FB">Patika.dev Ödevleri</text>
+<text x="56" y="246" class="ttl" font-size="64" fill="#8B5CF6">&amp; Proje Arşivi</text>
+<text x="56" y="292" class="t" font-size="19" fill="#8FA0BD">Node.js · GraphQL · Express · MongoDB · Java · Rust · Solana · React</text>
+<rect x="56" y="320" width="56" height="3" rx="1.5" fill="#22D3EE"/>
+<rect x="56" y="356" width="160" height="96" rx="14" fill="#0B1420" fill-opacity="0.9" stroke="#1E3050"/>
+<rect x="56" y="356" width="4" height="96" rx="2" fill="#22D3EE"/>
+<text x="78" y="404" class="t" font-size="34" font-weight="700" fill="#22D3EE">63</text>
+<text x="78" y="430" class="m" font-size="11.5" fill="#8FA0BD">proje klasörü</text>
+<rect x="232" y="356" width="160" height="96" rx="14" fill="#0B1420" fill-opacity="0.9" stroke="#1E3050"/>
+<rect x="232" y="356" width="4" height="96" rx="2" fill="#A78BFA"/>
+<text x="254" y="404" class="t" font-size="34" font-weight="700" fill="#A78BFA">9</text>
+<text x="254" y="430" class="m" font-size="11.5" fill="#8FA0BD">teknoloji hattı</text>
+<rect x="408" y="356" width="160" height="96" rx="14" fill="#0B1420" fill-opacity="0.9" stroke="#1E3050"/>
+<rect x="408" y="356" width="4" height="96" rx="2" fill="#FBBF24"/>
+<text x="430" y="404" class="t" font-size="34" font-weight="700" fill="#FBBF24">63</text>
+<text x="430" y="430" class="m" font-size="11.5" fill="#8FA0BD">imzalı kapak</text>
+<text x="56" y="530" class="t" font-size="20" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="556" class="m" font-size="13" fill="#5A6B88">github.com/EnesBinMalik/patika-dev-odevler</text>
+<rect x="700" y="130" width="524" height="380" rx="16" fill="#0B1420" fill-opacity="0.94" stroke="#1E3050"/>
+<rect x="700" y="130" width="524" height="38" rx="16" fill="#0E1A2A"/><rect x="700" y="154" width="524" height="14" fill="#0E1A2A"/>
+<line x1="700" y1="168" x2="1224" y2="168" stroke="#1E3050"/>
+<circle cx="722" cy="149" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="740" cy="149" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="758" cy="149" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="792" y="154" class="m" font-size="11.5" fill="#5A6B88">arsiv.sh</text>
+<text x="724" y="206" class="m" font-size="13" fill="#E9F0FB">$ ls -d */ | wc -l</text>
+<text x="724" y="236" class="m" font-size="13" fill="#22D3EE">75</text>
+<text x="724" y="296" class="m" font-size="13" fill="#E9F0FB">$ cat hatlar.txt</text>
+<text x="724" y="326" class="m" font-size="13" fill="#A78BFA">nodejs   graphql   cleanblog</text>
+<text x="724" y="356" class="m" font-size="13" fill="#A78BFA">java     rust      solana</text>
+<text x="724" y="386" class="m" font-size="13" fill="#A78BFA">react    oyun      projeler</text>
+<text x="724" y="446" class="m" font-size="13" fill="#E9F0FB">$ grep -L 'cover.svg' */README.md | wc -l</text>
+<text x="724" y="476" class="m" font-size="13" fill="#4ADE80">0   ✓ her klasörde imzalı kapak</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#22D3EE" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
+</svg>
+</div></div></body></html>

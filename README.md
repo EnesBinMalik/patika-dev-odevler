@@ -198,7 +198,7 @@ her zaman repoda durmuyor. Kesin durum:
 
 ### İmzalı kapaklar
 
-Arşivdeki **75 proje klasörünün tamamı** kendi imza kapağını (`docs/cover.svg`) taşır ve her README bu kapağı en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
+Arşivdeki **75 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. Mevcut 12 kapak olduğu gibi korundu; kapaksız kalan 63 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
 
 | Hat | Vurgu |
 | --- | --- |
@@ -214,7 +214,7 @@ Arşivdeki **75 proje klasörünün tamamı** kendi imza kapağını (`docs/cove
 Kapakları yeniden üretmek için:
 
 ```bash
-python tools_cover.py --force     # 75 kapak + docs/social-preview.svg
+python tools_cover.py             # yalnız eksik kapakları üretir (--force: mevcutlara dokunur)
 python tools_readme.py            # eksik/şablon README'leri yeniden yazar
 ```
 
