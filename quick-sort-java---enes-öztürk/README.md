@@ -53,3 +53,11 @@ quick-sort-java---enes-öztürk/
 ## Lisans
 
 Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.
+
+## Katkı
+
+Bu proje **Enes Öztürk** tarafından geliştirildi. Hata bildirimi ve öneri için GitHub üzerinden issue açabilirsiniz.
+
+---
+
+_Eş yazarlı commit ile hazırlandı._
