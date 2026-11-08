@@ -1,0 +1,6 @@
+{
+  "name": "E-Ticaret Müşteri Segmentasyonu ve Satış Tahminleme Motoru",
+  "description": "SQL, Python, RFM analizi, istatistiksel modelleme ve satış tahminleme ile uçtan uca veri analitiği simülasyonu. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

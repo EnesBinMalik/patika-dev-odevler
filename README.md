@@ -4,12 +4,12 @@
 
 **Enes Öztürk**
 
-Patika.dev müfredatı ve kurumsal mimari çalışmalarından derlenmiş **81 proje klasörü**, tek çatı altında dizilmiş arşiv.
+Patika.dev müfredatı ve kurumsal mimari çalışmalarından derlenmiş **85 proje klasörü**, tek çatı altında dizilmiş arşiv.
 
-[![Ödev klasörü](https://img.shields.io/badge/proje%20klas%C3%B6r%C3%BC-81-22d3ee?style=flat-square)](#hat-haritası)
+[![Ödev klasörü](https://img.shields.io/badge/proje%20klas%C3%B6r%C3%BC-85-22d3ee?style=flat-square)](#hat-haritası)
 [![Teknoloji hattı](https://img.shields.io/badge/teknoloji%20hattı-9-8b5cf6?style=flat-square)](#hat-haritası)
 [![Gerçek sunucu](https://img.shields.io/badge/npm%20start%20ile%20kalkan%20sunucu-9-4ade80?style=flat-square)](#9-gerçek-sunucusu-olan-klasör)
-[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-81-fbbf24?style=flat-square)](#imzalı-kapaklar)
+[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-85-fbbf24?style=flat-square)](#imzalı-kapaklar)
 [![GitHub](https://img.shields.io/badge/GitHub-EnesBinMalik-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EnesBinMalik)
 
 </div>
@@ -33,7 +33,7 @@ kendi `README.md`'si her zaman daha ayrıntılıdır.
 | 7 | [Algoritma & arayüz egzersizleri](#7-algoritma--arayüz-egzersizleri) | 12 | Bölünebilme, döngü çizimi, OOP, metin araçları, bileşen & test |
 | 8 | [Yönetim panelleri & CRUD](#8-yönetim-panelleri--crud-sistemleri) | 12 | LMS, mağaza, envanter, sigorta, turizm, kariyer portalı, HRMS, ATM, WebAPI |
 | 9 | [Oyun, API vitrini & kişisel projeler](#9-oyun-api-vitrini--kişisel-projeler) | 12 | Hafıza/macera oyunu, hava durumu, portfolyo, fitness, daması |
-| | **Toplam** | **81** | |
+| | **Toplam** | **85** | |
 
 ## 🚀 Hızlı başlangıç
 
@@ -165,6 +165,8 @@ Tam liste ve portlar: [9 gerçek sunucusu olan klasör](#9-gerçek-sunucusu-olan
 | [öztürk-bank-atm-&-çekirdek-bankacılık-sistemi](<öztürk-bank-atm-&-çekirdek-bankacılık-sistemi>) | ATM terminali + yönetim portalı | `src/core/repositories` · `Optional`, `Stream`, Strategy, Factory |
 | [movie-store-webapi---enes-öztürk](<movie-store-webapi---enes-öztürk>) | Film mağazası — REST API + arayüz | `server/` katmanları · DTO + AutoMapper · FluentValidation · JWT |
 | [öztürk-bank-atm-&-kurumsal-bankacılık-sistemi](<öztürk-bank-atm-&-kurumsal-bankacılık-sistemi>) | ATM + kurumsal bankacılık panelleri | `src/core` katmanları · tasarım desenleri · EER/UML |
+| [online-cv-&-i̇k-yönetim-sistemi](<online-cv-&-i̇k-yönetim-sistemi>) | Online CV + İK portalı | `core · repositories · patterns · services` · denetim kaydı |
+| [site-ve-rezidans-yönetim-sistemi](<site-ve-rezidans-yönetim-sistemi>) | Site & rezidans — aidat, fatura, mizan | istemci tarafı veri modeli · ödeme servisi |
 
 ### 9. Oyun, API vitrini & kişisel projeler
 
@@ -204,7 +206,7 @@ her zaman repoda durmuyor. Kesin durum:
 
 ### İmzalı kapaklar
 
-Arşivdeki **81 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. İlk sürümde var olan 12 kapak olduğu gibi korundu; kapaksız kalan 69 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
+Arşivdeki **85 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg`) taşır. İlk sürümde var olan 12 kapak olduğu gibi korundu; kapaksız kalan 73 klasöre Enes Öztürk imza diliyle yeni kapak üretildi. Her README kapağını en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
 
 | Hat | Vurgu |
 | --- | --- |
@@ -220,7 +222,7 @@ Arşivdeki **81 proje klasörünün tamamı** kendi kapağını (`docs/cover.svg
 Kapakları yeniden üretmek için:
 
 ```bash
-python tools_cover.py             # yalnız eksik 81 kapağı üretir (--force: mevcutlara dokunur)
+python tools_cover.py             # yalnız eksik 85 kapağı üretir (--force: mevcutlara dokunur)
 python tools_readme.py            # eksik/şablon README'leri yeniden yazar
 ```
 

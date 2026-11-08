@@ -1,0 +1,6 @@
+{
+  "name": "Akıllı Bankacılık ve Kredi Risk Analiz Sistemi",
+  "description": "C# ve .NET Core ekosistemi, OOP prensipleri, Stack/Queue veri yapıları, dinamik kredi faiz/risk analiz motoru ve GIT destekli dosya loglama sistemi. Geliştirici: Enes Öztürk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

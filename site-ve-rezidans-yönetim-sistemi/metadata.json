@@ -1,0 +1,6 @@
+{
+  "name": "Site ve Rezidans Yönetim Sistemi",
+  "description": "Enes Öztürk imzalı; daire, sakin, aylık aidat ve elektrik, su, doğalgaz fatura yönetimi, borç-alacak mizanı, kredi kartı ödeme servisi ve .NET 5 MVC / MSSQL / MongoDB mimarisi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
