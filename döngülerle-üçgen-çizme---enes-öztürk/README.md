@@ -1,28 +1,52 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Döngülerle Üçgen Çizme - Enes Öztürk
+
+![Döngülerle Üçgen Çizme - Enes Öztürk — kapak](docs/cover.svg)
+
+> **Patika.dev arşivi · Algoritma · döngüler** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+`for` ve `while` döngüleriyle parametrik üçgen çizen fonksiyonu, çıktıyı satır satır üreten interaktif konsol simülatörüyle birlikte sunan ödev uygulaması.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- Satır sayısı parametreli üçgen çizimi.
+- Her satır için döngü adımlarının gösterimi.
+- Konsol çıktısı ve üretilen JavaScript kodu.
+- Kenar boşluklu / yıldızlı desen seçenekleri.
 
-View your app in AI Studio: https://ai.studio/apps/6e3af788-19bd-4607-b006-4c1c66d4ddda
+## Teknoloji
 
-## Run Locally
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
 
-**Prerequisites:**  Node.js
+## Kurulum ve çalıştırma
 
+```bash
+cd "döngülerle-üçgen-çizme---enes-öztürk"
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+döngülerle-üçgen-çizme---enes-öztürk/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    └── utils/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

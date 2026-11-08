@@ -1,5 +1,7 @@
 # 🍽️ Solana Restaurant Review Smart Contract & Web3 dApp
 
+![Solana Restaurant Review — kapak](docs/cover.svg)
+
 > **Mezuniyet Bitirme Projesi (Solana Developer Graduation Project)**  
 > **Geliştirici / Hazırlayan:** Enes Öztürk 🔥  
 > **E-posta:** enesbino38@gmail.com  

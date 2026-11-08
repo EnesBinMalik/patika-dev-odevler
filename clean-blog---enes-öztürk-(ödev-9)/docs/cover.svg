@@ -1,65 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Clean Blog ödev 9 Mongoose ve MongoDB API arayüz mockup'ı">
-  <defs>
-    <linearGradient id="bg9" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0c1224"/><stop offset="100%" stop-color="#1a2340"/></linearGradient>
-    <style>.l{font-family:'Segoe UI',Arial,sans-serif;fill:#e8ecfb}.m{font-family:'Segoe UI',Arial,sans-serif;fill:#9aa6d0}.mono{font-family:Consolas,'Courier New',monospace}</style>
-  </defs>
-  <rect width="1280" height="640" fill="url(#bg9)"/>
-  <rect x="0" y="0" width="1280" height="42" fill="#070b18"/>
-  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
-  <rect x="92" y="9" width="330" height="24" rx="12" fill="#1a2340"/><text x="108" y="26" class="m" font-size="13">localhost:3000 — Clean Blog · Ödev 9 (MongoDB)</text>
-
-  <text x="40" y="96" class="l" font-size="26" font-weight="700">Clean Blog <tspan class="m" font-size="16" font-weight="400">· ilk veritabanı ve ilk REST API</tspan></text>
-  <rect x="980" y="70" width="260" height="30" rx="15" fill="#1f2a4d"/>
-  <text x="1000" y="90" class="m" font-size="12">Database · cleanblog-test-db</text>
-
-  <!-- schema card -->
-  <rect x="40" y="130" width="420" height="240" rx="14" fill="#111a34" stroke="#26325c"/>
-  <text x="64" y="162" class="l" font-size="16" font-weight="600">src/models/Post.ts</text>
-  <g font-size="14" class="mono">
-    <text x="64" y="192" fill="#a5b4fc">const PostSchema = new Schema({</text>
-    <text x="88" y="218" fill="#e8ecfb">title:      { type: String, required: true },</text>
-    <text x="88" y="242" fill="#e8ecfb">detail:     { type: String, required: true },</text>
-    <text x="88" y="266" fill="#e8ecfb">author:     { type: String, required: true },</text>
-    <text x="88" y="290" fill="#e8ecfb">dateCreated: { type: Date, default: Date.now }</text>
-    <text x="64" y="316" fill="#a5b4fc">});</text>
-    <text x="64" y="346" fill="#9aa6d0">// :16-35 · IPostDocument :9-14</text>
-  </g>
-
-  <!-- endpoints -->
-  <rect x="476" y="130" width="392" height="240" rx="14" fill="#111a34" stroke="#26325c"/>
-  <text x="500" y="162" class="l" font-size="16" font-weight="600">/api/posts</text>
-  <g font-size="14" class="mono">
-    <text x="500" y="194" fill="#4ade80">GET    </text><text x="580" y="194" fill="#e8ecfb">/api/posts</text><text x="700" y="194" class="m">liste (:106)</text>
-    <text x="500" y="222" fill="#4ade80">GET    </text><text x="580" y="222" fill="#e8ecfb">/api/posts/:id</text><text x="700" y="222" class="m">tekil (:124)</text>
-    <text x="500" y="250" fill="#60a5fa">POST   </text><text x="580" y="250" fill="#e8ecfb">/api/posts</text><text x="700" y="250" class="m">req.body (:142)</text>
-    <text x="500" y="278" fill="#f87171">DELETE </text><text x="580" y="278" fill="#e8ecfb">/api/posts/:id</text><text x="700" y="278" class="m">(:180)</text>
-    <text x="500" y="306" fill="#60a5fa">POST   </text><text x="580" y="306" fill="#e8ecfb">/api/posts/reset</text><text x="700" y="306" class="m">tohumlama (:194)</text>
-    <text x="500" y="336" fill="#fbbf24">PUT    </text><text x="580" y="336" fill="#9aa6d0">yok — güncelleme bu ödevde yok</text>
-  </g>
-
-  <!-- connection -->
-  <rect x="884" y="130" width="358" height="240" rx="14" fill="#111a34" stroke="#26325c"/>
-  <text x="908" y="162" class="l" font-size="16" font-weight="600">Bağlantı gerçeği</text>
-  <g font-size="13" class="mono">
-    <text x="908" y="192" fill="#a5b4fc">mongoose.connect(MONGODB_URI, {</text>
-    <text x="908" y="216" fill="#e8ecfb">  serverSelectionTimeoutMS: 2500</text>
-    <text x="908" y="240" fill="#a5b4fc">})</text>
-    <text x="908" y="272" fill="#9aa6d0">default: mongodb://localhost:27017/</text>
-    <text x="908" y="294" fill="#9aa6d0">          cleanblog-test-db</text>
-  </g>
-  <rect x="908" y="308" width="310" height="42" rx="8" fill="#2a1616" stroke="#7f1d1d"/>
-  <text x="922" y="326" font-size="12" fill="#fca5a5" class="mono">fail → sessizce inMemoryPosts'e düşer (:73)</text>
-  <text x="922" y="344" font-size="12" fill="#fca5a5" class="mono">Navbar "Mongoose Modeli Aktif" sabit yazılır</text>
-
-  <!-- flow strip -->
-  <rect x="40" y="386" width="1202" height="176" rx="14" fill="#111a34" stroke="#26325c"/>
-  <text x="64" y="418" class="l" font-size="16" font-weight="600">İstek akışı ve ödevin odak noktası</text>
-  <g font-size="14" class="mono">
-    <text x="64" y="452" fill="#4ade80">Tarayıcı</text><text x="160" y="452" fill="#9aa6d0">src/services/api.ts</text><text x="360" y="452" fill="#e8ecfb">→ fetch POST /api/posts</text><text x="640" y="452" fill="#e8ecfb">→ server.ts</text><text x="820" y="452" fill="#a5b4fc">→ MongoDB · Post.create()</text>
-    <text x="64" y="482" fill="#fbbf24">ders</text><text x="160" y="482" fill="#e8ecfb">express.urlencoded({ extended: true }) (:101) — req.body okuma</text>
-    <text x="64" y="512" fill="#fbbf24">yedek</text><text x="160" y="512" fill="#e8ecfb">api.ts aynı veriyi localStorage'a da yazar (:3-51) — çevrimdışı deneme için</text>
-    <text x="64" y="542" fill="#f87171">uyarı</text><text x="160" y="542" fill="#e8ecfb">MongoDB yoksa ödev "geçer" ama veritabanı kullanılmamış olur; /api/status (:215) bunu "Simüle DB Aktif" diye etiketler</text>
-  </g>
-
-  <text x="40" y="600" class="m" font-size="13">Patika.dev · Node.js &amp; MongoDB patikası Ödev 9 · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Clean Blog — Ödev 9 — Enes Öztürk imza kapağı">
+<title>Clean Blog — Ödev 9 · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4ADE80"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#4ADE80" stop-opacity="0.28"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#4ADE80" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#4ADE80" fill-opacity="0.85">EXPRESS · MONGODB</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Clean Blog — Express &amp; MongoDB</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#4ADE80"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Clean Blog — Ödev 9</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Mongoose bağlantısı · Post modeli · req.body</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#4ADE80" fill-opacity="0.9">Node.js · Mongoose · EJS</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">clean-blog---enes-öztürk-(ödev-9)</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · clean-blog---enes-öztürk-(</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#4ADE80">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">mongoose.connect('mongodb://localhost/cleanblog-test-db')</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">const Post = mongoose.model('Post', postSchema)</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">app.post('/posts', (req, res) =&gt; {</text>
+<text x="78" y="488" class="m" font-size="13" fill="#8FA0BD">  Post.create(req.body)  →  ✓ kayıt</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#4ADE80" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Clean Blog — Ödev 9</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Clean Blog — Express &amp; MongoDB</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Node.js · Mongoose · EJS</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">clean-blog---enes-öztürk-(ödev-9)</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#4ADE80" fill-opacity="0.07" stroke="#4ADE80" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#4ADE80" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#4ADE80" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#4ADE80" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
 </svg>

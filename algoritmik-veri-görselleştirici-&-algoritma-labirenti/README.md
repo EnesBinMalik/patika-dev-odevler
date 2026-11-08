@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Algoritmik Veri Görselleştirici & Algoritma Labirenti
 
-# Run and deploy your AI Studio app
+![Algoritmik Veri Görselleştirici & Algoritma Labirenti — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Algoritma & veri yapıları** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/f7dfa230-a895-4889-9bf8-93276b89c93f
+---
 
-## Run Locally
+Dizi, yığıt, kuyruk, sıralama ve labirent keşfi algoritmalarını adım adım izleyerek öğreten interaktif simülatör.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- **Dizi görselleştirici** — ekleme, silme ve erişim adımları.
+- **Yığıt & kuyruk** — push/pop ve enqueue/dequeue animasyonları.
+- **Sıralama** — bubble, merge ve quick sort adım karşılaştırması.
+- **Labirent** — BFS, DFS ve A* ile yol bulma.
+- Modül başına bağımsız ekran ve kontrol paneli.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "algoritmik-veri-görselleştirici-&-algoritma-labirenti"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+algoritmik-veri-görselleştirici-&-algoritma-labirenti/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── modules/
+    └── types/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

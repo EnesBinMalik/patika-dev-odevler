@@ -1,5 +1,8 @@
 # ♟️ Türk Daması — Enes Öztürk Özel Tasarım
 
+
+![Türk Daması — kapak](docs/cover.svg)
+
 Ceviz ve şimşir ağacı dokusundan ilham alan arayüzüyle, aynı cihazda **iki kişilik** oynanan Türk Daması.
 
 **Tasarım & Geliştirme:** Enes Öztürk

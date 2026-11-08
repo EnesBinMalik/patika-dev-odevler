@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Öztürk Bank - Online Bankacılık Sistemi
 
-# Run and deploy your AI Studio app
+![Öztürk Bank - Online Bankacılık Sistemi — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Java OOP · bankacılık** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/a3192ce4-fef0-4d9e-9f4f-626ab9b2346c
+---
 
-## Run Locally
+Java OOP mimarisiyle yazılmış, JSON tabanlı kalıcılık kullanan online bankacılık sistemi: hesaplar arası transfer, kredi ve kart ekstresi ödemesi.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- Müşteri, hesap ve hareket yönetimi.
+- Kullanıcılar arası para transferi.
+- Kredi başvurusu ve kart ekstresi ödemesi.
+- JSON dosyası üzerinden kalıcı veri.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "öztürk-bank---online-bankacılık-sistemi"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+öztürk-bank---online-bankacılık-sistemi/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── data/
+    ├── models/
+    ├── services/
+    └── types/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

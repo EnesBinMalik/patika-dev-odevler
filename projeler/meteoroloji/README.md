@@ -1,5 +1,8 @@
 # 🌦️ Meteoroloji — Türkiye 7 Günlük Hava Durumu
 
+
+![Meteoroloji — kapak](docs/cover.svg)
+
 Türkiye'nin **81 ili** için anlık, saatlik ve 7 günlük hava durumu tahmini sunan React uygulaması.
 
 **Geliştirici:** Enes Öztürk

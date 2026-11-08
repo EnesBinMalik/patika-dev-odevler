@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Java Console Chat - Enes Öztürk
 
-# Run and deploy your AI Studio app
+![Java Console Chat - Enes Öztürk — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Java · soket programlama** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/f3fbefda-2558-4456-9f6d-1b9167381fbd
+---
 
-## Run Locally
+Java soket ve iş parçacığı (Socket & Thread) mimarisiyle yazılmış, yerel ağda çalışan sohbet odalı konsol uygulaması ve simülatörü.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- Sunucu–istemci bağlantısı ve çoklu istemci desteği.
+- Sohbet odaları ve kullanıcı adı yönetimi.
+- Thread görselleştiricisi ile eşzamanlı akışın izlenmesi.
+- LAN kurulum rehberi ve kaynak kod gezgini.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "java-console-chat---enes-öztürk"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+java-console-chat---enes-öztürk/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── data/
+    └── services/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

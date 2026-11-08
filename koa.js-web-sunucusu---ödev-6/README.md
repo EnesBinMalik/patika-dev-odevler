@@ -1,5 +1,7 @@
 # Ödev 6: Koa.js ile Web Sunucusu
 
+![Koa.js Web Sunucusu — kapak](docs/cover.svg)
+
 Bu proje, **Node.js** ve **Koa.js** kütüphanesi kullanılarak geliştirilmiş bir web sunucusu ödevidir.
 
 > **Geliştirici:** Enes Öztürk  

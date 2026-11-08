@@ -1,28 +1,53 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Klavye Hız Testi - Enes Öztürk
+
+![Klavye Hız Testi - Enes Öztürk — kapak](docs/cover.svg)
+
+> **Patika.dev arşivi · React · zamanlayıcı** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+60 saniyelik testte kelime/dakika (WPM), doğruluk ve vuruş analizi ölçen yazma antrenmanı.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- Gerçek zamanlı WPM ve doğruluk hesabı.
+- Hatalı kelime ve seri takibi.
+- Süre sayacı ve test sonu özeti.
+- Yeniden başlatma ve metin havuzu.
 
-View your app in AI Studio: https://ai.studio/apps/820a57f5-99c9-4f32-beb9-d9f6ab2a95d2
+## Teknoloji
 
-## Run Locally
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
 
-**Prerequisites:**  Node.js
+## Kurulum ve çalıştırma
 
+```bash
+cd "klavye-hız-testi---enes-öztürk"
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+klavye-hız-testi---enes-öztürk/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── data/
+    └── utils/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

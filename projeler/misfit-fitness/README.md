@@ -1,6 +1,9 @@
 <div align="center">
 
 # 💪 MISFIT
+
+![MISFIT Fitness — kapak](docs/cover.svg)
+
 ### Fitness & Antrenman Yönetimi
 
 **Tasarım & Geliştirme:** Enes Öztürk

@@ -1,100 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Rust Bankacılık Sistemi hata yönetimi simülatörü arayüz mockup'ı">
-  <defs>
-    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
-    </linearGradient>
-    <style>
-      .lbl{font-family:'Segoe UI',Arial,sans-serif;fill:#e2e8f0}
-      .mut{font-family:'Segoe UI',Arial,sans-serif;fill:#94a3b8}
-      .mono{font-family:Consolas,'Courier New',monospace}
-      .tab{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#cbd5e1}
-      .tabOn{font-family:'Segoe UI',Arial,sans-serif;font-size:15px;fill:#fb923c;font-weight:600}
-    </style>
-  </defs>
-
-  <rect width="1280" height="640" fill="url(#bg1)"/>
-
-  <!-- browser chrome -->
-  <rect x="0" y="0" width="1280" height="42" fill="#0b1120"/>
-  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
-  <rect x="92" y="9" width="330" height="24" rx="12" fill="#1e293b"/>
-  <text x="108" y="26" class="mut" font-size="13">localhost:3000 — Rust Bankacılık &amp; Hata Yönetimi</text>
-
-  <!-- navbar -->
-  <rect x="0" y="42" width="1280" height="56" fill="#111c30"/>
-  <rect x="34" y="58" width="24" height="24" rx="6" fill="#f97316"/>
-  <text x="70" y="76" class="lbl" font-size="19" font-weight="700">BankAccount <tspan class="mut" font-weight="400">/ Result &lt; (), String &gt;</tspan></text>
-  <text x="620" y="76" class="tabOn">Simulatör</text>
-  <text x="720" y="76" class="tab">Kod</text>
-  <text x="790" y="76" class="tab">Kontrol Listesi</text>
-  <text x="930" y="76" class="tab">Rehber</text>
-  <rect x="1080" y="58" width="160" height="26" rx="13" fill="#1e293b"/>
-  <text x="1102" y="76" class="mut" font-size="13">main.rs indir</text>
-
-  <!-- left: code panel -->
-  <rect x="34" y="122" width="600" height="330" rx="12" fill="#0b1120" stroke="#1f2c44"/>
-  <text x="56" y="150" class="mut" font-size="13">src/data/rustCode.ts — gösterilen Rust kaynağı</text>
-  <g font-size="14" class="mono">
-    <text x="56" y="182" fill="#64748b">13</text><text x="92" y="182" fill="#c084fc">trait Account {</text>
-    <text x="56" y="206" fill="#64748b">14</text><text x="92" y="206" fill="#7dd3fc">    fn deposit(&amp;mut self, amount: f64) -&gt; Result&lt;(), String&gt;;</text>
-    <text x="56" y="230" fill="#64748b">21</text><text x="92" y="230" fill="#c084fc">struct BankAccount { owner: String, balance: f64 }</text>
-    <text x="56" y="254" fill="#64748b">39</text><text x="92" y="254" fill="#c084fc">impl Account for BankAccount { ... }</text>
-    <text x="56" y="278" fill="#64748b">88</text><text x="92" y="278" fill="#e2e8f0">    let sonuc = hesap.deposit(-250.0);</text>
-    <text x="56" y="302" fill="#64748b">91</text><text x="92" y="302" fill="#c084fc">    match sonuc {</text>
-    <text x="56" y="326" fill="#64748b">92</text><text x="112" y="326" fill="#4ade80">Ok(()) =&gt; println!("İşlem başarılı"),</text>
-    <text x="56" y="350" fill="#64748b">93</text><text x="112" y="350" fill="#f87171">Err(hata_mesaji) =&gt; println!("Hata: {}"),</text>
-    <text x="56" y="374" fill="#64748b">94</text><text x="112" y="374" fill="#e2e8f0">        hata_mesaji</text>
-    <text x="56" y="398" fill="#64748b">95</text><text x="92" y="398" fill="#e2e8f0">    }</text>
-    <text x="56" y="428" fill="#64748b">// Bakiye negatif olamaz — Err kolu çalışır</text>
-  </g>
-
-  <!-- right: terminal -->
-  <rect x="646" y="122" width="600" height="200" rx="12" fill="#020617" stroke="#1f2c44"/>
-  <rect x="646" y="122" width="600" height="30" rx="12" fill="#111c30"/>
-  <text x="666" y="142" class="mut" font-size="13">Terminal — cargo run (UI çıktısı)</text>
-  <g class="mono" font-size="13">
-    <text x="666" y="176" fill="#94a3b8">$ cargo run</text>
-    <text x="666" y="198" fill="#a3e635">Compiling banking_system v0.1.0</text>
-    <text x="666" y="220" fill="#e2e8f0">Finished dev [unoptimized] target(s)</text>
-    <text x="666" y="242" fill="#94a3b8">Running `target/debug/banking_system`</text>
-    <text x="666" y="264" fill="#7dd3fc">- Ahmet: 12.500,00 TL</text>
-    <text x="666" y="286" fill="#f87171">Hata: Bakiye negatif olamaz</text>
-    <text x="666" y="308" fill="#fb923c">█</text>
-  </g>
-
-  <!-- right: account cards -->
-  <g>
-    <rect x="646" y="334" width="190" height="118" rx="10" fill="#111c30" stroke="#1f2c44"/>
-    <text x="664" y="362" class="mut" font-size="13">Ahmet Yılmaz</text>
-    <text x="664" y="392" class="lbl" font-size="21" font-weight="700">12.500 TL</text>
-    <rect x="664" y="410" width="88" height="22" rx="11" fill="#052e1a" stroke="#16a34a"/>
-    <text x="676" y="425" font-size="12" fill="#4ade80" class="lbl">deposit Ok</text>
-
-    <rect x="852" y="334" width="190" height="118" rx="10" fill="#111c30" stroke="#1f2c44"/>
-    <text x="870" y="362" class="mut" font-size="13">Elif Demir</text>
-    <text x="870" y="392" class="lbl" font-size="21" font-weight="700">480 TL</text>
-    <rect x="870" y="410" width="102" height="22" rx="11" fill="#2b0a0a" stroke="#dc2626"/>
-    <text x="882" y="425" font-size="12" fill="#f87171" class="lbl">transfer Err</text>
-
-    <rect x="1058" y="334" width="188" height="118" rx="10" fill="#111c30" stroke="#1f2c44"/>
-    <text x="1076" y="362" class="mut" font-size="13">Kerem Aslan</text>
-    <text x="1076" y="392" class="lbl" font-size="21" font-weight="700">0 TL</text>
-    <rect x="1076" y="410" width="118" height="22" rx="11" fill="#2b1608" stroke="#ea580c"/>
-    <text x="1088" y="425" font-size="12" fill="#fdba74" class="lbl">withdraw Err</text>
-  </g>
-
-  <!-- bottom: checklist -->
-  <rect x="34" y="466" width="1212" height="122" rx="12" fill="#0b1120" stroke="#1f2c44"/>
-  <text x="56" y="496" class="lbl" font-size="16" font-weight="600">Ödev kontrol listesi</text>
-  <g font-size="14" class="lbl">
-    <text x="56" y="526" fill="#4ade80">✓</text><text x="78" y="526">Owner ve balance alanları olan struct</text>
-    <text x="466" y="526" fill="#4ade80">✓</text><text x="488" y="526">deposit / withdraw / transfer metotları</text>
-    <text x="878" y="526" fill="#4ade80">✓</text><text x="900" y="526">Bakiye kontrolü ve hata mesajı üretimi</text>
-    <text x="56" y="556" fill="#4ade80">✓</text><text x="78" y="556">trait Account tanımlı ve impl edildi</text>
-    <text x="466" y="556" fill="#4ade80">✓</text><text x="488" y="556">Result &lt; (), String &gt; + match ile akış</text>
-    <text x="878" y="556" fill="#fbbf24">!</text><text x="900" y="556">Custom error enum ve ? operatörü yok</text>
-  </g>
-
-  <text x="34" y="622" class="mut" font-size="13">Patika.dev · Rust patikası · Enes Öztürk — bu görsel arayüzü temsil eden çizimdir, canlı ekran görüntüsü değildir.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Rust Bankacılık — Hata Yöneti… — Enes Öztürk imza kapağı">
+<title>Rust Bankacılık — Hata Yöneti… · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F97316"/><stop offset="100%" stop-color="#F97316" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F97316" stop-opacity="0.28"/><stop offset="100%" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#F97316" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#F97316" fill-opacity="0.85">RUST · SOLANA</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Rust &amp; Solana</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#F97316"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Rust Bankacılık — Hata Yöneti…</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Result&amp;lt;(), String&amp;gt; &amp; match</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#F97316" fill-opacity="0.9">Rust · Result</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">rust-bankacılık-sistemi-&amp;-hata-yönetimi</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · rust-bankacılık-sistemi-&amp;-</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#F97316">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">fn cek(&amp;mut self, m: f64) -&gt; Result&lt;(), String&gt; {</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">  if m &gt; self.bakiye { Err("Yetersiz bakiye") }</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">  else { Ok(()) } }</text>
+<text x="78" y="488" class="m" font-size="13" fill="#8FA0BD">match sonuc { Ok(_) =&gt; …, Err(e) =&gt; … }</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#F97316" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Rust Bankacılık — Hata Yöneti…</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Rust &amp; Solana</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">Rust · Result</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">rust-bankacılık-sistemi-&amp;-hata-yönetimi</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#F97316" fill-opacity="0.07" stroke="#F97316" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#F97316" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#F97316" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#F97316" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
 </svg>

@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Saatlik Enerji Talebi, Üretimi ve Hava Durumu ML Platformu
 
-# Run and deploy your AI Studio app
+![Saatlik Enerji Talebi, Üretimi ve Hava Durumu ML Platformu — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Makine öğrenmesi · zaman serisi** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/30f2ac68-36cd-4d0d-bc25-cf11c1c891dc
+---
 
-## Run Locally
+İspanya'nın dört yıllık saatlik elektrik verisi ile beş büyük şehrin hava durumunu birleştirip talep ve fiyat tahmini yapan karar destek platformu.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- Saatlik tüketim, üretim, fiyat ve hava durumu serileri.
+- Aykırı değer (outlier) analizi ve temizleme adımları.
+- Zaman serisi modelleme ve tahmin görünümü.
+- Belediyeler için dinamik tarife simülatörü.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "saatlik-enerji-talebi,-üretimi-ve-hava-durumu-ml-platformu"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+saatlik-enerji-talebi,-üretimi-ve-hava-durumu-ml-platformu/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── data/
+    ├── types/
+    └── utils/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

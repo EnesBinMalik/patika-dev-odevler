@@ -1,28 +1,53 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Java Stream Kitap Listesi - Enes Öztürk
+
+![Java Stream Kitap Listesi - Enes Öztürk — kapak](docs/cover.svg)
+
+> **Patika.dev arşivi · Java · Stream API** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Java 102 kapsamında Stream API ve lambda ifadeleriyle kitap listesini dönüştürme, filtreleme ve gruplama ödevi.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- `stream().filter().map().collect()` zincirleri.
+- Map dönüştürme ve sayfa sayısına göre filtreleme.
+- Gruplama ve toplama işlemleri.
+- Her adımın çıktısının gösterimi.
 
-View your app in AI Studio: https://ai.studio/apps/704c6ee5-76e9-4e92-a095-ff06278d6092
+## Teknoloji
 
-## Run Locally
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
 
-**Prerequisites:**  Node.js
+## Kurulum ve çalıştırma
 
+```bash
+cd "java-stream-kitap-listesi---enes-öztürk"
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+java-stream-kitap-listesi---enes-öztürk/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── data/
+    └── types/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

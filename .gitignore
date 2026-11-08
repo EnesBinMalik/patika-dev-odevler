@@ -20,3 +20,7 @@ coverage/
 .idea/
 .DS_Store
 Thumbs.db
+
+# üreteç önbelleği
+__pycache__/
+*.pyc

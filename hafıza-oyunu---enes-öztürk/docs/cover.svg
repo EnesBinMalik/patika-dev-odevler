@@ -1,96 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Hafıza oyunu arayüz mockup'ı: 5x5 kart ızgarası ve puan tablosu">
-  <defs>
-    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#12102a"/>
-      <stop offset="100%" stop-color="#241a45"/>
-    </linearGradient>
-    <style>
-      .lbl{font-family:'Segoe UI',Arial,sans-serif;fill:#ede9fe}
-      .mut{font-family:'Segoe UI',Arial,sans-serif;fill:#a5a3c7}
-      .card{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#ffffff;font-weight:600;text-anchor:middle}
-      .num{font-family:'Segoe UI',Arial,sans-serif;fill:#ffffff;font-weight:700}
-    </style>
-  </defs>
-
-  <rect width="1280" height="640" fill="url(#bg4)"/>
-
-  <rect x="0" y="0" width="1280" height="42" fill="#0c0a1c"/>
-  <circle cx="26" cy="21" r="6" fill="#ef4444"/><circle cx="46" cy="21" r="6" fill="#f59e0b"/><circle cx="66" cy="21" r="6" fill="#22c55e"/>
-  <rect x="92" y="9" width="300" height="24" rx="12" fill="#241a45"/>
-  <text x="108" y="26" class="mut" font-size="13">localhost:3000 — Hafıza Oyunu</text>
-
-  <text x="40" y="92" class="lbl" font-size="26" font-weight="700">Hafıza Oyunu <tspan class="mut" font-size="16" font-weight="400">· React 19 + Redux Toolkit</tspan></text>
-  <g font-size="14">
-    <rect x="880" y="66" width="110" height="34" rx="17" fill="#3b2b6b"/><text x="905" y="88" class="lbl">4x4</text>
-    <rect x="1000" y="66" width="110" height="34" rx="17" fill="#7c3aed"/><text x="1026" y="88" fill="#ffffff" class="num">5x5</text>
-    <rect x="1120" y="66" width="110" height="34" rx="17" fill="#3b2b6b"/><text x="1145" y="88" class="lbl">6x4</text>
-  </g>
-
-  <!-- 5x5 grid -->
-  <g>
-    <!-- row 1 -->
-    <rect x="40" y="130" width="92" height="92" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="86" y="180" class="card">React</text>
-    <rect x="144" y="130" width="92" height="92" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="190" y="180" class="card">Node.js</text>
-    <rect x="248" y="130" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="294" y="180" class="mut" font-size="20">?</text>
-    <rect x="352" y="130" width="92" height="92" rx="14" fill="#1b4332" stroke="#22c55e" stroke-width="3"/><text x="398" y="180" class="card">Rust</text>
-    <rect x="456" y="130" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="502" y="180" class="mut" font-size="20">?</text>
-    <!-- row 2 -->
-    <rect x="40" y="234" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="86" y="284" class="mut" font-size="20">?</text>
-    <rect x="144" y="234" width="92" height="92" rx="14" fill="#4a1d2b" stroke="#ec4899"/><text x="190" y="284" class="card">GraphQL</text>
-    <rect x="248" y="234" width="92" height="92" rx="14" fill="#1b4332" stroke="#22c55e" stroke-width="3"/><text x="294" y="284" class="card">Rust</text>
-    <rect x="352" y="234" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="398" y="284" class="mut" font-size="20">?</text>
-    <rect x="456" y="234" width="92" height="92" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="502" y="284" class="card">Java</text>
-    <!-- row 3 -->
-    <rect x="40" y="338" width="92" height="92" rx="14" fill="#4a1d2b" stroke="#ec4899"/><text x="86" y="388" class="card">GraphQL</text>
-    <rect x="144" y="338" width="92" height="92" rx="14" fill="#16202f" stroke="#fbbf24" stroke-dasharray="6 4"/><text x="190" y="388" class="card" fill="#fbbf24">JOKER</text>
-    <rect x="248" y="338" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="294" y="388" class="mut" font-size="20">?</text>
-    <rect x="352" y="338" width="92" height="92" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="398" y="388" class="card">TypeScript</text>
-    <rect x="456" y="338" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="502" y="388" class="mut" font-size="20">?</text>
-    <!-- row 4 -->
-    <rect x="40" y="442" width="92" height="92" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="86" y="492" class="card">Vite</text>
-    <rect x="144" y="442" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="190" y="492" class="mut" font-size="20">?</text>
-    <rect x="248" y="442" width="92" height="92" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="294" y="492" class="card">React</text>
-    <rect x="352" y="442" width="92" height="92" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="398" y="492" class="mut" font-size="20">?</text>
-    <rect x="456" y="442" width="92" height="92" rx="14" fill="#1b4332" stroke="#22c55e" stroke-width="3"/><text x="502" y="492" class="card">Node.js</text>
-    <!-- row 5 -->
-    <rect x="40" y="546" width="92" height="66" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="86" y="584" class="mut" font-size="18">?</text>
-    <rect x="144" y="546" width="92" height="66" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="190" y="584" class="card">Tailwind</text>
-    <rect x="248" y="546" width="92" height="66" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="294" y="584" class="mut" font-size="18">?</text>
-    <rect x="352" y="546" width="92" height="66" rx="14" fill="#1b2f5e" stroke="#3b82f6"/><text x="398" y="584" class="card">Java</text>
-    <rect x="456" y="546" width="92" height="66" rx="14" fill="#16202f" stroke="#2c3a52"/><text x="502" y="584" class="mut" font-size="18">?</text>
-  </g>
-
-  <!-- scoreboard -->
-  <rect x="600" y="130" width="330" height="250" rx="16" fill="#1a1633" stroke="#3b2b6b"/>
-  <text x="624" y="162" class="lbl" font-size="18" font-weight="600">Puan Tablosu</text>
-  <g font-size="15" class="mut">
-    <text x="624" y="200">Puan</text><text x="906" y="200" class="num" font-size="22" text-anchor="end">320</text>
-    <text x="624" y="240">Hamle</text><text x="906" y="240" class="num" font-size="22" text-anchor="end">14</text>
-    <text x="624" y="280">Seri</text><text x="906" y="280" class="num" font-size="22" text-anchor="end">3</text>
-    <text x="624" y="320">Eşleşen çift</text><text x="906" y="320" class="num" font-size="22" text-anchor="end">7 / 12</text>
-    <text x="624" y="358">En iyi skor</text><text x="906" y="358" class="num" font-size="22" text-anchor="end">540</text>
-  </g>
-  <rect x="624" y="368" width="282" height="4" rx="2" fill="#3b2b6b"/><rect x="624" y="368" width="164" height="4" rx="2" fill="#7c3aed"/>
-
-  <!-- victory modal -->
-  <rect x="950" y="130" width="296" height="250" rx="16" fill="#22163a" stroke="#7c3aed"/>
-  <text x="1000" y="180" font-size="34">🏆</text>
-  <text x="974" y="228" class="lbl" font-size="20" font-weight="700">Tebrikler!</text>
-  <text x="974" y="258" class="mut" font-size="14">12 çifti 26 hamlede açtın.</text>
-  <text x="974" y="284" class="mut" font-size="14">Puan: 610 · Yeni rekor yok</text>
-  <rect x="974" y="310" width="120" height="38" rx="10" fill="#7c3aed"/><text x="1000" y="334" fill="#ffffff" font-size="14" class="lbl">Yeniden</text>
-  <rect x="1104" y="310" width="118" height="38" rx="10" fill="#3b2b6b"/><text x="1128" y="334" class="lbl" font-size="14">Kapat</text>
-
-  <!-- rules strip -->
-  <rect x="600" y="392" width="646" height="220" rx="16" fill="#1a1633" stroke="#3b2b6b"/>
-  <text x="624" y="424" class="lbl" font-size="17" font-weight="600">Oyun kuralları (memorySlice.ts)</text>
-  <g font-size="14" class="mut">
-    <text x="624" y="456" fill="#a3e635">+50</text><text x="676" y="456">eşleşen çift başına · eşleşmeyen hamle</text><text x="1050" y="456" fill="#f87171">-10</text>
-    <text x="624" y="486">Hamle sayacı ikinci kart açıldığında artar</text>
-    <text x="624" y="516">5x5 modunda 25. kart joker: tek tıkla +50, kendi kendine eşleşir</text>
-    <text x="624" y="546">İki kart açıldığında tahta 850 ms kilitlenir (isBoardLocked)</text>
-    <text x="624" y="576">En iyi skor localStorage key "memory_game_best_score"</text>
-  </g>
-
-  <text x="40" y="628" class="mut" font-size="13">Patika.dev · React patikası · Enes Öztürk — temsilî çizim, canlı ekran görüntüsü değildir.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Hafıza Oyunu — Enes Öztürk imza kapağı">
+<title>Hafıza Oyunu · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A121F"/><stop offset="100%" stop-color="#101A2C"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.15"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.20"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/></pattern>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#22D3EE" fill-opacity="0.12"/></pattern>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="26"/></filter>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace;}.ttl{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-1.4px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="240" cy="110" rx="420" ry="260" fill="url(#glow1)"/>
+<ellipse cx="1140" cy="560" rx="420" ry="280" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#acc)"/>
+<g class="m" font-size="12" fill="#5A6B88" letter-spacing="1.6"><text x="56" y="46">ENES ÖZTÜRK</text><text x="168" y="46" fill="#1E3050">/</text><text x="184" y="46">PATİKA.DEV ARŞİVİ</text><text x="1224" y="46" text-anchor="end" fill="#22D3EE" fill-opacity="0.85">OYUN · VİTRİN</text></g>
+<line x1="56" y1="62" x2="1224" y2="62" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<g class="m" font-size="12" fill="#5A6B88"><text x="56" y="112">Oyun, API vitrini &amp; kişisel projeler</text></g>
+<rect x="56" y="126" width="52" height="3" rx="1.5" fill="#22D3EE"/>
+<text x="56" y="200" class="ttl" font-size="52" fill="#E9F0FB">Hafıza Oyunu</text>
+<text x="56" y="238" class="t" font-size="19" fill="#8FA0BD">Redux · 3 ızgara modu · joker kart</text>
+<text x="56" y="272" class="m" font-size="13.5" fill="#22D3EE" fill-opacity="0.9">React · Redux · Vite</text>
+<text x="56" y="296" class="m" font-size="12" fill="#5A6B88">hafıza-oyunu---enes-öztürk</text>
+<rect x="56" y="330" width="520" height="196" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="330" width="520" height="34" rx="14" fill="#0E1A2A"/>
+<rect x="56" y="350" width="520" height="14" fill="#0E1A2A"/>
+<line x1="56" y1="364" x2="576" y2="364" stroke="#1E3050"/>
+<circle cx="76" cy="347" r="5" fill="#F87171" fill-opacity="0.85"/>
+<circle cx="94" cy="347" r="5" fill="#FBBF24" fill-opacity="0.85"/>
+<circle cx="112" cy="347" r="5" fill="#4ADE80" fill-opacity="0.85"/>
+<text x="140" y="352" class="m" font-size="11.5" fill="#5A6B88">~/patika · hafıza-oyunu---enes-öztürk</text>
+<text x="78" y="392" class="m" font-size="13.5" fill="#22D3EE">▸</text>
+<text x="98" y="392" class="m" font-size="13" fill="#E9F0FB">4x4  ·  6x4  ·  5x5 (+joker)</text>
+<text x="78" y="424" class="m" font-size="13" fill="#8FA0BD">eşleşme +50   ·   hata −10</text>
+<text x="78" y="456" class="m" font-size="13" fill="#8FA0BD">en iyi skor  localStorage</text>
+<text x="78" y="488" class="m" font-size="13" fill="#22D3EE">✓ Fisher–Yates karıştırma</text>
+<rect x="620" y="112" width="604" height="414" rx="18" fill="#0B1420" fill-opacity="0.85" stroke="#1E3050"/>
+<rect x="620" y="112" width="604" height="44" rx="18" fill="#0E1A2A"/>
+<rect x="620" y="138" width="604" height="18" fill="#0E1A2A"/>
+<line x1="620" y1="156" x2="1224" y2="156" stroke="#1E3050"/>
+<text x="642" y="140" class="m" font-size="11.5" fill="#5A6B88">PROJE KÜNYESİ</text>
+<text x="1202" y="140" class="m" font-size="11.5" fill="#22D3EE" text-anchor="end" fill-opacity="0.9">v1.0</text>
+<text x="644" y="196" class="cap" font-size="10.5" fill="#5A6B88">BAŞLIK</text>
+<text x="644" y="216" class="t" font-size="15.5" fill="#E9F0FB">Hafıza Oyunu</text>
+<line x1="644" y1="228" x2="1200" y2="228" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="240" class="cap" font-size="10.5" fill="#5A6B88">HAT</text>
+<text x="644" y="260" class="t" font-size="15.5" fill="#E9F0FB">Oyun, API vitrini &amp; kişisel projeler</text>
+<line x1="644" y1="272" x2="1200" y2="272" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="284" class="cap" font-size="10.5" fill="#5A6B88">YIĞIN</text>
+<text x="644" y="304" class="t" font-size="15.5" fill="#E9F0FB">React · Redux · Vite</text>
+<line x1="644" y1="316" x2="1200" y2="316" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="644" y="328" class="cap" font-size="10.5" fill="#5A6B88">KLASÖR</text>
+<text x="644" y="348" class="t" font-size="15.5" fill="#E9F0FB">hafıza-oyunu---enes-öztürk</text>
+<line x1="644" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<rect x="644" y="430" width="556" height="68" rx="12" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.35"/>
+<circle cx="676" cy="464" r="17" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
+<text x="676" y="470" class="t" font-size="14" font-weight="700" fill="#22D3EE" text-anchor="middle">EÖ</text>
+<text x="706" y="458" class="t" font-size="14.5" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="706" y="478" class="m" font-size="11.5" fill="#8FA0BD">github.com/EnesBinMalik</text>
+<line x1="56" y1="572" x2="1224" y2="572" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="56" y="604" class="m" font-size="12" fill="#5A6B88">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<text x="1224" y="604" class="m" font-size="12" fill="#22D3EE" text-anchor="end" fill-opacity="0.85">İMZALI KAPAK</text>
 </svg>

@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Java Swing Depo & Stok Yönetim Sistemi
 
-# Run and deploy your AI Studio app
+![Java Swing Depo & Stok Yönetim Sistemi — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Java Swing · katmanlı mimari** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/7336f65c-ec4e-4ddc-b15c-ea42b6410778
+---
 
-## Run Locally
+OOP ilkeleri ve Java Swing bileşenleriyle yazılmış, katmanlı mimariye sahip depo, stok ve tedarik zinciri otomasyonu.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- Ürün, depo, stok hareketi ve tedarikçi yönetimi.
+- Giriş/çıkış fişleri ve kritik stok uyarıları.
+- Arayüz · servis · model katman ayrımı.
+- Raporlama ekranı ve arama.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "java-swing-depo-&-stok-yönetim-sistemi"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+java-swing-depo-&-stok-yönetim-sistemi/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── data/
+    ├── services/
+    └── types/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

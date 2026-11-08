@@ -1,6 +1,9 @@
 <div align="center">
 
 # ✦ ENES ÖZTÜRK
+
+![Freelancer Portföy — kapak](docs/cover.svg)
+
 ### Freelancer Portföy
 
 **Graphic Artist · Web Designer · Full Stack Developer**

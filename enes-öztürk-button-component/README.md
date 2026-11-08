@@ -1,28 +1,51 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Enes Öztürk Button Component
+
+![Enes Öztürk Button Component — kapak](docs/cover.svg)
+
+> **Patika.dev arşivi · React bileşen kütüphanesi** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+`primary`, `default`, `dashed`, `text` ve `link` tiplerini destekleyen, paket olarak yayınlanabilir React Button bileşeni.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- Beş varyant ve boyut desteği.
+- Devre dışı, yükleniyor ve ikon durumları.
+- `packages/enes-ozturk-button` altında bağımsız paket.
+- Canlı örnek sayfası ve kullanım kılavuzu.
 
-View your app in AI Studio: https://ai.studio/apps/99f78399-6ecb-4bda-8a02-da288ebec444
+## Teknoloji
 
-## Run Locally
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
 
-**Prerequisites:**  Node.js
+## Kurulum ve çalıştırma
 
+```bash
+cd "enes-öztürk-button-component"
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+enes-öztürk-button-component/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    └── components/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

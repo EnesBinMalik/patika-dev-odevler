@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# World Happiness Report - Enes Öztürk Analizi
 
-# Run and deploy your AI Studio app
+![World Happiness Report - Enes Öztürk Analizi — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Veri analizi** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/a9aeeaa3-4f04-4760-8e7d-6e97f5112926
+---
 
-## Run Locally
+155 ülkenin altı temel faktör üzerinden mutluluk skorlarını, 2015–2017 değişimini ve en çok yükselen–gerileyen ülkeleri inceleyen analiz platformu.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- GSYH, sosyal destek, sağlıklı yaşam, özgürlük, cömertlik ve yolsuzluk algısı kırılımı.
+- Ülke karşılaştırma aracı ve mutluluk simülatörü.
+- 2015–2017 değişim görünümü.
+- Vaka incelemeleri ve analist notu.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "world-happiness-report---enes-öztürk-analizi"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+world-happiness-report---enes-öztürk-analizi/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── assets/
+    ├── components/
+    └── data/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

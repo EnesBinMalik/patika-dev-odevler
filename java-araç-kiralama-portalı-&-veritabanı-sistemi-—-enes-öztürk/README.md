@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Java Araç Kiralama Portalı & Veritabanı Sistemi — Enes Öztürk
 
-# Run and deploy your AI Studio app
+![Java Araç Kiralama Portalı & Veritabanı Sistemi — Enes Öztürk — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Java · ilişkisel veritabanı** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/c6ba3f9a-6f97-461b-a6ae-ed3e49d84ba1
+---
 
-## Run Locally
+Firma ve müşterilerin şehir bazlı filtreleme, tarih çakışma kontrolü ve 24 saat kuralıyla araç kiralayabildiği portal.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- Araç, firma ve şehir bazlı arama.
+- Rezervasyonlarda tarih çakışması kontrolü.
+- Ek hizmet tanımlama ve fiyat hesabı.
+- İlişkisel veri modeli ve yönetici görünümü.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "java-araç-kiralama-portalı-&-veritabanı-sistemi-—-enes-öztürk"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+java-araç-kiralama-portalı-&-veritabanı-sistemi-—-enes-öztürk/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── assets/
+    ├── components/
+    ├── data/
+    ├── services/
+    └── types/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

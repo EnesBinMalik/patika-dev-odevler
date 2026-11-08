@@ -9,7 +9,7 @@ Patika.dev müfredatında üretilmiş **63 ödev ve proje klasörü**, tek çat�
 [![Ödev klasörü](https://img.shields.io/badge/%C3%B6dev%20klas%C3%B6r%C3%BC-63-22d3ee?style=flat-square)](#hat-haritası)
 [![Teknoloji hattı](https://img.shields.io/badge/teknoloji%20hattı-9-8b5cf6?style=flat-square)](#hat-haritası)
 [![Gerçek sunucu](https://img.shields.io/badge/npm%20start%20ile%20kalkan%20sunucu-9-4ade80?style=flat-square)](#9-gerçek-sunucusu-olan-klasör)
-[![Ayrıntılı belge](https://img.shields.io/badge/ayrıntılı%20belge%20%2B%20kapak-12-fbbf24?style=flat-square)](#ayrıntılı-belgelenen-klasörler)
+[![İmzalı kapak](https://img.shields.io/badge/imzalı%20kapak%20%2B%20README-75-fbbf24?style=flat-square)](#imzalı-kapaklar)
 [![GitHub](https://img.shields.io/badge/GitHub-EnesBinMalik-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EnesBinMalik)
 
 </div>
@@ -196,9 +196,29 @@ her zaman repoda durmuyor. Kesin durum:
 | PHP | ❌ `.php` yok | php-dizi-filtreleyici TypeScript'e yazılmış |
 | Solidity / on-chain | ❌ derlenen program yok | Solana klasörlerinin üçü arayüz |
 
-### Ayrıntılı belgelenen klasörler
+### İmzalı kapaklar
 
-Kapak çizimi (`docs/cover.svg`) ve kaynakta doğrulanmış README taşıyan 12 klasör:
+Arşivdeki **75 proje klasörünün tamamı** kendi imza kapağını (`docs/cover.svg`) taşır ve her README bu kapağı en üstte gösterir. Kapaklar tek bir üreteçten çıkar — aynı ızgara, tipografi ve imza bloğu; renk yalnızca teknoloji hattını anlatır:
+
+| Hat | Vurgu |
+| --- | --- |
+| Node.js temelleri & CLI | camgöbeği |
+| GraphQL & gerçek zamanlı | mor |
+| Clean Blog — Express & MongoDB | yeşil |
+| Java | amber |
+| Rust & Solana | turuncu |
+| Algoritma & arayüz | gök mavisi |
+| Yönetim panelleri & CRUD | pembe |
+| Oyun, API vitrini & kişisel projeler | camgöbeği |
+
+Kapakları yeniden üretmek için:
+
+```bash
+python tools_cover.py --force     # 75 kapak + docs/social-preview.svg
+python tools_readme.py            # eksik/şablon README'leri yeniden yazar
+```
+
+README'si kaynakta doğrulanmış, elle yazılmış 19 klasör:
 
 `3-ile-bölünebilme-hesaplayıcı` · `anonymous-chat---graphql-&-redis-pubsub` · `clean-blog---ödev-7` ·
 `clean-blog---enes-öztürk-(ödev-9)` · `clean-blog---ödev-10-(enes-öztürk)` ·
@@ -233,13 +253,15 @@ Aynı ödevin birden fazla sürümü duruyor; her biri ayrı bir Patika teslimi 
 ## 📐 Depo standartları
 
 - **Kök README** tek giriş noktasıdır; yeni klasör eklerken buradaki hat tablosuna satır ekleyin.
-- Belgelenmiş klasörler: `README.md` (kurulum, gerçek davranış, bilinen kısıtlar) + `docs/cover.svg`.
+- Her klasör: `README.md` (künye, öne çıkanlar, kurulum, yapı) + `docs/cover.svg` (imza kapak).
 - Kök [`.gitignore`](.gitignore) tüm klasörleri kapsar (`node_modules/`, `dist/`, `build/`, `.env*`,
-  editör ve log dosyaları). Ayrıntılı belgelenen 12 klasörde ayrıca klasör-bazlı bir kopya duruyor.
+  editör ve log dosyaları).
 - Kapak görselleri kodla üretilir, binary elle çizilmez:
 
   ```bash
   python docs/make_banner.py   # docs/banner.png (1600x640) + docs/social-preview.png (1200x630)
+  python tools_cover.py        # her proje için docs/cover.svg + docs/social-preview.svg
+  python tools_readme.py       # şablon/zayıf README'leri yeniden yazar
   ```
 
   `social-preview.png`'i GitHub'da **Settings → Social preview → Upload image** ile bağlayın;

@@ -1,52 +1,51 @@
-# Patika.dev — Node.js Ödev 1
+# odev-1
 
-JSONPlaceholder API'sinden belirli bir kullanıcının bilgilerini ve gönderilerini **Axios** ile asenkron olarak çekip tek bir nesnede birleştiren ödev.
+![odev-1 — kapak](docs/cover.svg)
 
-**Geliştirici:** Enes Öztürk
-
-## Ne yapıyor?
-
-`src/lib/service.js` içindeki `getData(userId)` fonksiyonu:
-
-1. `https://jsonplaceholder.typicode.com/users/{id}` → kullanıcı bilgilerini çeker,
-2. `https://jsonplaceholder.typicode.com/posts?userId={id}` → kullanıcının gönderilerini çeker,
-3. İki sonucu `{ ...user, posts }` şeklinde birleştirip döndürür.
-
-Geçersiz bir ID verilirse hata fırlatır; istek hataları `try/catch` ile yakalanır.
-
-## Çalıştırma
-
-### Node.js (ödev)
-```bash
-npm install
-node src/app.js
-```
-
-### Web arayüzü (demo)
-```bash
-npm install
-npm run dev
-```
-Ardından `http://localhost:3000` adresini aç.
-
-## Dosyalar
-
-| Dosya | Açıklama |
-|---|---|
-| `src/lib/service.js` | `getData(userId)` — API istekleri ve birleştirme |
-| `src/app.js` | Servisi çalıştırıp sonucu konsola yazan giriş noktası |
-| `src/App.tsx` | Sonucu gösteren React arayüzü (demo) |
-| `src/main.tsx` | React giriş noktası |
-| `package.json` | Bağımlılıklar ve script'ler |
-| `vite.config.ts` | Vite yapılandırması |
-
-## Kullanılan teknolojiler
-
-- Node.js (ES Modules)
-- Axios
-- Async/Await
-- React + Vite + TypeScript (demo arayüzü)
+> **Patika.dev arşivi · Node.js · asenkron API** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-**Enes Öztürk** · [GitHub](https://github.com/EnesBinMalik)
+JSONPlaceholder API'sinden bir kullanıcıyı ve gönderilerini Axios ile asenkron çekip tek nesnede birleştiren ödev.
+
+## Öne çıkanlar
+
+- Axios ile paralel iki istek.
+- `async/await` ve `Promise.all` kullanımı.
+- Gelen verilerin tek nesnede birleştirilmesi.
+- Hata yönetimi ve konsol çıktısı.
+
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "nodejs/odev-1"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+odev-1/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    └── lib/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

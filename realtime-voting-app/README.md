@@ -1,28 +1,53 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Realtime Voting App
+
+![Realtime Voting App — kapak](docs/cover.svg)
+
+> **Patika.dev arşivi · GraphQL · gerçek zamanlı** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+GraphQL subscription'larıyla oyların anlık yayınlandığı oylama ve anket uygulaması.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- Anket oluşturma ve oy verme.
+- Sonuçların gerçek zamanlı güncellenmesi.
+- Yüzde çubukları ve toplam oy.
+- Sunucu tarafında GraphQL şeması.
 
-View your app in AI Studio: https://ai.studio/apps/aed422df-b7dd-4676-941c-7da2b6042d93
+## Teknoloji
 
-## Run Locally
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
 
-**Prerequisites:**  Node.js
+## Kurulum ve çalıştırma
 
+```bash
+cd "realtime-voting-app"
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+realtime-voting-app/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── lib/
+    └── server/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

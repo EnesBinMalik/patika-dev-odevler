@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Git & CLI UI - Git Simülatörü ve Versiyon Takip Paneli
 
-# Run and deploy your AI Studio app
+![Git & CLI UI - Git Simülatörü ve Versiyon Takip Paneli — kapak](docs/cover.svg)
 
-This contains everything you need to run your app locally.
+> **Patika.dev arşivi · Versiyon kontrolü** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/9d31a76b-90a3-4149-a793-50b36a4351a9
+---
 
-## Run Locally
+Git komutlarının arka planda ne yaptığını ön yüzde görselleştiren simülatör: commit grafiği, dallar ve çalışma alanı durumu.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- `init`, `add`, `commit`, `branch`, `checkout`, `merge` komut simülasyonu.
+- Commit geçmişinin dal grafiği olarak çizimi.
+- Çalışma alanı / hazırlık alanı (staging) durumu.
+- Komut geçmişi ve adım adım açıklama.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknoloji
+
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
+
+## Kurulum ve çalıştırma
+
+```bash
+cd "git-&-cli-ui---git-simülatörü-ve-versiyon-takip-paneli"
+npm install
+npm run dev
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+git-&-cli-ui---git-simülatörü-ve-versiyon-takip-paneli/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── components/
+    ├── services/
+    └── types/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.

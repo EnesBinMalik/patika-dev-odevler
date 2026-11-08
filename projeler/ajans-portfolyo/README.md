@@ -1,6 +1,9 @@
 <div align="center">
 
 # 🏛️ Enes Öztürk Ajans
+
+![Enes Öztürk Ajans — kapak](docs/cover.svg)
+
 ### Portföy & Web Yönetim Platformu
 
 **Tasarım & Geliştirme:** Enes Öztürk

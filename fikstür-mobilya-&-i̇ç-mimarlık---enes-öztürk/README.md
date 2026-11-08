@@ -1,28 +1,55 @@
-> [!NOTE]
-> **Bu klasör Patika.dev arşivinin bir parçası.** Depo haritası, gerçek çalıştırma adımları
-> ve bilinen kısıtlar için üst dizindeki [README.md](../README.md) sayfasına bakın.
-> Aşağıdaki metin proje iskeletinden (AI Studio) gelmiştir; bu klasördeki kod bir
-> `GEMINI_API_KEY` okumuyor, anahtar gereksinimi gerçek değil.
+# Fikstür Mobilya & İç Mimarlık - Enes Öztürk
+
+![Fikstür Mobilya & İç Mimarlık - Enes Öztürk — kapak](docs/cover.svg)
+
+> **Patika.dev arşivi · Kurumsal vitrin · katalog** — tasarım ve geliştirme: **Enes Öztürk**
 
 ---
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Mobilya ve iç mimarlık markası için katalog, rezervasyon ve yönetim panelini tek React uygulamasında toplayan vitrin.
 
-# Run and deploy your AI Studio app
+## Öne çıkanlar
 
-This contains everything you need to run your app locally.
+- Koleksiyon, ürün detayı ve galeri sayfaları.
+- Randevu ve rezervasyon formu.
+- Yönetim paneli: içerik ve stok.
+- Sayfa bazlı yönlendirme ve Context ile sepet durumu.
 
-View your app in AI Studio: https://ai.studio/apps/b166634a-d741-4965-b6ed-f226528903b0
+## Teknoloji
 
-## Run Locally
+React · TypeScript · Vite. Her klasör kendi `package.json`'ına sahip bağımsız bir projedir; kök dizinde kurulum yapılmaz.
 
-**Prerequisites:**  Node.js
+## Kurulum ve çalıştırma
 
+```bash
+cd "fikstür-mobilya-&-i̇ç-mimarlık---enes-öztürk"
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | http://localhost:3000 |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+fikstür-mobilya-&-i̇ç-mimarlık---enes-öztürk/
+├── index.html
+├── package.json
+├── docs/cover.svg            # imza kapak
+└── src/
+    ├── App.tsx               # ekranların birleştiği yer
+    ├── main.tsx
+    ├── assets/
+    ├── components/
+    ├── context/
+    ├── data/
+    └── pages/
+```
+
+## Lisans
+
+Ödev ve portföy amaçlı çalışma; tüm hakları **Enes Öztürk**'e aittir.
